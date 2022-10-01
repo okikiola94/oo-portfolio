@@ -47,7 +47,7 @@ export default class Fade extends Component {
                                     <div class="profile-wrapper">
                                           <div class="profile-card">
                                                 <h4>iRecharge</h4>
-                                                <p> iRecharge is a distributed vending platform for making Online Bills Payment such as Data Recharge, Airtime Topup, Prepaid Meter Recharge, Online Electricity. I cloned the website as one of my practice projects.  </p>
+                                                <p> iRecharge is a distributed vending platform for making Online Bills Payment such as Data, Airtime, Prepaid Meter Recharge, Online Electricity. I cloned the website as one of my practice projects.  </p>
                                           </div>
                                           <div className='link-button'>
                                                 <a href="">View</a>

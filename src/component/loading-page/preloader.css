@@ -1,93 +1,3 @@
-/* .preload{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 870px;
-    background-color:#000;
-    position: relative;
-}
-
-p{
-    font-weight: bold;
-    font-size: 30px;
-    color:#00ff00;
-    display: inline
-}
-
-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:400px;
-    height:400px
-}
-
-div > span{
-    background-color:transparent;
-    height:190px;
-    width:190px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border:20px solid transparent;
-    border-bottom:20px solid red;
-    border-top:20px solid red;
-    animation: rotateleft 1.25s infinite ease-in-out;
-    position: absolute;
-}
-
-div > span ~ span {
-    background-color:transparent;
-    width:150px;
-    height:150px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border:20px solid transparent;
-    border-left:20px solid red;
-    border-right:20px solid red;
-    animation: rotateright 1.25s infinite ease-in-out;
-    position: absolute;
-}
-
-section{
-    position: absolute;
-    overflow: hidden;
-    animation: words 2.5s infinite ease-in-out
-}
-
-@keyframes words{
-    from {
-        width:0
-    }
-    
-    to{
-        width:130px
-    }
-    
-}
-
-@keyframes rotateleft{
-    from{
-        transform: rotate(0)
-    }
-    
-    to{
-        transform: rotate(-360deg)
-    }
-}
-
-@keyframes rotateright{
-    from{
-        transform: rotate(0)
-    }
-    
-    to{
-        transform: rotate(360deg)
-    }
-} */
 
 
 
@@ -223,5 +133,17 @@ div > .j{
     
     to{
         transform: rotate(-360deg)
+    }
+}
+
+@media only screen and (min-device-width: 260px) and (max-width:560px){
+
+    .loadit{
+        position: absolute;
+        overflow: hidden;
+        animation: words 2.5s infinite ease-in-out;
+        color:aqua;
+        font: 2rem sans-serif;
+        padding: 2px;
     }
 }

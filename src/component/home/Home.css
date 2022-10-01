@@ -263,6 +263,7 @@
     align-items: center;
     margin-left: auto;
     padding-top: 10%;
+    padding-bottom: 5%;
 
     }
 
@@ -334,7 +335,7 @@ text-align: left;
       font-size: 18px;
       text-align: left;
       font-family: sans-serif;
-      width: 280px;
+      width: 100%;
       text-justify: auto;
       color:  #003047;
       
