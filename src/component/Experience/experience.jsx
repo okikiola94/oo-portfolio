@@ -15,7 +15,7 @@ const Experience = () => {
         <h5>What I do</h5>
         <div className='class_container'>
             <div className="class">
-                <img src={`${process.env.PUBLIC_URL}/assets/images/react-symbol.png`} width='70px' height={'55px'} alt='' />
+                <img src={`${process.env.PUBLIC_URL}/assets/images/react-orange.png`} width='70px' height={'55px'} alt='' />
                 <h6> Front-end Development</h6>
                 {!showFrontEndSkill?<div>
                     <p>Transforming a UX/UI design (sketch, mockup) into reality by developing user friendly websites to Improve usability with new features and processes.</p>
@@ -34,7 +34,7 @@ const Experience = () => {
 
             </div>
             <div className="class">
-                <img src={`${process.env.PUBLIC_URL}/assets/images/data-analysis-logo.png`} width='60px' height={'50px'} alt='' />
+                <img src={`${process.env.PUBLIC_URL}/assets/images/analysis-orange.png`} width='60px' height={'50px'} alt='' />
                 <h6>Data Science  </h6>
                 {!showDataScienceSkill?<div>
                 <p>  Collecting data, analyzing and building algorithms, to solve technical problems, and creating actionable plans for companies and organizations.
@@ -51,7 +51,7 @@ const Experience = () => {
                 </div>
             </div>
             <div className="class" id='operations-management-class'>
-                <img src={`${process.env.PUBLIC_URL}/assets/images/lean-operations-logo.png`} width='70px' height={'50px'} alt='' />
+                <img src={`${process.env.PUBLIC_URL}/assets/images/operations-orange.png`} width='50px' height={'50px'} alt='' />
                 <h6>Operations Management</h6>
                 {!showOperationSkill?<div>
                 <p>Responsible for the  effective administration of labor, quality control, and security measures to guarantee cost-effective generation and client fulfillment.</p>
