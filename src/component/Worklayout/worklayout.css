@@ -511,19 +511,27 @@ text-align: center;
   }
  
   .profile-card p{
-    width: 80%;
+    line-height: 2rem;
+    color: gray;
+    font-size: 15px;
+    width: auto;
+    height: 30px;
     margin: 0.5rem 0;
     text-align: center;
-    font-size: 0.5rem;
-    line-height: 0.5em;
 
   }
 
   #Fade-light .flex-container .profile-card p {
     color: #003049;
+    line-height: 2rem;
+    color: gray;
+    font-size: 15px;
+    width: auto;
+    height: 30px;
     margin: 0.5rem 0;
-    font-size: 0.5rem;
-    line-height: 0.5em;
+    text-align: center;
+
+    
   }
 
   #Fade-light .flex-container .profile-wrapper:after,
