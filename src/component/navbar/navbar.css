@@ -1,0 +1,316 @@
+#navigation-dark {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 0rem;
+    background-color: transparent;
+    z-index: 10;
+    opacity: 0.3;
+    -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(2px);
+  }
+
+
+  #navigation-light {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1.5rem 0rem;
+    background-color: transparent;
+    z-index: 10;
+    opacity: -0;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+  }
+  
+  .animate__animated.animate__fadeIn {
+    animation-duration: 4s;
+  }
+  
+  .brand-name {
+    text-decoration: none;
+    /* font-size: 1.3rem; */
+    margin-left: 3rem;
+  }
+  
+  .navigation-menu {
+    margin-left: auto;
+    margin-right: 7rem;
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  
+  .navigation-menu li {
+    /* // removes default disc bullet for li tags and applies margin to left & right side */
+    list-style-type: none;
+    margin: 0 1rem;
+  }
+  
+  .navigation-menu-inactive {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgba(167, 167, 167, 0.849);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navigation-menu-inactive-light{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color:  #003049;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-active {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: aqua;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navigation-menu-active-light{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color:  #fcbf49;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-inactive:hover, .navigation-menu-inactive-light:hover {
+    font-size: 20px;
+    transition: 0.7s;
+    color: #fcbf49;
+  }
+  
+  .hamburger {
+    /* // removes default border on button element */
+    border: none;
+    height: 20px;
+    /* width: 20px; */
+    /* padding: 0.5rem; */
+    /* padding-right: 5rem; */
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    /* // positions the icon to the right and center aligns it vertically */
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  /* .hamburger span{
+    display: flex;
+    flex-direction: ;
+  }
+   */
+
+  .hamburger .line {
+    border: solid 1px aliceblue;
+    background-color: aliceblue;
+    width: 30px;
+    height: 1px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  #navigation-light .hamburger .line {
+    border: solid 1px #003047;
+    background-color: #003047;
+    width: 30px;
+    height: 1px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+
+  
+  
+  @media screen and (max-width: 768px) {
+  
+    /* // rules go here */
+    .hamburger {
+      display: block;
+      /* background-color: #eee; */
+    }
+  #navigation{
+    justify-content: space-between;
+  }
+
+  .brand-name {
+    text-decoration: none;
+    /* font-size: 1.3rem; */
+    margin-left: 1rem;
+  }
+    @media screen and (max-width: 768px) {
+      .navigation-menu ul {
+        display: none;
+      }
+    }
+  
+    @media screen and (max-width:768px) {
+  
+  
+      .navigation-menu ul {
+        /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        /* // stacks the li tags vertically  */
+        flex-direction: column;
+        /* // makes menu span full height and width */
+        width: 100%;
+        height: calc(100vh - 77px);
+        background-color: white;
+        border-top: 1px solid black;
+      }
+    }
+  
+    .navigation-menu li {
+      /* // centers link text and strips off margin */
+      text-align: center;
+      margin: 0;
+    }
+  
+    .navigation-menu-inactive, .navigation-menu-inactive-light {
+      color: black;
+      /* // increases the surface area of the anchor tag to span the full width of the menu */
+      width: 100%;
+      padding: 1.5rem 0;
+    }
+  
+    .navigation-menu li:hover {
+      background-color: #eee;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navigation-menu ul {
+      /* // navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
+      position: absolute;
+      top: 60px;
+      left: 0;
+      /* // stacks the li tags vertically  */
+      flex-direction: column;
+      /* // makes menu span full height and width */
+      width: 100%;
+      height: calc(100vh - 77px);
+      background-color: white;
+      border-top: 1px solid black;
+    }
+  
+    .navigation-menu li {
+      /* // centers link text and strips off margin */
+      text-align: center;
+      margin: 0;
+    }
+  
+    .navigation-menu-inactive, .navigation-menu-inactive-light {
+      color: black;
+      /* // increases the surface area of the anchor tag to span the full width of the menu */
+      width: 100%;
+      padding: 1.5rem 0;
+    }
+  
+    .navigation-menu li:hover {
+      background-color: #eee;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navigation-menu.expanded ul {
+      display: block;
+    }
+  }
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .navigation-menu.expanded ul {
+      display: block;}
+
+      .brand-name {
+        text-decoration: none;
+        /* font-size: 1.3rem; */
+        margin-left: 1rem;
+      }
+  }
+
+
+
+
+
+    /*Smartphones (portrait and landscape) -----------*/
+    /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) { */
+   
+      /* } */
+      
+      /* Smartphones (landscape) ----------- */
+      /* @media only screen and (min-width : 321px) { */
+   
+      /* } */
+      
+      /* Smartphones (portrait) ----------- */
+      /* @media only screen and (max-width : 320px) { */
+   
+      /* } */
+      
+      /* iPads (portrait and landscape) ----------- */
+      /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { */
+   
+      /* } */
+      
+      /* iPads (landscape) ----------- */
+      /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { */
+   
+      /* } */
+      
+      /* iPads (portrait) ----------- */
+      /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { */
+   
+      /* } */
+      /**********
+      iPad 3
+      **********/
+      /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) { */
+   
+      /* } */
+      
+      /* @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) { */
+   
+      /* } */
+      /* Desktops and laptops ----------- */
+      /* @media only screen  and (min-width : 1224px) { */
+   
+      /* } */
+      
+      /* Large screens ----------- */
+      /* @media only screen  and (min-width : 1824px) { */
+   
+      /* } */
+      
+      /* iPhone 4 ----------- */
+      /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) { */
+   
+      /* } */
+      
+      /* @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) { */
+   
+      /* } */

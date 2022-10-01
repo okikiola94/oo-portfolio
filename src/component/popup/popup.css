@@ -1,0 +1,447 @@
+.popup-backdrop{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.288);
+    /* opacity: 0.8; */
+    /* z-index: 1000; */
+}
+
+.popup-body{
+    background-color:#003047 ;
+    /* height: 50%; */
+    width: 50%;
+    margin:  10% auto;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 10;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+.popup-body li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.navigation-menu-inactive {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgba(167, 167, 167, 0.849);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-active {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: aqua;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-inactive:hover {
+    font-size: 20px;
+    transition: 0.7s;
+    color: aqua;
+  }
+  #popup-backdrop-light .popup-body  {
+      background-color:#fff;
+      /* height: 50%; */
+      width: 50%;
+      margin:  10% auto;
+      opacity: 1;
+      position: fixed;
+      right: 0;
+      top: 10;
+      -webkit-backdrop-filter: blur(2px);
+      backdrop-filter: blur(2px);
+  
+  }
+
+  #popup-backdrop-light .popup-body li a{
+    color: #003047;
+    text-decoration: none;
+
+}
+
+#popup-backdrop-light .popup-backdrop{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #003047;
+  /* opacity: 0.8; */
+  /* z-index: 1000; */
+}
+
+@media only screen and (min-device-width: 260px) and (max-device-width: 319px){
+
+  .popup-backdrop{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.288);
+    /* opacity: 0.8; */
+    /* z-index: 1000; */
+}
+
+.popup-body{
+    background-color:#003047 ;
+    /* height: 50%; */
+    width: 50%;
+    padding-right: 5%;
+    margin:  10% auto;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 10;
+}
+.popup-body li a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+
+.navigation-menu-inactive {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgba(167, 167, 167, 0.849);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-active {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: aqua;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-inactive:hover {
+    font-size: 20px;
+    transition: 0.7s;
+    color: aqua;
+  }
+  #popup-backdrop-light .popup-body  {
+      background-color:#fff;
+      /* height: 50%; */
+      width: 50%;
+      padding-right: 5%;
+      margin:  10% auto;
+      opacity: 1;
+      position: fixed;
+      right: 0;
+      top: 10;
+  
+  }
+
+  #popup-backdrop-light .popup-body li a{
+    color: #003047;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+#popup-backdrop-light .popup-backdrop{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #003047;
+  /* opacity: 0.8; */
+  /* z-index: 1000; */
+}
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-width:400px) {
+
+  .popup-backdrop{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.288);
+    
+}
+
+.popup-body{
+    background-color:#003047 ;
+    /* height: 50%; */
+    width: 40%;
+    padding-right: 5%;
+    margin:  10% auto;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 10;
+}
+.popup-body ul{
+  list-style: armenian;
+}
+.popup-body li a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+
+
+.navigation-menu-inactive {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgba(167, 167, 167, 0.849);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-active {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: aqua;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-inactive:hover {
+    font-size: 20px;
+    transition: 0.7s;
+    color: aqua;
+  }
+  #popup-backdrop-light .popup-body  {
+      background-color:#fff;
+      /* height: 50%; */
+      width: 40%;
+      margin:  10% auto;
+      padding-right: 5%;
+      opacity: 1;
+      position: fixed;
+      right: 0;
+      top: 10;
+  
+  }
+
+  #popup-backdrop-light .popup-body li a{
+    color: #003047;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+#popup-backdrop-light .popup-backdrop{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #003047;
+
+}
+
+}
+
+@media only screen and (min-device-width: 401px) and (max-width:767px) {
+
+  .popup-backdrop{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.288);
+   
+}
+
+.popup-body{
+    background-color:#003047;
+    /* height: 50%; */
+    width: 25%;
+    padding-right: 15%;
+    margin:  10% auto;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 10;
+}
+.popup-body li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+
+
+.navigation-menu-inactive {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgba(167, 167, 167, 0.849);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-active {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: aqua;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-inactive:hover {
+    font-size: 20px;
+    transition: 0.7s;
+    color: aqua;
+  }
+  #popup-backdrop-light .popup-body  {
+      background-color:#fff;
+      /* height: 50%; */
+      width: 25%;
+      margin:  10% auto;
+      padding-right: 5%;
+      opacity: 1;
+      position: fixed;
+      right: 0;
+      top: 10;
+  
+  }
+
+  #popup-backdrop-light .popup-body li a{
+    color: #003047;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+#popup-backdrop-light .popup-backdrop{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #003047;
+
+}
+
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 800px){
+
+  .popup-backdrop{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+   
+}
+
+.popup-body{
+    background-color:#003047;
+    /* height: 50%; */
+    width: 20%;
+    padding-right: 5%;
+    margin:  10% auto;
+    opacity: 1;
+    position: fixed;
+    right: 0;
+    top: 10;
+}
+.popup-body li a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+
+.navigation-menu-inactive {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: rgba(167, 167, 167, 0.849);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-active {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: aqua;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navigation-menu-inactive:hover {
+    font-size: 20px;
+    transition: 0.7s;
+    color: aqua;
+  }
+  #popup-backdrop-light .popup-body  {
+      background-color:#fff;
+      /* height: 50%; */
+      width: 20%;
+      padding-right: 5%;
+      margin:  10% auto;
+      opacity: 1;
+      position: fixed;
+      right: 0;
+      top: 10;
+  
+  }
+
+  #popup-backdrop-light .popup-body li a{
+    color: #003047;
+    text-decoration: none;
+    font-size: large;
+
+}
+
+#popup-backdrop-light .popup-backdrop{
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #003047;
+  /* opacity: 0.8; */
+  /* z-index: 1000; */
+}
+
+}
+
+

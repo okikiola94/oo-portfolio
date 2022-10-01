@@ -1,0 +1,41 @@
+.light{
+    height: 180px;
+    width: 80px;
+    position: fixed;
+    top: 40%;
+    right: 1%;
+    display: flex;
+}
+
+
+.dark{
+    height: 180px;
+    width: 80px;
+    position: fixed;
+    top: 40%;
+    right: 1%;
+    display: flex;
+}
+
+@media only screen and (min-device-width : 260px) and (max-device-width : 1024px){
+
+    .light{
+        height: 180px;
+        width: 80px;
+        position: fixed;
+        bottom: 5%;
+        right: 1%;
+        display: flex;
+    }
+   
+    
+    .dark{
+        height: 180px;
+        width: 80px;
+        position: fixed;
+        bottom: 5%;
+        right: 1%;
+        display: flex;
+    }
+}
+

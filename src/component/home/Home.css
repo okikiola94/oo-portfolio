@@ -1,0 +1,572 @@
+.home {
+    margin: auto 15%;
+    width: 80%;
+    align-items: left;
+    /* min-height: 100vh; */
+}
+ 
+  .front-end {
+    margin: auto;
+    text-align: left;
+    padding-top: 10% ;
+  }
+ 
+  h1.animate__animated.animate__zoomIn {
+    color: rgb(197, 192, 192);
+    font-size: 80px;
+    line-height: 0.5em;
+    width: 100%;
+  }
+  
+  h2.animate__animated.animate__zoomIn{
+    color: grey;
+    font-size: 25px;
+    line-height: 0.5em;
+  
+  }
+  
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+  }
+  
+  p.animate__animated.animate__zoomIn{
+    color: grey;
+    font-size: 17px;
+    text-align: left;
+    font-family: sans-serif;
+    max-width: 550px;
+    padding: 2% 0%;
+  }
+  
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+  
+  }
+  
+  h3.animate__animated.animate__zoomIn{
+    color: aqua;
+    font-size: 30px;
+    font-family: serif;
+  
+  }
+  
+  .animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+  }
+  
+  .front-end h1:hover {
+    color: rgb(240, 255, 240);
+  
+  }
+
+  .front-end button {
+    width: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    /* margin-left: 2%; */
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: 3px solid #00d7c3;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #00d7c3;
+  }
+   .front-end button a{
+    text-decoration: none;
+    text-align: left;
+   
+
+  }
+
+  .front-end button:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;
+
+  }
+
+
+  /* //light-mode/// */
+
+ /* #home-light{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    justify-items: center;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+  } */
+
+  #home-light h2{
+    color:  #003047;
+    font-size: 25px;
+    line-height: 0.5em;
+  }
+
+  #home-light h1{
+    color:  #003047;
+    font-size: 80px;
+    line-height: 0.5em;
+  }
+
+   #home-light p{
+    color:  #003047;
+    font-size: 17px;
+    text-align: left;
+    font-family: sans-serif;
+    width: 550px;
+    padding: 2% 0%;
+  }
+
+  #home-light h3{
+    color: #f77f00;
+    font-size: 30px;
+    font-family: serif;
+  }
+
+  #home-light button{
+    width: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    /* margin-left: 30px; */
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: 3px solid #003047;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #003047;
+  }
+
+  #home-light button:hover {
+    box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
+    background-color: #003047;
+    border: 3px solid #003047;
+    color: whitesmoke;
+  }
+
+#home-light button a{
+  text-decoration: none;
+}
+
+
+  /* //responsiveness/// */
+
+  @media only screen and (min-device-width : 260px) and (max-device-width : 319px){
+   
+    .home{
+      width: 80%;
+      height: fit-content;
+      align-items: center;
+      margin-left: auto;
+      padding-top: 10%;
+  
+      }
+  
+      .front-end{
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: left;
+      }
+  
+      h1.animate__animated.animate__zoomIn {
+        color: rgb(197, 192, 192);
+        font-size: 45px;
+        line-height: 1em;
+      }
+  
+      .front-end h1:hover {
+        color: rgb(240, 255, 240);
+      
+      }
+      
+      h2 .animate__animated.animate__zoomIn {
+        color: grey;
+        font-size: 18px;
+        line-height: 0.5em;
+      
+      }
+  
+      h3 .animate__animated.animate__zoomIn{
+        color: aqua;
+        font-size: 18px;
+        font-family: serif;
+      
+      }
+  
+      p .animate__animated.animate__zoomIn{
+        color: grey;
+        font-size: 13px;
+        text-align: left;
+        font-family: sans-serif;
+        width: 170px;
+        text-justify: auto;
+      }
+  
+      .home-light{
+        grid-template-columns: 60%;
+        width: 80%;
+        height: fit-content;
+        align-items: center;
+        margin-left: auto;
+        padding-top: 10%;
+    
+        }
+  
+      #home-light h2{
+        font-size: 18px;
+        line-height: 0.5em;
+        color:  #003047;
+      }
+    
+      #home-light h1{
+        color:  #003047;
+        font-size: 40px;
+        line-height: 1em;
+        
+      }
+    
+       #home-light p{
+        font-size: 13px;
+        text-align: left;
+        font-family: sans-serif;
+        width: 170px;
+        text-justify: auto;
+        color:  #003047;
+        
+      }
+    
+      #home-light h3{
+        color: #f77f00;
+        font-size: 18px;
+        font-family: serif;
+      }
+    
+
+  }
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .home{
+    grid-template-columns: 60%;
+    width: 80%;
+    height: fit-content;
+    align-items: center;
+    margin-left: auto;
+    padding-top: 10%;
+
+    }
+
+    .front-end{
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+text-align: left;
+    }
+
+    h1.animate__animated.animate__zoomIn{
+      color: rgb(197, 192, 192);
+      font-size: 50px;
+      line-height: 1em;
+    }
+
+    .front-end h1:hover {
+      color: rgb(240, 255, 240);
+    
+    }
+    
+   .front-end h2 .animate__animated.animate__zoomIn {
+      color: grey;
+      font-size: 20px;
+      line-height: 0.5em;
+    
+    }
+
+    h3 .animate__animated.animate__zoomIn {
+      color: aqua;
+      font-size: 22px;
+      font-family: serif;
+    
+    }
+
+    p .animate__animated.animate__zoomIn {
+      color: grey;
+      font-size: 15px;
+      text-align: left;
+      font-family: sans-serif;
+      width: 280px;
+      text-justify: auto;
+    }
+
+    .home-light{
+      grid-template-columns: 60%;
+      width: 80%;
+      height: fit-content;
+      align-items: center;
+      margin-left: auto;
+      padding-top: 10%;
+  
+      }
+
+    #home-light h2{
+      font-size: 20px;
+      line-height: 0.5em;
+      color:  #003047;
+    }
+  
+    #home-light h1{
+      color:  #003047;
+      font-size: 50px;
+      line-height: 1em;
+      
+    }
+  
+     #home-light p{
+      font-size: 15px;
+      text-align: left;
+      font-family: sans-serif;
+      width: 280px;
+      text-justify: auto;
+      color:  #003047;
+      
+    }
+  
+    #home-light h3{
+      color: #f77f00;
+      font-size: 22px;
+      font-family: serif;
+    }
+  
+
+  }
+
+  @media screen  and (min-device-width:481px)and (max-width:819px){
+    .home{
+      margin: auto;
+    text-align: center;
+    width: 80%;
+    
+    }
+
+
+    #home-dark{
+      grid-template-columns: 60%;
+      width: 80%;
+      height: fit-content;
+      align-items: center;
+      margin-left: auto;
+      padding-top: 10%;
+  
+      }
+
+    #home-dark h2{
+      font-size: 26px;
+      line-height: 0.5em;
+      color:  grey;
+    }
+  
+    #home-dark h1{
+      color:  rgb(197, 192, 192);
+      font-size: 55px;
+      line-height: 1em;
+      
+    }
+  
+     #home-dark p{
+      font-size: 18px;
+      text-align: left;
+      font-family: sans-serif;
+      width: 280px;
+      text-justify: auto;
+      color:  grey;
+      
+    }
+  
+    #home-dark h3{
+      color: aqua;
+      font-size: 23px;
+      font-family: serif;
+    }
+
+    #home-light{
+      grid-template-columns: 60%;
+      width: 80%;
+      height: fit-content;
+      align-items: center;
+      margin-left: auto;
+      padding-top: 10%;
+      padding-bottom: 10%;
+  
+      }
+
+    #home-light h2{
+      font-size: 26px;
+      line-height: 0.5em;
+      color:  #003047;
+    }
+  
+    #home-light h1{
+      color:  #003047;
+      font-size: 55px;
+      line-height: 1em;
+      
+    }
+  
+     #home-light p{
+      font-size: 18px;
+      text-align: left;
+      font-family: sans-serif;
+      width: 280px;
+      text-justify: auto;
+      color:  #003047;
+      
+    }
+  
+    #home-light h3{
+      color: #f77f00;
+      font-size: 23px;
+      font-family: serif;
+    }
+  
+  }
+
+  @media only screen and (min-device-width : 820px) and (max-device-width : 1024px){
+    .home{
+      width: 80%;
+      height: fit-content;
+      align-items: center;
+      margin: auto;  
+      justify-content: space-between;
+      justify-items: center;
+      align-items: center;
+      padding-top: 12%;
+    }
+
+    .front-end{
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      text-align: left;
+      max-width: 670px;
+          }
+      
+          h1.animate__animated.animate__zoomIn{
+            color: rgb(197, 192, 192);
+            font-size: 65px;
+            line-height: 1em;
+            margin: auto;
+            /* max-width: 550px; */
+
+          }
+
+          .front-end h1:hover {
+            color: rgb(240, 255, 240);
+          
+          }
+          
+          h2 .animate__animated.animate__zoomIn {
+            color: grey;
+            font-size: 25px;
+            line-height: 0.5em;
+          
+          }
+
+          h3 .animate__animated.animate__zoomIn {
+            color: aqua;
+            font-size: 28px;
+            font-family: serif;
+            /* width: 400px; */
+          
+          }
+
+          
+          p .animate__animated.animate__zoomIn {
+            color: grey;
+            font-size: 20px;
+            text-align: left;
+            font-family: sans-serif;
+           max-width:500px;
+            text-justify: auto;
+            line-height: 1.5em;
+          }
+
+/* ////light-mode/// */
+
+          #home-light{
+            grid-template-columns: 60%;
+            width: 80%;
+            height: fit-content;
+            align-items: center;
+            margin-left: auto;
+            padding-top: 12%;
+        
+            }
+      
+           #home-light .front-end{
+              margin-left: auto;
+              margin-right: auto;
+              display: inline-block;
+              text-align: left;
+              max-width: 670px;
+                  }
+
+          #home-light h2{
+            font-size: 25px;
+            line-height: 0.5em;
+            color:  #003047;
+          }
+        
+          #home-light h1{
+            color:  #003047;
+            font-size: 65px;
+            line-height: 1em;
+           max-width: 650px;
+            
+          }
+        
+           #home-light p{
+            font-size: 20px;
+            text-align: left;
+            font-family: sans-serif;
+            width: 500px;
+            text-justify: auto;
+            color:  #003047;
+            line-height: 1.5em;
+            
+          }
+        
+          #home-light h3{
+            color: #f77f00;
+            font-size: 28px;
+            font-family: serif;
+
+          }
+
+          #home-light button{
+            width: 170px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-weight: 700;
+            /* margin-left: 30px; */
+            margin-bottom: 30px;
+            cursor: pointer;
+            display: inline-block;
+            background-color: transparent;
+            border: 3px solid #003047;
+            -webkit-transition: all .15s ease-in-out;
+            transition: all .15s ease-in-out;
+            color: #003047;
+          }
+        
+        
+  }

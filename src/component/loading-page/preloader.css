@@ -1,0 +1,227 @@
+/* .preload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 870px;
+    background-color:#000;
+    position: relative;
+}
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    color:#00ff00;
+    display: inline
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:400px
+}
+
+div > span{
+    background-color:transparent;
+    height:190px;
+    width:190px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:20px solid transparent;
+    border-bottom:20px solid red;
+    border-top:20px solid red;
+    animation: rotateleft 1.25s infinite ease-in-out;
+    position: absolute;
+}
+
+div > span ~ span {
+    background-color:transparent;
+    width:150px;
+    height:150px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:20px solid transparent;
+    border-left:20px solid red;
+    border-right:20px solid red;
+    animation: rotateright 1.25s infinite ease-in-out;
+    position: absolute;
+}
+
+section{
+    position: absolute;
+    overflow: hidden;
+    animation: words 2.5s infinite ease-in-out
+}
+
+@keyframes words{
+    from {
+        width:0
+    }
+    
+    to{
+        width:130px
+    }
+    
+}
+
+@keyframes rotateleft{
+    from{
+        transform: rotate(0)
+    }
+    
+    to{
+        transform: rotate(-360deg)
+    }
+}
+
+@keyframes rotateright{
+    from{
+        transform: rotate(0)
+    }
+    
+    to{
+        transform: rotate(360deg)
+    }
+} */
+
+
+
+
+
+.spinner{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003047;
+    padding-right: 1rem;
+    position: relative;
+
+}
+
+/* .spinner {
+    font-size: 2rem;
+    animation: fade 1s linear 0s infinite;
+    padding-right: 1rem;
+    color: aqua;
+} */
+
+/* .half-spinner{
+    width: 50px;
+    height: 50px;
+    border:3px solid green;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    animation: rotateright 1.25s infinite ease-in-out;
+} */
+
+.loadit{
+    position: absolute;
+    overflow: hidden;
+    animation: words 2.5s infinite ease-in-out;
+    color:aqua;
+    font: 2rem sans-serif;
+}
+
+.span-load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:400px
+}
+
+@keyframes words{
+    from {
+        width:0
+    }
+    
+    to{
+        width:130px
+    }
+    
+}
+
+div > .i{
+    background-color:transparent;
+    height:190px;
+    width:190px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:20px solid transparent;
+    border-bottom:20px solid aqua;
+    border-top:20px solid aqua;
+    animation: rotateleft 1.25s infinite ease-in-out;
+    position: absolute;
+}
+
+div > .j{
+    background-color:transparent;
+    width:150px;
+    height:150px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:20px solid transparent;
+    border-left:20px solid aqua;
+    border-right:20px solid aqua;
+    animation: rotateright 1.25s infinite ease-in-out;
+    position: absolute;
+}
+
+
+.completed{
+    font-size: 4rem;
+    color: aqua;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003047;
+    animation: bigger 1s linear;
+}
+
+@keyframes bigger{
+    from{
+        transform:scale (0);
+    }
+    to{
+        transform:scale (2);
+    }}
+
+    @keyframes rotateright{
+        from{
+            transform: rotate(0)
+        }
+        
+        to{
+            transform: rotate(360deg)
+        }
+    }
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes rotateleft{
+    from{
+        transform: rotate(0)
+    }
+    
+    to{
+        transform: rotate(-360deg)
+    }
+}
