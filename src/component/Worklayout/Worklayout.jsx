@@ -26,7 +26,7 @@ export default class Fade extends Component {
                                                 <p>One of the first projects i made was the famous rock, paper scissors. It was built with html, css and js </p>
                                           </div>
                                           <div className='link-button'>
-                                                <a href="https://www.behance.net/gallery/103542267/Media-Agency-website">View</a>
+                                                <a href="">View</a>
                                                 </div>
                                     </div>
                               </div>
@@ -38,7 +38,7 @@ export default class Fade extends Component {
                                                 <p> The Apple official website which is widely known was one of my first clone project to get a hands on exerience with HTML and CSS. </p>
                                           </div>
                                           <div className='link-button'>
-                                                <a href="https://www.behance.net/gallery/103542267/Media-Agency-website">View</a>
+                                                <a href="">View</a>
                                                 </div>
                                     </div>
                               </div>
@@ -50,7 +50,7 @@ export default class Fade extends Component {
                                                 <p> iRecharge is a distributed vending platform for making Online Bills Payment such as Data Recharge, Airtime Topup, Prepaid Meter Recharge, Online Electricity. I cloned the website as one of my practice projects.  </p>
                                           </div>
                                           <div className='link-button'>
-                                                <a href="https://www.behance.net/gallery/103542267/Media-Agency-website">View</a>
+                                                <a href="">View</a>
                                                 </div>
                                     </div>
                               </div>
