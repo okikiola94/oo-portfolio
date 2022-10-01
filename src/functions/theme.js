@@ -3,4 +3,5 @@ const getTheme=()=>localStorage.getItem('theme')??'dark';
 const deleteTheme=()=>localStorage.removeItem('theme');
 
 
-module.exports = {setTheme,getTheme,deleteTheme};
+export {setTheme,getTheme,deleteTheme};
+
