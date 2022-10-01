@@ -340,6 +340,7 @@ color: whitesmoke;
     margin: auto;
       width: 96%;
       align-items: left;
+      grid-gap: 3%
   } 
 
   .transparent-div{
