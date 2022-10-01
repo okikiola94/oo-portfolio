@@ -13,11 +13,11 @@ const Navbar = (props) => {
   return <ThemeContext.Consumer>
     {context => (<nav className="animate__animated animate__fadeIn" id={context.userTheme==="light"?"navigation-light":"navigation-dark"}>
       <a href="/" className="brand-name">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/white--logo.png`} width='50px' height={'50px'} alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/white--logo.png`}  alt="logo" />
       </a>
       
       <a href="/" className="brand-name2">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/dark--logo.png`} width='50px' height={'50px'} alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/dark--logo.png`}  alt="logo" />
       </a>
 
       <button className="hamburger"

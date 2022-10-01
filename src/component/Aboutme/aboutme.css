@@ -338,7 +338,7 @@ color: whitesmoke;
     display: grid;
     grid-template-columns: 50%;
     margin: auto;
-      width: 80%;
+      width: 96%;
       align-items: left;
   } 
 
@@ -397,7 +397,7 @@ p.animate__animated.animate__zoomIn {
   display: grid;
   grid-template-columns: 50%;
   margin: auto;
-    width: 80%;
+    width: 100%;
     align-items: left;
 } 
 
