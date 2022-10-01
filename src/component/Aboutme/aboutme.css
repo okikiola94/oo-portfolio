@@ -362,7 +362,7 @@ color: whitesmoke;
   .paragraph-container {
     order: 2;
     width: 270px;
-    padding-top: -2rem;
+    /* padding-top: -3rem; */
   }
 
 
@@ -421,6 +421,7 @@ order: 1;
 #about_me-light .paragraph-container {
   order: 2;
   width: 270px;
+  /* padding-top: -3rem; */
 }
 
 

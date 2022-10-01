@@ -188,7 +188,7 @@
 
 .popup-body{
     background-color:#003047 ;
-    /* height: 50%; */
+    height: 100%;
     width: 40%;
       margin:  10% auto;
       padding-right: 8%;
@@ -236,7 +236,7 @@
   }
   #popup-backdrop-light .popup-body  {
       background-color:#fff;
-      /* height: 50%; */
+      height: 100%;
       width: 40%;
       margin:  10% auto;
       padding-right: 8%;
