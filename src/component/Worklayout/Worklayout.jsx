@@ -26,7 +26,7 @@ export default class Fade extends Component {
                                                 <p>One of the first projects i made was the famous rock, paper scissors. It was built with html, css and js </p>
                                           </div>
                                           <div className='link-button'>
-                                                <a href="">View</a>
+                                                <a href="https://rpsgamez.netlify.app/">View</a>
                                                 </div>
                                     </div>
                               </div>
