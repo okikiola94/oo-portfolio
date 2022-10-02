@@ -10,6 +10,11 @@ const Input = () => {
      const [name, SetName] = useState("")
      const [email, SetEmail] = useState("")
      const [message, SetMessage] = useState("")
+     const handleSubmit = (e)=>{
+          // alert(name+" we"+email+" we"+message+" all this")
+          window.location.href = `mailto:${email}?subject=${name}&body=${message}`
+          e.preventDefault();
+     }
      return  <ThemeContext.Consumer>
      {context =><section className="contact-section-container" id={context.userTheme==="light"? "contact_section-light":"contact_section-dark"}>
           <div className='contact-heading-container'>
@@ -23,7 +28,7 @@ const Input = () => {
           </div>
           <div className='input-container'>
                <div className='form'>
-                    <form action="submit">
+                    <form onSubmit={handleSubmit}>
                          <div className='Name-input'>
                               <input type="text" placeholder="Full Name" value={name} onChange={(e) => { SetName(e.target.value) }} name="name" required />
                          </div>
