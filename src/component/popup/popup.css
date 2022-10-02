@@ -11,7 +11,7 @@
 
 .popup-body{
     background-color:#003047 ;
-    /* height: 50%; */
+    height: 50vh;
     width: 50%;
     margin:  10% auto;
     opacity: 1;
@@ -99,7 +99,7 @@
 
 .popup-body{
     background-color:#003047 ;
-    /* height: 50%; */
+    height: 50vh;
     width: 50%;
     padding-right: 5%;
     margin:  10% auto;
@@ -143,7 +143,7 @@
   }
   #popup-backdrop-light .popup-body  {
       background-color:#fff;
-      /* height: 50%; */
+      height: 50vh;
       width: 50%;
       padding-right: 5%;
       margin:  10% auto;
@@ -188,7 +188,7 @@
 
 .popup-body{
     background-color:#003047 ;
-    height: 100%;
+    height: 50vh;
     width: 40%;
       margin:  10% auto;
       padding-right: 8%;
@@ -236,7 +236,7 @@
   }
   #popup-backdrop-light .popup-body  {
       background-color:#fff;
-      height: 100%;
+      height: 50vh;
       width: 40%;
       margin:  10% auto;
       padding-right: 8%;
@@ -280,7 +280,7 @@
 
 .popup-body{
     background-color:#003047;
-    /* height: 50%; */
+    height: 50vh;
     width: 25%;
     padding-right: 15%;
     margin:  10% auto;
@@ -325,7 +325,7 @@
   }
   #popup-backdrop-light .popup-body  {
       background-color:#fff;
-      /* height: 50%; */
+      height: 50vh;
       width: 25%;
       margin:  10% auto;
       padding-right: 5%;
@@ -369,8 +369,9 @@
 
 .popup-body{
     background-color:#003047;
-    /* height: 50%; */
+    height: 50vh;
     width: 20%;
+    height: fit-content;
     padding-right: 5%;
     margin:  10% auto;
     opacity: 1;
@@ -413,8 +414,9 @@
   }
   #popup-backdrop-light .popup-body  {
       background-color:#fff;
-      /* height: 50%; */
+      height: 50vh;
       width: 20%;
+      height: fit-content;
       padding-right: 5%;
       margin:  10% auto;
       opacity: 1;
