@@ -58,136 +58,88 @@ body[data-aos-delay="100"] [data-aos] {
   transition-property: opacity, transform;
 }
 
-.flex-container {
+.product-image{
+  width: 520px;
+  height:300px;
+  margin-bottom: 20px;
+}
+
+.product-image img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.projects-grid{
   width: fit-content;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2,minmax(0,1fr));
 }
 
-.profile-container {
-  width: 22rem;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-  border-radius: 15px;
-  transition: all 1s ease;
-  height: 27rem;
-  font-family: SF Pro Display, sans-serif;
-  color: gray;
-
+.project{
+  width:45% ;
+}
+.project h4 {
+  color: rgb(197, 192, 192);;
+ font-size: 20px;
+ font-weight: 700;
+ margin: 2px 0;
 }
 
+.project p {
+ line-height: 2rem;
+ color: gray;
+ font-size: 16px;
+ width: 500px;
+ height: 30px;
+ margin: 2px 0;
+ 
+}
 
-.flex-container>div {
+.project-skills-used{
   display: flex;
-  flex-direction: column;
-  flex: 1 1 25rem;
-  margin-bottom: 2.6rem;
-  color: grey;
+  margin-top: 40px;
 
 }
 
-.flex-container .profile-wrapper {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  color: grey;
-
+.project-skills-used h5{
+ border: solid 1px #f77f00;
+ background-color: #f77f00;
+ border-radius: 5px;
+ margin-right: 10px;
+ color: #003047;
+ font-size: 17px;
+ padding: 5px;
 }
 
-
-.link-button a  {
-  width: 170px;
-padding-top: 20px;
-padding-bottom: 20px;
-font-weight: 600;
-margin-left: 30px;
+.project-links a{
+padding: 5px;
+font-size: 15px;
+margin-right: 10px;
 margin-bottom: 30px;
 cursor: pointer;
 display: inline-block;
 background-color: transparent;
-border: 3px solid #00d7c3;
+border: 1px solid aqua;
 -webkit-transition: all .15s ease-in-out;
 transition: all .15s ease-in-out;
-color: #00d7c3;
+color: aqua;
 text-decoration: none;
 text-align: center;
-}
+ }
 
-.link-button{
-  padding-top: 7rem;
-text-align: center;
-}
-
-.link-button a:hover {
+ .project-links a:hover {
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
   border: 3px solid #00d7c3;}
 
 
-.flex-container .profile-card {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  opacity: 0;
-  transition: all .3s ease;
-  color: grey;
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 0.3s;
-
-}
-
-.flex-container .profile-card h4 {
-   color: rgb(197, 192, 192);;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.flex-container .profile-card p {
-  line-height: 2rem;
-  color: gray;
-  font-size: 16px;
-  width: auto;
-  height: 30px;
-}
-
-.flex-container .profile-wrapper:after {
-  transform: skew(35deg) translateX(-125%);
-  height: 200%;
 
 
-}
 
-:after,
-:before {
-  box-sizing: border-box;
-}
+    
 
-.flex-container .profile-wrapper:after,
-.flex-container .profile-wrapper:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, aqua 0, #003049);
-
-  opacity: .9;
-  transition: all .20s ease;
-}
-
-.flex-container .profile-wrapper:before {
-  transform: skew(35deg) translateX(125%);
-}
 
 /* //light-mood//// */
 
@@ -213,70 +165,92 @@ text-align: center;
 
 }
 
-#Fade-light .link-button a {
-  width: 170px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  font-weight: 700;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  cursor: pointer;
-  display: inline-block;
-  background-color: transparent;
-  border: 3px solid #003047;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  color: #003047;
+
+#Fade-light .product-image{
+  width: 520px;
+  height:300px;
+  margin-bottom: 20px;
 }
 
-#Fade-light .link-button{
-  padding-top: 7rem;
-text-align: center;
-}
-
-#Fade-light .link-button a:hover {
-  box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
-  background-color: #003047;
-  border: 3px solid #003047;
-  color: whitesmoke;}
-
-#Fade-light .flex-container .profile-card h4 {
-  line-height: 1.5;
-  color: #003049;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-#Fade-light .flex-container .profile-card p {
-  line-height: 2rem;
-  color: #003049;
-  margin: 2rem 0;
-  font-size: 1rem;
-}
-
-
-#Fade-light .flex-container .profile-wrapper:after,
-.flex-container .profile-wrapper:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
+#Fade-light .product-image img{
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, #003049 0, #003049);
-  opacity: .9;
-  transition: all .20s ease;
 }
+
+
+#Fade-light .projects-grid{
+  width: fit-content;
+  margin: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+#Fade-light .project{
+  width:45% ;
+}
+#Fade-light .project h4 {
+  color: #003047;
+ font-size: 20px;
+ font-weight: 700;
+ margin: 2px 0;
+}
+
+#Fade-light .project p {
+ line-height: 2rem;
+ color: #003047;
+ font-size: 16px;
+ width: 500px;
+ height: 30px;
+ margin: 2px 0;
+ 
+}
+
+#Fade-light .project-skills-used{
+  display: flex;
+  margin-top: 40px;
+
+}
+
+#Fade-light .project-skills-used h5{
+ border: solid 1px #f77f00;
+ background-color: #f77f00;
+ border-radius: 5px;
+ margin-right: 10px;
+ color: #003047;
+ font-size: 17px;
+ padding: 5px;
+}
+
+#Fade-light .project-links a{
+padding: 5px;
+font-size: 15px;
+margin-right: 10px;
+margin-bottom: 30px;
+cursor: pointer;
+display: inline-block;
+background-color: transparent;
+border: 1px solid #003047;
+-webkit-transition: all .15s ease-in-out;
+transition: all .15s ease-in-out;
+color: #003049;
+text-decoration: none;
+text-align: center;
+ }
+
+ .project-links a:hover {
+  box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
+  border: 3px solid #003047;}
+
 
 /* //responsive/// */
 
 @media only screen and (min-device-width: 260px) and (max-device-width: 319px){
 
   .Fade {
-    margin: auto;
-    width: 70%;
-    text-align: center;
+    margin: auto 15%;
+    width: 80%;
+    text-align: left;
     padding-bottom: 30%;
   }
 
@@ -285,169 +259,204 @@ text-align: center;
     font-size: 23px;
     justify-content: center;
     font-family: serif;
-    text-align: center;
+    text-align: left;
   }
 
   .fade-header h5 {
     color: aqua;
     font-size: 18px;
     font-family: serif;
-    text-align: center;
-
-  }
-  .flex-container .profile-card h4{
-    color: rgb(209, 209, 209);
-    font-size: 17px;
-    justify-content: center;
-    font-family: serif;
     text-align: left;
-    line-height: 1;
+
   }
-
-
   
-
-.link-button a  {
-  width: 150px;
-padding-top: 20px;
-padding-bottom: 20px;
-font-weight: 600;
-margin-left: 20px;
-margin-bottom: 30px;
-cursor: pointer;
-display: inline-block;
-background-color: transparent;
-border: 3px solid #00d7c3;
--webkit-transition: all .15s ease-in-out;
-transition: all .15s ease-in-out;
-color: #00d7c3;
-text-decoration: none;
-text-align: center;
-}
-
-.link-button{
-  padding-top: 7rem;
-text-align: center;
-}
-
-.link-button a:hover {
-  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-  border: 3px solid #00d7c3;}
-
-
-  #Fade-light .flex-container .profile-card h4{
-    color: #003047;
-    font-size: 17px;
-    /* justify-content: center; */
-    font-family: serif;
-    text-align: left;
-    line-height: 1;
-
-  }
-
-
-  .flex-container {
-    /* margin: auto; */
-    /* max-width: 90%; */
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(1,3fr);
-  }
-
-  .profile-container:hover .profile-card {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .profile-wrapper {
-    width: 100%;
-  }
-
-  .profile-card {
-    /* width: 100%; */
-    word-break: keep-all;
+  .projects-grid{
+    width: fit-content;
     margin: auto;
-  }
- 
-  .flex-container .profile-card p{
-    width: 80%;
-    margin: 3px 2px;
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.5em;
-
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1,4fr);
   }
 
-  #Fade-light .flex-container .profile-card p {
-    color: #003049;
-    margin: 3px 2px;
-    font-size: 12px;
-    line-height: 1.5em;
-
+  .product-image{
+    width: 210px;
+    height:150px;
+    margin-bottom: 20px;
   }
-
-  #Fade-light .flex-container .profile-wrapper:after,
-  .flex-container .profile-wrapper:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+  
+  .product-image img{
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #003049 0, #003049);
-    opacity: .9;
-    transition: all .20s ease;
   }
-
-  .profile-container {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-    border-radius: 15px;
-    transition: all 1s ease;
-    height: 27rem;
-    font-family: SF Pro Display, sans-serif;
-    color: gray;
+  
+  .project{
+    width:45% ;
+  }
+  .project h4 {
+    color: rgb(197, 192, 192);;
+   font-size: 16px;
+   font-weight: 700;
+   margin: 2px 0;
+  }
+  
+  .project p {
+   line-height: 2rem;
+   color: gray;
+   font-size: 12px;
+   width: 200px;
+   height: fit-content;
+   margin: 2px 0;
+   
+  }
+  
+  .project-skills-used{
+    display: flex;
+    margin-top: 10px;
   
   }
+  
+  .project-skills-used h5{
+   border: solid 1px #f77f00;
+   background-color: #f77f00;
+   border-radius: 5px;
+   margin-right: 10px;
+   color: #003047;
+   font-size: 17px;
+   padding: 5px;
+  }
 
-  #Fade-light .link-button a {
-    width: 150px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    font-weight: 700;
-    margin-left: 20px;
+  
+  .project-links a{
+  padding: 5px;
+  width: 70px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid aqua;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: aqua;
+  text-decoration: none;
+  text-align: center;
+   }
+  
+   .project-links a:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;}
+  
+  
+
+    /* ///light-mode//// */
+
+    #Fade-light .Fade {
+      margin: auto 15%;
+      width: 80%;
+      text-align: left;
+      padding-bottom: 30%;
+    }
+  
+    #Fade-light .fade-header h4 {
+      color: #003049;
+      font-size: 23px;
+      justify-content: center;
+      font-family: serif;
+      text-align: left;
+    }
+  
+    #Fade-light .fade-header h5 {
+      color: #f77f00;
+      font-size: 18px;
+      font-family: serif;
+      text-align: left;
+  
+    }
+    
+    #Fade-light .projects-grid{
+      width: fit-content;
+      margin: auto;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(1,4fr);
+    }
+  
+    #Fade-light .product-image{
+      width: 210px;
+      height:150px;
+      margin-bottom: 20px;
+    }
+    
+    #Fade-light .product-image img{
+      width: 100%;
+      height: 100%;
+    }
+    
+    #Fade-light .project{
+      width:45% ;
+    }
+    #Fade-light .project h4 {
+      color: #003047;;
+     font-size: 16px;
+     font-weight: 700;
+     margin: 2px 0;
+    }
+    
+    #Fade-light .project p {
+     line-height: 2rem;
+     color: #003047;
+     font-size: 12px;
+     width: 200px;
+     height: fit-content;
+     margin: 2px 0;
+     
+    }
+    
+    #Fade-light .project-skills-used{
+      display: flex;
+      margin-top: 10px;
+    
+    }
+    
+    #Fade-light .project-skills-used h5{
+     border: solid 1px #f77f00;
+     background-color: #f77f00;
+     border-radius: 5px;
+     margin-right: 10px;
+     color: #003047;
+     font-size: 17px;
+     padding: 5px;
+    }
+  
+    
+    #Fade-light .project-links a{
+    padding: 5px;
+    width: 70px;
+    font-size: 15px;
+    margin-right: 10px;
     margin-bottom: 30px;
     cursor: pointer;
     display: inline-block;
     background-color: transparent;
-    border: 3px solid #003047;
+    border: 1px solid #003047;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     color: #003047;
-  }
-  
-  #Fade-light .link-button{
-    padding-top: 7rem;
-  text-align: center;
-  }
-  
-  #Fade-light .link-button a:hover {
-    box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
-    background-color: #003047;
-    border: 3px solid #003047;
-    color: whitesmoke;}
+    text-decoration: none;
+    text-align: center;
+     }
+    
+     
 
 }
 
 @media only screen and (min-device-width: 320px) and (max-width:767px) {
+
   .Fade {
-    margin: auto;
-    width: 70%;
-    text-align: center;
+    margin: auto 15%;
+    width: 80%;
+    text-align: left;
     padding-bottom: 30%;
   }
 
@@ -456,160 +465,582 @@ text-align: center;
     font-size: 23px;
     justify-content: center;
     font-family: serif;
-    text-align: center;
+    text-align: left;
   }
 
   .fade-header h5 {
     color: aqua;
     font-size: 18px;
     font-family: serif;
-    text-align: center;
-
-  }
-   .profile-card h4{
-    color: rgb(209, 209, 209);
-    font-size: 19px;
-    justify-content: center;
-    font-family: serif;
     text-align: left;
-    line-height: 0.5;
-  }
-
-  #Fade-light .profile-card h4{
-    color: #003047;
-    font-size: 19px;
-    /* justify-content: center; */
-    font-family: serif;
-    text-align: left;
-    line-height: 0.5;
 
   }
-
-
-  .flex-container {
-    /* margin: auto; */
-    /* max-width: 90%; */
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(1,3fr);
-  }
-
-  .profile-container:hover .profile-card {
-    visibility: visible;
-    opacity: 1;
-  }
-
-  .profile-wrapper {
-    width: 100%;
-  }
-
-  .profile-card {
-    /* width: 100%; */
-    word-break: keep-all;
+  
+  .projects-grid{
+    width: fit-content;
     margin: auto;
-  }
- 
-  .profile-card p{
-    line-height: 2rem;
-    color: gray;
-    font-size: 15px;
-    width: auto;
-    height: 30px;
-    margin: 0.5rem 0;
-    text-align: center;
-
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1,4fr);
   }
 
-  #Fade-light .flex-container .profile-card p {
-    color: #003049;
-    line-height: 2rem;
-    color: gray;
-    font-size: 15px;
-    width: auto;
-    height: 30px;
-    margin: 0.5rem 0;
-    text-align: center;
-
-    
+  .product-image{
+    width: 280px;
+    height:170px;
+    margin-bottom: 20px;
   }
-
-  #Fade-light .flex-container .profile-wrapper:after,
-  .flex-container .profile-wrapper:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
+  
+  .product-image img{
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, #003049 0, #003049);
-    opacity: .9;
-    transition: all .20s ease;
   }
-
-  .profile-container {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
-    border-radius: 15px;
-    transition: all 1s ease;
-    height: 27rem;
-    font-family: SF Pro Display, sans-serif;
-    color: gray;
+  
+  .project{
+    width:45% ;
+  }
+  .project h4 {
+    color: rgb(197, 192, 192);;
+   font-size: 19px;
+   font-weight: 700;
+   margin: 2px 0;
+  }
+  
+  .project p {
+   line-height: 2rem;
+   color: gray;
+   font-size: 15px;
+   width: 280px;
+   height: fit-content;
+   margin: 2px 0;
+   
+  }
+  
+  .project-skills-used{
+    display: flex;
+    margin-top: 10px;
   
   }
+  
+  .project-skills-used h5{
+   border: solid 1px #f77f00;
+   background-color: #f77f00;
+   border-radius: 5px;
+   margin-right: 10px;
+   color: #003047;
+   font-size: 17px;
+   padding: 5px;
+  }
+
+  
+  .project-links a{
+  padding: 5px;
+  width: 70px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid aqua;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: aqua;
+  text-decoration: none;
+  text-align: center;
+   }
+  
+   .project-links a:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;}
+  
+  
+
+    /* ///light-mode//// */
+
+    #Fade-light .Fade {
+      margin: auto 15%;
+      width: 80%;
+      text-align: left;
+      padding-bottom: 30%;
+    }
+  
+    #Fade-light .fade-header h4 {
+      color: #003049;
+      font-size: 23px;
+      justify-content: center;
+      font-family: serif;
+      text-align: left;
+    }
+  
+    #Fade-light .fade-header h5 {
+      color: #f77f00;
+      font-size: 18px;
+      font-family: serif;
+      text-align: left;
+  
+    }
+    
+    #Fade-light .projects-grid{
+      width: fit-content;
+      margin: auto;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(1,4fr);
+    }
+  
+    #Fade-light .product-image{
+      width: 280px;
+      height:170px;
+      margin-bottom: 20px;
+    }
+    
+    #Fade-light .product-image img{
+      width: 100%;
+      height: 100%;
+    }
+    
+    #Fade-light .project{
+      width:45% ;
+    }
+    #Fade-light .project h4 {
+      color: #003047;;
+     font-size: 18px;
+     font-weight: 700;
+     margin: 2px 0;
+    }
+    
+    #Fade-light .project p {
+     line-height: 2rem;
+     color: #003047;
+     font-size: 15px;
+     width: 280px;
+     height: fit-content;
+     margin: 2px 0;
+     
+    }
+    
+    #Fade-light .project-skills-used{
+      display: flex;
+      margin-top: 10px;
+    
+    }
+    
+    #Fade-light .project-skills-used h5{
+     border: solid 1px #f77f00;
+     background-color: #f77f00;
+     border-radius: 5px;
+     margin-right: 10px;
+     color: #003047;
+     font-size: 17px;
+     padding: 5px;
+    }
+  
+    
+    #Fade-light .project-links a{
+    padding: 5px;
+    width: 70px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #003047;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #003047;
+    text-decoration: none;
+    text-align: center;
+     }
 
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+
 
   .Fade {
-    padding-top: -10rem;
-    margin: auto;
-    width: 60%;
-    padding-bottom: 10rem;
+    margin: auto 15%;
+    width: 80%;
+    text-align: left;
+    padding-bottom: 30%;
   }
 
-  .flex-container {
-    margin: auto;
-    max-width: 28rem;
-    height: 500px;
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 20px;
-    justify-content: center;
-  }
-
- .port-container-3{
-  margin-left: 55%;
-}
-
-  .profile-container:hover .profile-card {
-    visibility: visible;
-    opacity: 1;
-  }
-  
   .fade-header h4 {
     color: rgb(209, 209, 209);
     font-size: 25px;
     justify-content: center;
     font-family: serif;
-    /* text-align: center; */
-  }
-  
-  .fade-header h5 {
-    color: aqua;
-    font-size: 20px;
-    font-family: serif;
-    text-align: center;
-  
+    text-align: left;
   }
 
-  #Fade-light {
-    padding-top: -10rem;
-    margin: auto;
-    width: 60%;
-    padding-bottom: 10rem;
+  .fade-header h5 {
+    color: aqua;
+    font-size: 23px;
+    font-family: serif;
+    text-align: left;
+
   }
+  
+  .projects-grid{
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1,4fr);
+  }
+
+  .product-image{
+    min-width: 580px;
+    height:280px;
+    margin-bottom: 20px;
+  }
+  
+  .product-image img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .project{
+    width:45% ;
+  }
+  .project h4 {
+    color: rgb(197, 192, 192);;
+   font-size: 23px;
+   font-weight: 700;
+   margin: 2px 0;
+  }
+  
+  .project p {
+   line-height: 2rem;
+   color: gray;
+   font-size: 18px;
+   width: 500px;
+   height: fit-content;
+   margin: 2px 0;
+   
+  }
+  
+  .project-skills-used{
+    display: flex;
+    margin-top: 10px;
+  
+  }
+  
+  .project-skills-used h5{
+   border: solid 1px #f77f00;
+   background-color: #f77f00;
+   border-radius: 5px;
+   margin-right: 10px;
+   color: #003047;
+   font-size: 17px;
+   padding: 5px;
+  }
+
+  
+  .project-links a{
+  padding: 5px;
+  width: 70px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid aqua;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: aqua;
+  text-decoration: none;
+  text-align: center;
+   }
+  
+   .project-links a:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;}
+  
+  
+
+    /* ///light-mode//// */
+
+    #Fade-light .Fade {
+      margin: auto 15%;
+      width: 80%;
+      text-align: left;
+      padding-bottom: 30%;
+    }
+  
+    #Fade-light .fade-header h4 {
+      color: #003049;
+      font-size: 25px;
+      justify-content: center;
+      font-family: serif;
+      text-align: left;
+    }
+  
+    #Fade-light .fade-header h5 {
+      color: #f77f00;
+      font-size: 20px;
+      font-family: serif;
+      text-align: left;
+  
+    }
+    
+    #Fade-light .projects-grid{
+      width: fit-content;
+      margin: auto;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(1,4fr);
+    }
+  
+    #Fade-light .product-image{
+      width: 580px;
+      height:280px;
+      margin-bottom: 20px;
+    }
+    
+    #Fade-light .product-image img{
+      width: 100%;
+      height: 100%;
+    }
+    
+    #Fade-light .project{
+      width:45% ;
+    }
+    #Fade-light .project h4 {
+      color: #003047;;
+     font-size: 23px;
+     font-weight: 700;
+     margin: 2px 0;
+    }
+    
+    #Fade-light .project p {
+     line-height: 2rem;
+     color: #003047;
+     font-size: 18px;
+     width: 480px;
+     height: fit-content;
+     margin: 2px 0;
+     
+    }
+    
+    #Fade-light .project-skills-used{
+      display: flex;
+      margin-top: 10px;
+    
+    }
+    
+    #Fade-light .project-skills-used h5{
+     border: solid 1px #f77f00;
+     background-color: #f77f00;
+     border-radius: 5px;
+     margin-right: 10px;
+     color: #003047;
+     font-size: 17px;
+     padding: 5px;
+    }
+  
+    
+    #Fade-light .project-links a{
+    padding: 5px;
+    width: 70px;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #003047;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #003047;
+    text-decoration: none;
+    text-align: center;
+     }
+}
+
+@media only screen and (device-width : 1024px){
+
+  .product-image{
+    width: 400px;
+    height:220px;
+    margin-bottom: 20px;
+  }
+  
+  .product-image img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .projects-grid{
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  
+  .project{
+    width:45% ;
+  }
+  .project h4 {
+    color: rgb(197, 192, 192);;
+   font-size: 20px;
+   font-weight: 700;
+   margin: 2px 0;
+  }
+  
+  .project p {
+   line-height: 2rem;
+   color: gray;
+   font-size: 16px;
+   width: 380px;
+   height: 30px;
+   margin: 2px 0;
+   
+  }
+  
+  .project-skills-used{
+    display: flex;
+    margin-top: 40px;
+  
+  }
+  
+  .project-skills-used h5{
+   border: solid 1px #f77f00;
+   background-color: #f77f00;
+   border-radius: 5px;
+   margin-right: 10px;
+   color: #003047;
+   font-size: 17px;
+   padding: 5px;
+  }
+  
+  .project-links a{
+  padding: 5px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid aqua;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: aqua;
+  text-decoration: none;
+  text-align: center;
+   }
+  
+   .project-links a:hover {
+    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid #00d7c3;}
+  
+  
+
+
+/* //light-mood//// */
+
+#Fade-light{
+  padding-top: 6%;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
+#Fade-light .fade-header h4 {
+  color: #003049;
+  font-size: 25px;
+  justify-content: center;
+  font-family: serif;
+  text-align: center;
+}
+
+#Fade-light .fade-header h5 {
+  color: #f77f00;
+  font-size: 21px;
+  font-family: serif;
+  text-align: center;
+
+}
+
+
+#Fade-light .product-image{
+  width: 400px;
+  height:220px;
+  margin-bottom: 20px;
+}
+
+#Fade-light .product-image img{
+  width: 100%;
+  height: 100%;
+}
+
+
+#Fade-light .projects-grid{
+  width: fit-content;
+  margin: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+}
+
+#Fade-light .project{
+  width:45% ;
+}
+#Fade-light .project h4 {
+  color: #003047;
+ font-size: 20px;
+ font-weight: 700;
+ margin: 2px 0;
+}
+
+#Fade-light .project p {
+ line-height: 2rem;
+ color: #003047;
+ font-size: 16px;
+ width: 380px;
+ height: 30px;
+ margin: 2px 0;
+ 
+}
+
+#Fade-light .project-skills-used{
+  display: flex;
+  margin-top: 40px;
+
+}
+
+#Fade-light .project-skills-used h5{
+ border: solid 1px #f77f00;
+ background-color: #f77f00;
+ border-radius: 5px;
+ margin-right: 10px;
+ color: #003047;
+ font-size: 17px;
+ padding: 5px;
+}
+
+#Fade-light .project-links a{
+padding: 5px;
+font-size: 15px;
+margin-right: 10px;
+margin-bottom: 30px;
+cursor: pointer;
+display: inline-block;
+background-color: transparent;
+border: 1px solid #003047;
+-webkit-transition: all .15s ease-in-out;
+transition: all .15s ease-in-out;
+color: #003049;
+text-decoration: none;
+text-align: center;
+ }
+
+ .project-links a:hover {
+  box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
+  border: 3px solid #003047;}
+
+
+
 }

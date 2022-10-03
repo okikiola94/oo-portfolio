@@ -24,7 +24,7 @@ const About = () => {
                 </div>
                 <div className='transparent-div'>
                 <div className='my-image'>
-                <img src={`${process.env.PUBLIC_URL}/assets/images/mee.PNG`}  alt="woman-tech" />
+                <img src={`${process.env.PUBLIC_URL}/assets/images/myyyy.jpeg`}  alt="woman-tech" />
                 </div>
                 </div>
                 </div>

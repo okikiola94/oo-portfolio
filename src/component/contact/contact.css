@@ -435,25 +435,25 @@ font-family: 'Manrope', sans-serif;}
     font-family: 'Manrope', sans-serif;
   }
   .Name-input input {
-    background-color: transparent;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    background-color: #dfd9e2;
+    border: 1px solid #dfd9e2;
     width: 220px;
     height: 30px;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   
   }
   
   .Email-container input {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid #dfd9e2;
     width: 220px;
     height: 30px;
     margin: 5% 0;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }
@@ -591,35 +591,35 @@ font-family: 'Manrope', sans-serif;}
   }
 
   .message-container textarea {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid #dfd9e2;
     width: 300px;
     height: 150px;
-    color: whitesmoke;
+    color: #dfd9e2;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }
   .Name-input input {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid  #dfd9e2;
     width: 300px;
     height: 30px;
-    color: whitesmoke;
+    color: #dfd9e2;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   
   }
   
   .Email-container input {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid #dfd9e2;
     width: 300px;
     height: 30px;
     margin: 5% 0;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }
@@ -757,35 +757,35 @@ font-family: 'Manrope', sans-serif;}
   }
 
   .message-container textarea {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid  #dfd9e2;
     width: 550px;
     height: 150px;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }
   .Name-input input {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid #dfd9e2;
     width: 550px;
     height: 30px;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   
   }
   
   .Email-container input {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid #dfd9e2;
     width: 550px;
     height: 30px;
     margin: 5% 0;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }
@@ -926,35 +926,35 @@ font-family: 'Manrope', sans-serif;}
   }
 
   .message-container textarea {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid #dfd9e2;
     width: 550px;
     height: 150px;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }
   .Name-input input {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid  #dfd9e2;
     width: 550px;
     height: 30px;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   
   }
   
   .Email-container input {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid  #dfd9e2;
     width: 550px;
     height: 30px;
     margin: 5% 0;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }

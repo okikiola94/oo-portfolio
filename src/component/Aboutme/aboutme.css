@@ -5,15 +5,10 @@
 
   }
   
-  /* #about_me-light{
-    width: 100%;
-    min-height: 100vh;
-    background-color: #fff;
-    
-  } */
+ 
 .my-image{
   width: 280px;
-  height: 300px;
+  height: 310px;
 }
 
 .my-image img{
@@ -116,7 +111,7 @@
   .transparent-div{
     width: 290px;
     height: 310px;
-    /* box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3; */
+    
     border: 1px solid #00d7c3;
   order: 2;
   }

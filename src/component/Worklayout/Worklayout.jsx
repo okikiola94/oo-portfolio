@@ -18,7 +18,80 @@ export default class Fade extends Component {
                               <h4>PORTFOLIO</h4>
                               <h5>Some of my works</h5>
                         </div>
-                        <div class="flex-container aos-init aos-animate" data-aos="fade">
+
+<div class="projects-grid">
+
+<div class="project">
+      <div className='product-image'>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/iRecharge-screenshot.png`}  alt='rps' />   
+                          </div>
+                          <h4>iRecharge </h4>
+                          <p>iRecharge is a distributed vending platform for making Online Bills Payment such as Data, Airtime, Prepaid Meter Recharge, Online Electricity. I cloned the website as one of my practice projects. </p>
+                  <div class="project-skills-used">
+                        <h5 class="skills-mention">ReactJs</h5>
+                        <h5 class="skills-mention">Bootstrap</h5>
+                        </div>
+                        <div class="project-links">
+                              <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
+                              <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
+                              </div></div>
+     
+                              <div class="project">
+      <div className='product-image'>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/weather-screenshot.png`}  alt='rps' />   
+                          </div>
+                          <h4>Weather-Telling-WebApp </h4>
+                          <p>One of the first projects i made was the famous rock, paper scissors. It was built with html, css and js. </p>
+                  <div class="project-skills-used">
+                        <h5 class="skills-mention">ReactJs</h5>
+                        <h5 class="skills-mention">Bootstrap</h5>
+                        </div>
+                        <div class="project-links">
+                              <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
+                              <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
+                              </div></div>
+                              
+
+                              <div class="project">
+      <div className='product-image'>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/rps-screenshot.png`}  alt='rps' />   
+                          </div>
+                          <h4>Rock-Paper Scissors </h4>
+                          <p>One of the first projects i made was the famous rock, paper scissors. It was built with html, css and js. </p>
+                  <div class="project-skills-used">
+                        <h5 class="skills-mention">ReactJs</h5>
+                        <h5 class="skills-mention">Bootstrap</h5>
+                        </div>
+                        <div class="project-links">
+                              <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
+                              <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
+                              </div></div>
+                              
+
+                              <div class="project">
+      <div className='product-image'>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/apple-screenshot.png`}  alt='rps' />   
+                          </div>
+                          <h4>Apple website clone </h4>
+                          <p>The Apple official website which is widely known was one of my first clone project to get a hands on exerience with HTML and CSS. </p>
+                  <div class="project-skills-used">
+                        <h5 class="skills-mention">ReactJs</h5>
+                        <h5 class="skills-mention">Bootstrap</h5>
+                        </div>
+                        <div class="project-links">
+                              <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
+                              <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
+                              </div></div>
+<a className='github-link'></a>
+                              </div>
+
+
+
+                        {/* <div class="flex-container aos-init aos-animate" data-aos="fade">
+                              <div className='profile-container-inner-grid'>
+                        <div className='product-image'>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/rps-screenshot.png`}  alt='rps' />   
+                          </div>
                               <div class="profile-container port-container-1">
                                     <div class="profile-wrapper">
                                           <div class="profile-card">
@@ -30,6 +103,11 @@ export default class Fade extends Component {
                                                 </div>
                                     </div>
                               </div>
+                              </div>
+                              <div className='profile-container-inner-grid'>
+                           <div className='product-image'>
+                           <img src={`${process.env.PUBLIC_URL}/assets/images/rps-screenshot.png`}  alt='rps' />
+                           </div>
 
                               <div class="profile-container port-container-2">
                                     <div class="profile-wrapper">
@@ -38,53 +116,34 @@ export default class Fade extends Component {
                                                 <p> The Apple official website which is widely known was one of my first clone project to get a hands on exerience with HTML and CSS. </p>
                                           </div>
                                           <div className='link-button'>
-                                                <a href="">View</a>
+                                                <a href="https://rpsgamez.netlify.app/">View</a>
                                                 </div>
                                     </div>
                               </div>
+                              </div>
+
+                              <div className='profile-container-inner-grid'>
+
+                              <div className='product-image'>
+                              <img src={`${process.env.PUBLIC_URL}/assets/images/rps-screenshot.png`}  alt='rps' />  
+                                          </div>
 
                               <div class="profile-container port-container-3">
                                     <div class="profile-wrapper">
+                                        
                                           <div class="profile-card">
                                                 <h4>iRecharge</h4>
                                                 <p> iRecharge is a distributed vending platform for making Online Bills Payment such as Data, Airtime, Prepaid Meter Recharge, Online Electricity. I cloned the website as one of my practice projects.  </p>
                                           </div>
                                           <div className='link-button'>
-                                                <a href="">View</a>
+                                                <a href="https://rpsgamez.netlify.app/">View</a>
                                                 </div>
                                     </div>
                               </div>
-{/* 
-                              <div class="profile-container port-container-4">
-                                    <div class="profile-wrapper">
-                                          <div class="profile-card">
-                                                <h4>Afigo Website</h4>
-                                                <p> Afigo website is a platform that shows tourists great places in Nigeria. The website was designed with quite a number of features that serves its purpose as a travel agency. </p>
-                                                <a href="https://www.behance.net/gallery/103838821/Travel-Website">View Design</a>
-                                          </div>
-                                    </div>
                               </div>
 
-                              <div class="profile-container port-container-5">
-                                    <div class="profile-wrapper">
-                                          <div class="profile-card">
-                                                <h4>Pixelshub Mobile App</h4>
-                                                <p> PixelsHub is a mobile app which connects professional photographers and creative artists to their potential clients globally. </p>
-                                                <a href="https://www.behance.net/gallery/104417865/Photographers-Platform">View Profile</a>
-                                          </div>
-                                    </div>
-                              </div>
-
-                              <div class="profile-container port-container-6">
-                                    <div class="profile-wrapper">
-                                          <div class="profile-card">
-                                                <h4>Tuteria Website</h4>
-                                                <p> Tuteria Limited is a company which offers both onine and offline tutoring services to people. The landing page was designed to increase customer’s conversion rate and improve usability. </p>
-                                                <a href="https://www.behance.net/gallery/104473567/School-Landing-Page">View Profile</a>
-                                          </div>
-                                    </div>
-                              </div> */}
-                        </div>
+                             
+                        </div> */}
                   </div>
             )
             
