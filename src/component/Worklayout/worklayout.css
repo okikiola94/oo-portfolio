@@ -91,28 +91,23 @@ body[data-aos-delay="100"] [data-aos] {
 .project p {
  line-height: 2rem;
  color: gray;
- font-size: 16px;
+ font-size: 18px;
  width: 500px;
- height: 30px;
+ height: fit-content;
  margin: 2px 0;
  
 }
 
-.project-skills-used{
-  display: flex;
-  margin-top: 40px;
+
+.project p span{
+ color: #f77f00;
+ font-size: 18px;
+ font-weight: 600;
 
 }
 
-.project-skills-used h5{
- border: solid 1px #f77f00;
- background-color: #f77f00;
- border-radius: 5px;
- margin-right: 10px;
- color: #003047;
- font-size: 17px;
- padding: 5px;
-}
+
+
 
 .project-links a{
 padding: 5px;
@@ -199,9 +194,9 @@ text-align: center;
 #Fade-light .project p {
  line-height: 2rem;
  color: #003047;
- font-size: 16px;
+ font-size: 18px;
  width: 500px;
- height: 30px;
+ height: fit-content;
  margin: 2px 0;
  
 }
@@ -212,14 +207,11 @@ text-align: center;
 
 }
 
-#Fade-light .project-skills-used h5{
- border: solid 1px #f77f00;
- background-color: #f77f00;
- border-radius: 5px;
- margin-right: 10px;
- color: #003047;
- font-size: 17px;
- padding: 5px;
+#Fade-light .project p span{
+ color: #f77f00;
+ font-size: 18px;
+ font-weight: 600;
+
 }
 
 #Fade-light .project-links a{
@@ -309,20 +301,10 @@ text-align: center;
    
   }
   
-  .project-skills-used{
-    display: flex;
-    margin-top: 10px;
-  
-  }
-  
-  .project-skills-used h5{
-   border: solid 1px #f77f00;
-   background-color: #f77f00;
-   border-radius: 5px;
-   margin-right: 10px;
-   color: #003047;
+  .project p span{
+   color: #f77f00;
    font-size: 17px;
-   padding: 5px;
+   font-weight: 500;
   }
 
   
@@ -412,22 +394,13 @@ text-align: center;
      margin: 2px 0;
      
     }
+  
     
-    #Fade-light .project-skills-used{
-      display: flex;
-      margin-top: 10px;
-    
-    }
-    
-    #Fade-light .project-skills-used h5{
-     border: solid 1px #f77f00;
-     background-color: #f77f00;
-     border-radius: 5px;
-     margin-right: 10px;
-     color: #003047;
-     font-size: 17px;
-     padding: 5px;
-    }
+    #Fade-light .project p span{
+      color: #f77f00;
+      font-size: 17px;
+      font-weight: 500;
+     }
   
     
     #Fade-light .project-links a{
@@ -515,21 +488,13 @@ text-align: center;
    
   }
   
-  .project-skills-used{
-    display: flex;
-    margin-top: 10px;
   
-  }
   
-  .project-skills-used h5{
-   border: solid 1px #f77f00;
-   background-color: #f77f00;
-   border-radius: 5px;
-   margin-right: 10px;
-   color: #003047;
-   font-size: 17px;
-   padding: 5px;
-  }
+  .project p span{
+    color: #f77f00;
+    font-size: 17px;
+    font-weight: 500;
+   }
 
   
   .project-links a{
@@ -619,21 +584,12 @@ text-align: center;
      
     }
     
-    #Fade-light .project-skills-used{
-      display: flex;
-      margin-top: 10px;
     
-    }
-    
-    #Fade-light .project-skills-used h5{
-     border: solid 1px #f77f00;
-     background-color: #f77f00;
-     border-radius: 5px;
-     margin-right: 10px;
-     color: #003047;
-     font-size: 17px;
-     padding: 5px;
-    }
+    #Fade-light .project p span{
+      color: #f77f00;
+      font-size: 17px;
+      font-weight: 500;
+     }
   
     
     #Fade-light .project-links a{
@@ -726,15 +682,11 @@ text-align: center;
   
   }
   
-  .project-skills-used h5{
-   border: solid 1px #f77f00;
-   background-color: #f77f00;
-   border-radius: 5px;
-   margin-right: 10px;
-   color: #003047;
-   font-size: 17px;
-   padding: 5px;
-  }
+  .project p span{
+    color: #f77f00;
+    font-size: 18px;
+    font-weight: 500;
+   }
 
   
   .project-links a{
@@ -824,21 +776,13 @@ text-align: center;
      
     }
     
-    #Fade-light .project-skills-used{
-      display: flex;
-      margin-top: 10px;
     
-    }
     
-    #Fade-light .project-skills-used h5{
-     border: solid 1px #f77f00;
-     background-color: #f77f00;
-     border-radius: 5px;
-     margin-right: 10px;
-     color: #003047;
-     font-size: 17px;
-     padding: 5px;
-    }
+    #Fade-light .project p span{
+      color: #f77f00;
+      font-size: 18px;
+      font-weight: 500;
+     }
   
     
     #Fade-light .project-links a{
@@ -894,28 +838,20 @@ text-align: center;
   .project p {
    line-height: 2rem;
    color: gray;
-   font-size: 16px;
+   font-size: 19px;
    width: 380px;
    height: 30px;
    margin: 2px 0;
    
   }
   
-  .project-skills-used{
-    display: flex;
-    margin-top: 40px;
   
-  }
   
-  .project-skills-used h5{
-   border: solid 1px #f77f00;
-   background-color: #f77f00;
-   border-radius: 5px;
-   margin-right: 10px;
-   color: #003047;
-   font-size: 17px;
-   padding: 5px;
-  }
+  .project p span{
+    color: #f77f00;
+    font-size: 19px;
+    font-weight: 500;
+   }
   
   .project-links a{
   padding: 5px;
@@ -998,28 +934,19 @@ text-align: center;
 #Fade-light .project p {
  line-height: 2rem;
  color: #003047;
- font-size: 16px;
+ font-size: 19px;
  width: 380px;
  height: 30px;
  margin: 2px 0;
  
 }
 
-#Fade-light .project-skills-used{
-  display: flex;
-  margin-top: 40px;
 
-}
-
-#Fade-light .project-skills-used h5{
- border: solid 1px #f77f00;
- background-color: #f77f00;
- border-radius: 5px;
- margin-right: 10px;
- color: #003047;
- font-size: 17px;
- padding: 5px;
-}
+#Fade-light .project p span{
+  color: #f77f00;
+  font-size: 19px;
+  font-weight: 500;
+ }
 
 #Fade-light .project-links a{
 padding: 5px;
