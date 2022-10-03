@@ -44,7 +44,7 @@ export default class Fade extends Component {
                           <p>One of the first projects i made was the famous rock, paper scissors. It was built with html, css and js. </p>
                   <div class="project-skills-used">
                         <h5 class="skills-mention">ReactJs</h5>
-                        <h5 class="skills-mention">Bootstrap</h5>
+                        <h5 class="skills-mention">CSS</h5>
                         </div>
                         <div class="project-links">
                               <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
@@ -59,8 +59,9 @@ export default class Fade extends Component {
                           <h4>Rock-Paper Scissors </h4>
                           <p>One of the first projects i made was the famous rock, paper scissors. It was built with html, css and js. </p>
                   <div class="project-skills-used">
-                        <h5 class="skills-mention">ReactJs</h5>
-                        <h5 class="skills-mention">Bootstrap</h5>
+                        <h5 class="skills-mention">Js</h5>
+                        <h5 class="skills-mention">css</h5>
+                        <h5 class="skills-mention">html</h5>
                         </div>
                         <div class="project-links">
                               <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
@@ -75,8 +76,8 @@ export default class Fade extends Component {
                           <h4>Apple website clone </h4>
                           <p>The Apple official website which is widely known was one of my first clone project to get a hands on exerience with HTML and CSS. </p>
                   <div class="project-skills-used">
-                        <h5 class="skills-mention">ReactJs</h5>
-                        <h5 class="skills-mention">Bootstrap</h5>
+                        <h5 class="skills-mention">html</h5>
+                        <h5 class="skills-mention">CSS</h5>
                         </div>
                         <div class="project-links">
                               <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
