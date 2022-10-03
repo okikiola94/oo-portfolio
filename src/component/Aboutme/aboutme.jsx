@@ -22,11 +22,11 @@ const About = () => {
                     </p>
                     <a href='https://docs.google.com/document/d/11d6vz3_Sp7t0fE9eFQvNb3wRJjbVpMG1/edit?usp=sharing&ouid=117768581770838537650&rtpof=true&sd=true'><button className='animate__animated animate__zoomIn'>View My Resume →</button></a>
                 </div>
-                <div className='transparent-div'>
+                {/* <div className='transparent-div'>
                 <div className='my-image'>
                 <img src={`${process.env.PUBLIC_URL}/assets/images/myyyy.jpeg`}  alt="woman-tech" />
                 </div>
-                </div>
+                </div> */}
                 </div>
             </div>
 

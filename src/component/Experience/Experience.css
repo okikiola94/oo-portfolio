@@ -99,6 +99,7 @@
     text-align: justify;
     text-justify: auto;
     font-family: sans-serif;
+    padding: 0 8px;
   }
   
   .work-experience button{
@@ -159,6 +160,7 @@ border: 3px solid #00d7c3;}
     text-align: justify;
     text-justify: auto;
     font-family: sans-serif;
+    padding: 0 8px;
   }
 
   #work_experience-light h5 {

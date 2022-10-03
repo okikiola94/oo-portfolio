@@ -29,7 +29,7 @@
     --animate-duration: 2s;
   }
   
-  p.animate__animated.animate__zoomIn{
+ .front-end p.animate__animated.animate__zoomIn{
     color: grey;
     font-size: 17px;
     text-align: left;
@@ -204,10 +204,10 @@
       
       }
   
-      p .animate__animated.animate__zoomIn{
+    .front-end  p .animate__animated.animate__zoomIn{
         color: grey;
         font-size: 13px;
-        text-align: left;
+        text-align: justify;
         font-family: sans-serif;
         width: 170px;
         text-justify: auto;
@@ -238,7 +238,7 @@
     
        #home-light p{
         font-size: 13px;
-        text-align: left;
+        text-align: justify;
         font-family: sans-serif;
         width: 170px;
         text-justify: auto;
@@ -299,12 +299,12 @@ text-align: left;
     
     }
 
-    p .animate__animated.animate__zoomIn {
+    #home-dark p{
       color: grey;
-      font-size: 15px;
-      text-align: left;
+      font-size: 18px;
+      text-align: justify;
       font-family: sans-serif;
-      width: 280px;
+      width: 100%;
       text-justify: auto;
     }
 
@@ -333,7 +333,7 @@ text-align: left;
   
      #home-light p{
       font-size: 18px;
-      text-align: left;
+      text-align: justify;
       font-family: sans-serif;
       width: 100%;
       text-justify: auto;

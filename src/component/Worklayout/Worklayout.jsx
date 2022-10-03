@@ -27,10 +27,7 @@ export default class Fade extends Component {
                           </div>
                           <h4>iRecharge </h4>
                           <p>iRecharge is a distributed vending platform for making Online Bills Payment such as Data, Airtime, Prepaid Meter Recharge, Online Electricity. I replicated the website as one of my practice projects using <span>REACTJS </span> and <span>CSS</span>. </p>
-                  {/* <div class="project-skills-used">
-                        <h5 class="skills-mention">ReactJs</h5>
-                        <h5 class="skills-mention">Bootstrap</h5>
-                        </div> */}
+            
                         <div class="project-links">
                               <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
                               <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
@@ -42,10 +39,7 @@ export default class Fade extends Component {
                           </div>
                           <h4>Weather-Telling-WebApp </h4>
                           <p>One of the first projects i made was the famous rock, paper scissors. It was built with <span>HTML, CSS</span> and <span>JS</span>. </p>
-                  {/* <div class="project-skills-used">
-                        <h5 class="skills-mention">ReactJs</h5>
-                        <h5 class="skills-mention">CSS</h5>
-                        </div> */}
+                 
                         <div class="project-links">
                               <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
                               <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
@@ -58,14 +52,10 @@ export default class Fade extends Component {
                           </div>
                           <h4>Rock-Paper Scissors </h4>
                           <p>One of the first projects i made was the famous rock, paper scissors. It was built with <span>HTML, CSS</span> and <span>JS</span>. </p>
-                  {/* <div class="project-skills-used">
-                        <h5 class="skills-mention">Js</h5>
-                        <h5 class="skills-mention">css</h5>
-                        <h5 class="skills-mention">html</h5>
-                        </div> */}
+                  
                         <div class="project-links">
                               <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
-                              <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
+                              <a href="https://rpsgamez.netlify.app/" class="live-project-link">View Live</a>
                               </div></div>
                               
 
@@ -75,10 +65,7 @@ export default class Fade extends Component {
                           </div>
                           <h4>Apple website replica </h4>
                           <p>The Apple official website which is widely known was one of my first  project to get a pratical experience with <span>HTML</span> and <span>CSS</span>. </p>
-                  {/* <div class="project-skills-used">
-                        <h5 class="skills-mention">html</h5>
-                        <h5 class="skills-mention">CSS</h5>
-                        </div> */}
+                 
                         <div class="project-links">
                               <a href="https://github.com/okikiola94/rps" target="_blank" rel="noreferrer" className='project-direct-link'>See Code</a>
                               <a href="https://rpsgamez.netlify.app/" target="_blank" rel="noreferrer" class="live-project-link">View Live</a>
