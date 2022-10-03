@@ -485,8 +485,8 @@ text-align: center;
   }
 
   .product-image{
-    width: 280px;
-    height:170px;
+    width: 300px;
+    height:180px;
     margin-bottom: 20px;
   }
   
@@ -508,8 +508,8 @@ text-align: center;
   .project p {
    line-height: 2rem;
    color: gray;
-   font-size: 15px;
-   width: 280px;
+   font-size: 18px;
+   width: 290px;
    height: fit-content;
    margin: 2px 0;
    
@@ -589,8 +589,8 @@ text-align: center;
     }
   
     #Fade-light .product-image{
-      width: 280px;
-      height:170px;
+      width: 300px;
+      height:180px;
       margin-bottom: 20px;
     }
     
@@ -604,7 +604,7 @@ text-align: center;
     }
     #Fade-light .project h4 {
       color: #003047;;
-     font-size: 18px;
+     font-size: 19px;
      font-weight: 700;
      margin: 2px 0;
     }
@@ -612,7 +612,7 @@ text-align: center;
     #Fade-light .project p {
      line-height: 2rem;
      color: #003047;
-     font-size: 15px;
+     font-size: 18px;
      width: 280px;
      height: fit-content;
      margin: 2px 0;
