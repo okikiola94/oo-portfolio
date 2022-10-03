@@ -207,7 +207,7 @@
     .front-end  p .animate__animated.animate__zoomIn{
         color: grey;
         font-size: 13px;
-        text-align: justify;
+        text-align: left;
         font-family: sans-serif;
         width: 170px;
         text-justify: auto;
@@ -238,7 +238,7 @@
     
        #home-light p{
         font-size: 13px;
-        text-align: justify;
+        text-align: left;
         font-family: sans-serif;
         width: 170px;
         text-justify: auto;
@@ -302,7 +302,7 @@ text-align: left;
     #home-dark p{
       color: grey;
       font-size: 18px;
-      text-align: justify;
+      text-align: left;
       font-family: sans-serif;
       width: 100%;
       text-justify: auto;
@@ -333,7 +333,7 @@ text-align: left;
   
      #home-light p{
       font-size: 18px;
-      text-align: justify;
+      text-align: left;
       font-family: sans-serif;
       width: 100%;
       text-justify: auto;

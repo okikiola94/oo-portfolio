@@ -218,6 +218,13 @@ border: 3px solid #00d7c3;}
 
   @media only screen and (min-device-width : 260px) and (max-device-width : 319px){
 
+    #work_experience-dark{
+      margin-top: auto;
+      padding-top: 10%;
+      width: 80%;
+      background-color: #003047;
+    }
+
     .class_container {
       margin: auto;
       max-width: 25rem;
@@ -250,13 +257,31 @@ border: 3px solid #00d7c3;}
 
 
   @media screen and (min-device-width : 320px) and (max-width: 768px){
-    .work-experience{
+
+    #work_experience-dark{
+      margin-top: auto;
+      margin-left: 10%;
+      padding-top: 10%;
+      width: 80%;
+      background-color: #003047;
+    }
+
+    .work-experience h4 {
+      color: rgb(209, 209, 209);
+      font-size: 25px;
+      /* justify-content: center; */
+      text-align: left;
+      font-family: serif;
+      margin-left: auto;
+    }
+
+    /* .work-experience{
       margin: auto;
       display: block;
       width: 60%;
       padding-top: 5rem;
       padding-bottom: 5%;
-    }
+    } */
     .class_container {
       margin: auto;
       max-width: 25rem;
