@@ -454,7 +454,7 @@ width: 150px;
 @media screen  and (min-device-width : 320px) and (max-width:767px) {
   .section-cover {
     margin: auto;
-    margin-top: 20rem;
+    /* margin-top: 23rem; */
     max-width: 50rem;
     display: block;
     padding-top: 34rem ;
@@ -462,7 +462,7 @@ width: 150px;
 
   section {
     margin: auto;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     text-align: left;
     max-width: 86%;
   }
@@ -485,6 +485,7 @@ width: 150px;
     left: 10;
     bottom: -55%;
     margin-left: 2rem;
+    height: fit-content;
   }
 
   .qualification__content {
@@ -503,8 +504,8 @@ width: 150px;
   
   .qualification__parent3 {
     position: relative;
-    bottom: -200%;
-    left: -260%;
+    bottom: -192%;
+    left: -296%;
     
   } 
 
@@ -513,7 +514,7 @@ width: 150px;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2);
     margin-top: 40px;
-    color: #003049;
+    color: grey;
   }
 
   .section__title {
@@ -544,9 +545,9 @@ width: 150px;
 
   /* ///light-mode//// */
 
-  #section_cover-light .section-cover {
+  #section_cover-light {
     margin: auto;
-    margin-top: 50rem;
+    /* margin-top: 23rem; */
     max-width: 50rem;
     display: block;
     padding-top: 34rem ;
@@ -554,7 +555,7 @@ width: 150px;
 
   #section_cover-light section {
     margin: auto;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
     text-align: left;
     max-width: 86%;
 

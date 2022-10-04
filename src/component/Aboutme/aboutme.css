@@ -317,8 +317,8 @@ color: whitesmoke;
     margin: auto;
     max-width: 90%;
     height: fit-content;
-    padding-bottom: 10rem;
-    padding-top: 20%;
+    padding-bottom: 12%;
+    padding-top: 0%;
   }
 
   .about-me-inner{
@@ -378,7 +378,8 @@ color: whitesmoke;
   margin: auto;
   max-width: 90%;
   height: fit-content;
-  padding-bottom: 10rem;
+  padding-bottom: 10%;
+  padding-top: 0%;
 }
 
 #about_me-light .about-me-inner{
@@ -389,6 +390,14 @@ color: whitesmoke;
 #about_me-light .about-me-header{
   margin: auto;
   text-align: left;
+}
+
+#about_me-light h4{
+  color: #003049;
+  font-size: 25px;
+  padding-top: 0px;
+  line-height: 0.5em;
+  font-family: serif; 
 }
 
 #about_me-light .inner-paragraph-grid{

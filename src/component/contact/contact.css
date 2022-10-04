@@ -293,7 +293,7 @@
   font-family: serif;
   margin: auto;
   
-  font-size: 21px;
+  font-size: 20px;
 
 }
 
@@ -550,11 +550,10 @@ font-family: 'Manrope', sans-serif;}
 
 
 @media only screen and (min-device-width : 320px) and (max-width:767px){
-  .contact-section-container {
-    /* padding-top: 50px; */
-    width: 80%;
-    margin: auto;
-  }
+  .Contact-container {
+    margin: 0;
+    width: 37%;
+}
 
   .input-container{
     display: grid;
@@ -589,6 +588,36 @@ font-family: 'Manrope', sans-serif;}
     margin: auto;
     z-index: 1;
   }
+
+  .Contact-inner-container {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    justify-items: left;
+    align-content: left;
+}
+
+.contact-section-container {
+  padding-top: 0%;
+  width: 80%;
+  margin: auto 5%;
+}
+
+  .Contact-inner-container h4 {
+    color: rgb(197, 192, 192);
+    font-family: serif;
+    text-align: left;
+    font-size: 25px;
+}
+
+#contact_section-light h4 {
+  color: #003047;
+  font-family: serif;
+  text-align: left;
+  font-size: 25px;
+}
 
   .message-container textarea {
     background-color: #dfd9e2;
@@ -630,6 +659,8 @@ font-family: 'Manrope', sans-serif;}
   .email-container a, .contactnumber-container a, .location-container p  {
     font-size: medium;
   }
+
+
 
 /* ///light-mode/// */
 
