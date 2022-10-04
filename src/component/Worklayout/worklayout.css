@@ -282,7 +282,7 @@ text-align: center;
   }
   
   .project{
-    width:45% ;
+    width:100% ;
   }
   .project h4 {
     color: rgb(197, 192, 192);;
@@ -376,7 +376,7 @@ text-align: center;
     }
     
     #Fade-light .project{
-      width:45% ;
+      width:100% ;
     }
     #Fade-light .project h4 {
       color: #003047;;
@@ -428,7 +428,7 @@ text-align: center;
 
   .Fade {
     margin: auto 15%;
-    width: 80%;
+    width: 86%;
     text-align: left;
     padding-bottom: 30%;
   }
@@ -451,15 +451,15 @@ text-align: center;
   
   .projects-grid{
     width: fit-content;
-    margin: auto;
+    margin: 0;
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(1,4fr);
   }
 
   .product-image{
-    width: 300px;
-    height:180px;
+    width: 315px;
+    height:200px;
     margin-bottom: 20px;
   }
   
@@ -469,7 +469,7 @@ text-align: center;
   }
   
   .project{
-    width:45% ;
+    width:100% ;
   }
   .project h4 {
     color: rgb(197, 192, 192);;
@@ -524,7 +524,7 @@ text-align: center;
 
     #Fade-light .Fade {
       margin: auto 15%;
-      width: 80%;
+      width: 86%;
       text-align: left;
       padding-bottom: 30%;
     }
@@ -547,15 +547,15 @@ text-align: center;
     
     #Fade-light .projects-grid{
       width: fit-content;
-      margin: auto;
+      margin: 0;
       display: grid;
       grid-gap: 1rem;
       grid-template-columns: repeat(1,4fr);
     }
   
     #Fade-light .product-image{
-      width: 300px;
-      height:180px;
+      width: 315px;
+      height:200px;
       margin-bottom: 20px;
     }
     
@@ -565,7 +565,7 @@ text-align: center;
     }
     
     #Fade-light .project{
-      width:45% ;
+      width:100% ;
     }
     #Fade-light .project h4 {
       color: #003047;;
