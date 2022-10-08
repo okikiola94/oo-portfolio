@@ -227,7 +227,7 @@ margin: 0;
 .popup-body{
     background-color:#003047 ;
     min-height: 100vh;
-    width: 50%;
+    width: 40%;
       margin:  10% auto;
       padding-right: 8%;
       opacity: 1;
@@ -286,7 +286,7 @@ margin: 0;
   #popup-backdrop-light .popup-body  {
       background-color:#fff;
       min-height: 100vh;
-      width: 50%;
+      width: 40%;
       margin:  10% auto;
       padding-right: 8%;
       opacity: 1;

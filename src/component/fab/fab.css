@@ -1,6 +1,6 @@
 .light{
-    height: 50px;
-    width: 50px;
+    height: 180px;
+    width: 80px;
     position: fixed;
     top: 40%;
     right: 1%;
@@ -14,8 +14,8 @@
 
 .dark{
 
-    height: 50px;
-    width: 50px;
+    height: 180px;
+    width: 80px;
     position: fixed;
     top: 40%;
     right: 1%;
@@ -25,26 +25,26 @@
 @media only screen and (min-device-width : 260px) and (max-device-width : 604px){
 
     .light{
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 70px;
         position: absolute;
         /* bottom: 5%; */
         right: 5%;
         display: flex;
-        top: 10%;
+        top: 8%;
 
     }
    
     
     .dark{
 
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 70px;
         position: absolute;
         /* bottom: 5%; */
         right: 5%;
         display: flex;
-        top: 10%;
+        top: 8%;
 
         /* height: 180px;
         width: 80px;
