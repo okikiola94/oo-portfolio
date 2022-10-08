@@ -13,12 +13,12 @@ const About = () => {
                 </div>
                 <div className='inner-paragraph-grid'>
                 <div className='paragraph-container'>
-                    <p class="animate__animated animate__zoomIn">As a developer, I work out of Lagos, Nigeria. My main goal is to develop engaging and interactive digital experiences on the web. I also enjoy manipulating large amounts of data in order to provide a reasonable analysis.
+                    <p class="animate__animated animate__zoomIn">I am a developer from Lagos, Nigeria. My main goal is to develop engaging and interactive digital experiences on the web. I also enjoy manipulating large amounts of data in order to provide a reasonable analysis.
 </p>
                     <p class="animate__animated animate__zoomIn"> Similarly, I have practical experience in operations management.(I did this for two years with Nigeria's two largest e-commerce hubs.)</p>
-                    <p class="animate__animated animate__zoomIn"> When I'm not developing code, I'm either reading a suspenseful book or listening to music while eating a bowl of spaghetti (if you work with me, I'll sponsor a meal or two😉).    </p>
-                    <p class="animate__animated animate__zoomIn">
-                        My analytical background has given me the ability to think creatively about solving problems. In addition to being an excellent front-end developer, I'm also able to help you develop new ideas and make them a reality!
+                    {/* <p class="animate__animated animate__zoomIn"> My analytical background has given me the ability to think creatively about solving problems. In addition to being an excellent front-end developer, I'm also able to help you develop new ideas and make them a reality! </p> */}
+                    <p class="animate__animated animate__zoomIn">When I'm not developing code, I'm either reading a suspenseful book or listening to music.   
+                         I am open to collaborations and job opportunities. So, drop a message to share ideas or playlists!!
                     </p>
                     <a href='https://docs.google.com/document/d/11d6vz3_Sp7t0fE9eFQvNb3wRJjbVpMG1/edit?usp=sharing&ouid=117768581770838537650&rtpof=true&sd=true'><button className='animate__animated animate__zoomIn'>View My Resume →</button></a>
                 </div>
