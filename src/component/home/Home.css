@@ -302,7 +302,7 @@ text-align: left;
     #home-dark p{
       color: grey;
       font-size: 18px;
-      text-align: left;
+      text-align: justify;
       font-family: sans-serif;
       width: 100%;
       text-justify: auto;
@@ -333,7 +333,7 @@ text-align: left;
   
      #home-light p{
       font-size: 18px;
-      text-align: left;
+      text-align: justify;
       font-family: sans-serif;
       width: 100%;
       text-justify: auto;

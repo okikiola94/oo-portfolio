@@ -4,16 +4,65 @@ body {
   font-family: serif;
   max-width: 100%;
 
-
 }
 
 #parent_cover-light{
   background-color: #Fff;
 }
 
+
 #parent_cover-dark{
   background-color: #003047;
+
 }
+
+@media screen  and (min-device-width : 320px) and (max-width:560px) {
+
+  #parent_cover-light{
+    background-color: #Fff;
+    padding-left: 2%;
+  }
+
+  #parent_cover-dark{
+    background-color: #003047;
+    padding-left: 2%;
+  
+  }
+
+}
+
+@media screen  and (min-device-width : 260px) and (max-width:300px) {
+
+  #parent_cover-light{
+    background-color: #Fff;
+    /* padding-left: 0%; */
+    padding-right: 1%;
+  }
+
+  #parent_cover-dark{
+    background-color: #003047;
+    /* padding-left: 0%; */
+    padding-right: 1%;
+
+  }
+
+}
+
+@media screen  and (min-device-width : 561px) and (max-width:920px) {
+
+  #parent_cover-light{
+    background-color: #Fff;
+    padding-left: 2%;
+  }
+
+  #parent_cover-dark{
+    background-color: #003047;
+    padding-left: 2%;
+  
+  }
+
+}
+
 
 button {
   z-index: 500;

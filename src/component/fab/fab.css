@@ -1,41 +1,59 @@
 .light{
-    height: 180px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
     position: fixed;
     top: 40%;
     right: 1%;
     display: flex;
 }
+
+/* #sun .light{
+    display: none;
+} */
 
 
 .dark{
-    height: 180px;
-    width: 80px;
+
+    height: 50px;
+    width: 50px;
     position: fixed;
     top: 40%;
     right: 1%;
     display: flex;
 }
 
-@media only screen and (min-device-width : 260px) and (max-device-width : 1024px){
+@media only screen and (min-device-width : 260px) and (max-device-width : 604px){
 
     .light{
-        height: 180px;
-        width: 80px;
-        position: fixed;
-        bottom: 5%;
-        right: 1%;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        /* bottom: 5%; */
+        right: 5%;
         display: flex;
+        top: 10%;
+
     }
    
     
     .dark{
-        height: 180px;
+
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        /* bottom: 5%; */
+        right: 5%;
+        display: flex;
+        top: 10%;
+
+        /* height: 180px;
         width: 80px;
         position: fixed;
         bottom: 5%;
         right: 1%;
-        display: flex;
+        display: flex; */
     }
 }
+
+
 

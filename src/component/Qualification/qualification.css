@@ -451,7 +451,7 @@ width: 150px;
 
 }
 
-@media screen  and (min-device-width : 320px) and (max-width:767px) {
+@media screen  and (min-device-width : 320px) and (max-width:500px) {
   .section-cover {
     margin: auto;
     /* margin-top: 23rem; */
@@ -465,6 +465,7 @@ width: 150px;
     padding-bottom: 50px;
     text-align: left;
     max-width: 86%;
+    padding-top: 40%;
   }
   
   .qualification__divider {
@@ -558,6 +559,8 @@ width: 150px;
     padding-bottom: 50px;
     text-align: left;
     max-width: 86%;
+    padding-top: 50%;
+
 
   }
 
@@ -638,10 +641,208 @@ width: 150px;
 
 }
 
+@media screen  and (min-device-width : 501px) and (max-width:767px) {
+  .section-cover {
+    margin: auto 6%;
+    /* margin-top: 23rem; */
+    max-width: 50rem;
+    display: block;
+    padding-top: 30rem ;
+  }
+
+  section {
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: left;
+    max-width: 86%;
+    padding-top: 40%;
+  }
+  
+  .qualification__divider {
+    order: 1;
+    margin-left: 0;
+  }
+
+  .qualification__parentA {
+    order: 2;
+    width: 70%;
+    margin-left: -1rem;
+  }
+
+  .qualification__parentB {
+    order: 2;
+    position: fixed;
+    width: 70%;
+    left: 10;
+    bottom: -55%;
+    margin-left: 2rem;
+    height: fit-content;
+  }
+
+  .qualification__content {
+    margin: 10% 1%;
+  }
+
+  .qualification__divider1{
+    position: relative;
+    left: -1000%;
+  }
+  .qualification__parent2 {
+    position: relative;
+    top: 95%;
+    left: -90%;
+  }
+  
+  .qualification__parent3 {
+    position: relative;
+    bottom: -192%;
+    left: -214%;
+    
+  } 
+
+  #section_cover-dark .qualification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+    margin-top: 40px;
+    color: grey;
+  }
+
+  .section__title {
+    color:  rgb(209, 209, 209);
+    font-size: 20px;
+    padding-top: 80px;
+  }
+
+   .qualification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  #section_cover-light .qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    position: relative;
+    bottom: -5px;
+    margin: 0;
+    background-color: #003047;
+    transform: translate(6px, -7px);
+  }
+
+  /* ///light-mode//// */
+
+  #section_cover-light {
+    margin: auto 6%;
+    /* margin-top: 23rem; */
+    max-width: 50rem;
+    display: block;
+    padding-top: 30rem ;
+  }
+
+  #section_cover-light section {
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: left;
+    max-width: 86%;
+    padding-top: 50%;
+
+
+  }
+
+  #section_cover-light .qualification__tabs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2);
+    margin-top: 40px;
+    color: #003049;
+  }
+  
+  #section_cover-light .qualification__divider {
+    order: 1;
+    margin-left: 0;
+  }
+
+  #section_cover-light .qualification__parentA {
+    order: 2;
+    width: 70%;
+    margin-left: -1rem;
+  }
+
+  #section_cover-light .qualification__parentB {
+    order: 2;
+    position: fixed;
+    width: 70%;
+    left: 10;
+    bottom: -55%;
+    margin-left: 2rem;
+  }
+
+  #section_cover-light .qualification__content {
+    margin: 10% 0;
+  }
+
+  #section_cover-light .qualification__divider1{
+    position: relative;
+    left: -1000%;
+  }
+  #section_cover-light .qualification__parent2 {
+    position: relative;
+    top: 95%;
+    left: -90%;
+  }
+  
+  #section_cover-light .qualification__parent3 {
+    position: relative;
+    bottom: -200%;
+    left: -214%;
+    
+  } 
+
+  #section_cover-light  .section__title {
+    color: #003047;
+    font-size: 20px;
+    padding-top: 80px;
+  }
+
+  #section_cover-light .qualification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #f77f00;
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  #section_cover-light .qualification__line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    position: relative;
+    bottom: -5px;
+    margin: 0;
+    background-color: #f77f00;
+    transform: translate(6px, -7px);
+  }
+
+}
+
+
 @media screen  and (min-device-width : 768px) and (max-width:920px){
 .section-cover{
   padding-top: 60%;
 }
+
+#Fade-light {
+  padding-top: 6%;
+  padding-bottom: 100px;
+  margin: auto 7%;
+}
+
 }
 
 @media screen  and (device-width : 1024px) {

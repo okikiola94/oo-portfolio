@@ -171,7 +171,7 @@
 @media only screen and (min-device-width : 260px) and (max-device-width : 319px){
 
   .about-me{
-    margin: auto;
+    margin-left: auto;
     max-width: 90%;
     height: fit-content;
     padding-bottom: 15rem;
@@ -367,7 +367,7 @@ color: whitesmoke;
   color: grey;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
+  text-align: justify;
   width: 300px;
   text-justify: auto;
 }
@@ -436,7 +436,7 @@ order: 1;
 color: #003047;
 font-size: 18px;
 font-family: Arial, Helvetica, sans-serif;
-text-align: left;
+text-align: justify;
 width: 300px;
 }
 

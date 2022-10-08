@@ -125,6 +125,13 @@ text-decoration: none;
 text-align: center;
  }
 
+ .github-link{
+  color: #f77f00;
+  font-size: 22px;
+  text-decoration: underline #f77f00;
+  align-items: center;
+ }
+
  .project-links a:hover {
   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
   border: 3px solid #00d7c3;}
@@ -214,7 +221,7 @@ text-align: center;
 
 }
 
-#Fade-light .project-links a{
+ #Fade-light .project-links a{
 padding: 5px;
 font-size: 15px;
 margin-right: 10px;
@@ -228,11 +235,19 @@ transition: all .15s ease-in-out;
 color: #003049;
 text-decoration: none;
 text-align: center;
- }
+ } 
 
  .project-links a:hover {
   box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
   border: 3px solid #003047;}
+
+  #Fade-light .github-link{
+    color: #003047;
+    font-size: 22px;
+    text-decoration: underline #003049;
+    align-items: center;
+    justify-content: center;
+   }
 
 
 /* //responsive/// */
@@ -424,200 +439,202 @@ text-align: center;
 
 }
 
-@media only screen and (min-device-width: 320px) and (max-width:767px) {
 
-   #Fade-dark {
-    margin: auto 5%;
-    width: 86%;
-    text-align: left;
-    padding-bottom: 0%;
-    padding-top: 0%;
-  }
 
-  .fade-header h4 {
-    color: rgb(209, 209, 209);
-    font-size: 23px;
-    justify-content: center;
-    font-family: serif;
-    text-align: left;
-  }
+@media only screen and (min-device-width: 320px) and (max-width:507px) {
 
-  .fade-header h5 {
-    color: aqua;
-    font-size: 18px;
-    font-family: serif;
-    text-align: left;
+  #Fade-dark {
+   margin: auto 5%;
+   width: 86%;
+   text-align: left;
+   padding-bottom: 0%;
+   padding-top: 0%;
+ }
 
-  }
-  
-  .projects-grid{
-    width: fit-content;
-    margin: 0;
-    display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(1,4fr);
-  }
+ .fade-header h4 {
+   color: rgb(209, 209, 209);
+   font-size: 23px;
+   justify-content: center;
+   font-family: serif;
+   text-align: left;
+ }
 
-  .product-image{
-    width: 315px;
-    height:200px;
-    margin-bottom: 20px;
-  }
-  
-  .product-image img{
-    width: 100%;
-    height: 100%;
-  }
-  
-  .project{
-    width:100% ;
-  }
-  .project h4 {
-    color: rgb(197, 192, 192);;
-   font-size: 19px;
-   font-weight: 700;
-   margin: 2px 0;
-  }
-  
-  .project p {
-   line-height: 2rem;
-   color: gray;
+ .fade-header h5 {
+   color: aqua;
    font-size: 18px;
-   width: 290px;
-   height: fit-content;
-   margin: 2px 0;
-   
+   font-family: serif;
+   text-align: left;
+
+ }
+ 
+ .projects-grid{
+   width: fit-content;
+   margin: 0;
+   display: grid;
+   grid-gap: 2rem;
+   grid-template-columns: repeat(1,4fr);
+ }
+
+ .product-image{
+   width: 315px;
+   height:200px;
+   margin-bottom: 20px;
+ }
+ 
+ .product-image img{
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .project{
+   width:100% ;
+ }
+ .project h4 {
+   color: rgb(197, 192, 192);;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 2px 0;
+ }
+ 
+ .project p {
+  line-height: 2rem;
+  color: gray;
+  font-size: 18px;
+  width: 290px;
+  height: fit-content;
+  margin: 2px 0;
+  
+ }
+ 
+ 
+ 
+ .project p span{
+   color: #f77f00;
+   font-size: 17px;
+   font-weight: 500;
   }
-  
-  
-  
-  .project p span{
-    color: #f77f00;
-    font-size: 17px;
-    font-weight: 500;
+
+ 
+ .project-links a{
+ padding: 5px;
+ width: 70px;
+ font-size: 15px;
+ margin-right: 10px;
+ margin-bottom: 30px;
+ cursor: pointer;
+ display: inline-block;
+ background-color: transparent;
+ border: 1px solid aqua;
+ -webkit-transition: all .15s ease-in-out;
+ transition: all .15s ease-in-out;
+ color: aqua;
+ text-decoration: none;
+ text-align: center;
+  }
+ 
+  .project-links a:hover {
+   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+   border: 3px solid #00d7c3;}
+ 
+ 
+
+   /* ///light-mode//// */
+
+   #Fade-light{
+     margin: auto 5%;
+     width: 86%;
+     text-align: left;
+     padding-bottom: 0%;
+     padding-top: 0%;
    }
-
-  
-  .project-links a{
-  padding: 5px;
-  width: 70px;
-  font-size: 15px;
-  margin-right: 10px;
-  margin-bottom: 30px;
-  cursor: pointer;
-  display: inline-block;
-  background-color: transparent;
-  border: 1px solid aqua;
-  -webkit-transition: all .15s ease-in-out;
-  transition: all .15s ease-in-out;
-  color: aqua;
-  text-decoration: none;
-  text-align: center;
+ 
+   #Fade-light .fade-header h4 {
+     color: #003049;
+     font-size: 23px;
+     justify-content: center;
+     font-family: serif;
+     text-align: left;
    }
-  
-   .project-links a:hover {
-    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-    border: 3px solid #00d7c3;}
-  
-  
-
-    /* ///light-mode//// */
-
-    #Fade-light{
-      margin: auto 5%;
-      width: 86%;
-      text-align: left;
-      padding-bottom: 0%;
-      padding-top: 0%;
-    }
-  
-    #Fade-light .fade-header h4 {
-      color: #003049;
-      font-size: 23px;
-      justify-content: center;
-      font-family: serif;
-      text-align: left;
-    }
-  
-    #Fade-light .fade-header h5 {
-      color: #f77f00;
-      font-size: 18px;
-      font-family: serif;
-      text-align: left;
-  
-    }
-    
-    #Fade-light .projects-grid{
-      width: fit-content;
-      margin: 0;
-      display: grid;
-      grid-gap: 2rem;
-      grid-template-columns: repeat(1,4fr);
-    }
-  
-    #Fade-light .product-image{
-      width: 315px;
-      height:200px;
-      margin-bottom: 20px;
-    }
-    
-    #Fade-light .product-image img{
-      width: 100%;
-      height: 100%;
-    }
-    
-    #Fade-light .project{
-      width:100% ;
-    }
-    #Fade-light .project h4 {
-      color: #003047;;
-     font-size: 19px;
-     font-weight: 700;
-     margin: 2px 0;
-    }
-    
-    #Fade-light .project p {
-     line-height: 2rem;
-     color: #003047;
+ 
+   #Fade-light .fade-header h5 {
+     color: #f77f00;
      font-size: 18px;
-     width: 280px;
-     height: fit-content;
-     margin: 2px 0;
-     
-    }
-    
-    
-    #Fade-light .project p span{
-      color: #f77f00;
-      font-size: 17px;
-      font-weight: 500;
-     }
-  
-    
-    #Fade-light .project-links a{
-    padding: 5px;
-    width: 70px;
-    font-size: 15px;
-    margin-right: 10px;
-    margin-bottom: 30px;
-    cursor: pointer;
-    display: inline-block;
-    background-color: transparent;
-    border: 1px solid #003047;
-    -webkit-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
+     font-family: serif;
+     text-align: left;
+ 
+   }
+   
+   #Fade-light .projects-grid{
+     width: fit-content;
+     margin: 0;
+     display: grid;
+     grid-gap: 2rem;
+     grid-template-columns: repeat(1,4fr);
+   }
+ 
+   #Fade-light .product-image{
+     width: 315px;
+     height:200px;
+     margin-bottom: 20px;
+   }
+   
+   #Fade-light .product-image img{
+     width: 100%;
+     height: 100%;
+   }
+   
+   #Fade-light .project{
+     width:100% ;
+   }
+   #Fade-light .project h4 {
+     color: #003047;;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 2px 0;
+   }
+   
+   #Fade-light .project p {
+    line-height: 2rem;
     color: #003047;
-    text-decoration: none;
-    text-align: center;
-     }
+    font-size: 18px;
+    width: 280px;
+    height: fit-content;
+    margin: 2px 0;
+    
+   }
+   
+   
+   #Fade-light .project p span{
+     color: #f77f00;
+     font-size: 17px;
+     font-weight: 500;
+    }
+ 
+   
+   #Fade-light .project-links a{
+   padding: 5px;
+   width: 70px;
+   font-size: 15px;
+   margin-right: 10px;
+   margin-bottom: 30px;
+   cursor: pointer;
+   display: inline-block;
+   background-color: transparent;
+   border: 1px solid #003047;
+   -webkit-transition: all .15s ease-in-out;
+   transition: all .15s ease-in-out;
+   color: #003047;
+   text-decoration: none;
+   text-align: center;
+    }
 
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
+@media only screen and (min-device-width : 508px) and (max-device-width : 767px){
 
 
-  .Fade {
-    margin: auto 15%;
+  #Fade-dark {
+    margin: auto 6%;
     width: 80%;
     text-align: left;
     padding-bottom: 30%;
@@ -626,7 +643,7 @@ text-align: center;
   .fade-header h4 {
     color: rgb(209, 209, 209);
     font-size: 25px;
-    justify-content: center;
+    justify-content: left;
     font-family: serif;
     text-align: left;
   }
@@ -636,6 +653,12 @@ text-align: center;
     font-size: 23px;
     font-family: serif;
     text-align: left;
+
+  }
+
+  .fade-header {
+    margin: auto ;
+
 
   }
   
@@ -648,7 +671,7 @@ text-align: center;
   }
 
   .product-image{
-    min-width: 580px;
+    width: 450px;
     height:280px;
     margin-bottom: 20px;
   }
@@ -672,7 +695,7 @@ text-align: center;
    line-height: 2rem;
    color: gray;
    font-size: 18px;
-   width: 500px;
+   width: 400px;
    height: fit-content;
    margin: 2px 0;
    
@@ -716,11 +739,11 @@ text-align: center;
 
     /* ///light-mode//// */
 
-    #Fade-light .Fade {
-      margin: auto 15%;
+    #Fade-light {
+      margin: auto 6%;
       width: 80%;
       text-align: left;
-      padding-bottom: 30%;
+      padding-bottom: 10%;
     }
   
     #Fade-light .fade-header h4 {
@@ -748,7 +771,7 @@ text-align: center;
     }
   
     #Fade-light .product-image{
-      width: 580px;
+      width: 450px;
       height:280px;
       margin-bottom: 20px;
     }
@@ -772,7 +795,7 @@ text-align: center;
      line-height: 2rem;
      color: #003047;
      font-size: 18px;
-     width: 480px;
+     width: 450px;
      height: fit-content;
      margin: 2px 0;
      

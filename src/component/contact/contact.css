@@ -400,11 +400,11 @@ font-family: 'Manrope', sans-serif;}
 
   .form button {
 
-    width: 150px;
+    width: 130px;
       padding-top: 20px;
       padding-bottom: 20px;
       font-weight: 600;
-      margin-left: 30px;
+      margin-left: 0px;
       margin-bottom: 30px;
       cursor: pointer;
       display: inline-block;
@@ -425,12 +425,12 @@ font-family: 'Manrope', sans-serif;}
   }
 
   .message-container textarea {
-    background-color: transparent;
+    background-color: #dfd9e2;
     border-radius: 5px;
-    border: 1px solid transparent whitesmoke;
+    border: 1px solid #dfd9e2;
     width: 220px;
     height: 150px;
-    color: whitesmoke;
+    color: grey;
     font-size: large;
     font-family: 'Manrope', sans-serif;
   }
@@ -549,10 +549,10 @@ font-family: 'Manrope', sans-serif;}
 
 
 
-@media only screen and (min-device-width : 320px) and (max-width:767px){
+@media only screen and (min-device-width : 320px) and (max-width:500px){
   .Contact-container {
     margin: 0;
-    width: 37%;
+    width: 75%;
 }
 
   .input-container{
@@ -565,11 +565,11 @@ font-family: 'Manrope', sans-serif;}
 
   .form button {
 
-    width: 170px;
+    width: 150px;
       padding-top: 20px;
       padding-bottom: 20px;
       font-weight: 600;
-      margin-left: 30px;
+      margin-left: 0px;
       margin-bottom: 30px;
       cursor: pointer;
       display: inline-block;
@@ -678,11 +678,11 @@ font-family: 'Manrope', sans-serif;}
 
 #contact_section-light .form button {
 
-  width: 170px;
+  width: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-weight: 600;
-    margin-left: 30px;
+    margin-left: 0px;
     margin-bottom: 30px;
     cursor: pointer;
     display: inline-block;
@@ -745,12 +745,208 @@ font-family: 'Manrope', sans-serif;}
 
 }
 
+@media only screen and (min-device-width : 501px) and (max-width:767px){
+  .Contact-container {
+    margin: 0;
+    width: 75%;
+}
+
+  .input-container{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(1, 2fr);
+    padding-top: 12px;
+    /* width: 0%; */
+  }
+
+  .form button {
+
+    width: 170px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-weight: 600;
+      margin-left: 30px;
+      margin-bottom: 30px;
+      cursor: pointer;
+      display: inline-block;
+      background-color: transparent;
+      border: 3px solid #00d7c3;
+      -webkit-transition: all .15s ease-in-out;
+      transition: all .15s ease-in-out;
+      color: #00d7c3;   
+    
+  }
+  .contact-paragraph-container {
+    display: none;
+  }
+
+  .form {
+    margin: auto;
+    z-index: 1;
+  }
+
+  .Contact-inner-container {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    justify-items: left;
+    align-content: left;
+}
+
+.contact-section-container {
+  padding-top: 0%;
+  width: 80%;
+  margin: auto 7%;
+}
+
+  .Contact-inner-container h4 {
+    color: rgb(197, 192, 192);
+    font-family: serif;
+    text-align: left;
+    font-size: 25px;
+}
+
+#contact_section-light h4 {
+  color: #003047;
+  font-family: serif;
+  text-align: left;
+  font-size: 25px;
+}
+
+  .message-container textarea {
+    background-color: #dfd9e2;
+    border-radius: 5px;
+    border: 1px solid #dfd9e2;
+    width: 400px;
+    height: 150px;
+    color: #dfd9e2;
+    font-size: large;
+    font-family: 'Manrope', sans-serif;
+  }
+  .Name-input input {
+    background-color: #dfd9e2;
+    border-radius: 5px;
+    border: 1px solid  #dfd9e2;
+    width: 400px;
+    height: 30px;
+    color: #dfd9e2;
+    font-size: large;
+    font-family: 'Manrope', sans-serif;
+  
+  }
+  
+  .Email-container input {
+    background-color: #dfd9e2;
+    border-radius: 5px;
+    border: 1px solid #dfd9e2;
+    width: 400px;
+    height: 30px;
+    margin: 5% 0;
+    color: grey;
+    font-size: large;
+    font-family: 'Manrope', sans-serif;
+  }
+  .email-container {
+    margin: 10px;
+  }
+
+  .email-container a, .contactnumber-container a, .location-container p  {
+    font-size: medium;
+  }
+
+
+
+/* ///light-mode/// */
+
+#contact_section-light .contact-section-container {
+  width: 80%;
+  margin: auto;
+}
+
+#contact_section-light .input-container{
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(1, 2fr);
+  padding-top: 8px;
+}
+
+#contact_section-light .form button {
+
+  width: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: 3px solid #003047;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: #003047;   
+  
+}
+.contact-paragraph-container {
+  display: none;
+}
+
+#contact_section-light .form {
+  margin: auto;
+  z-index: 1;
+}
+
+#contact_section-light .message-container textarea {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid transparent #003047;
+  width: 400px;
+  height: 150px;
+  color: #003047;
+  font-size: large;
+  font-family: 'Manrope', sans-serif;
+}
+#contact_section-light .Name-input input {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid transparent #003047;
+  width: 400px;
+  height: 30px;
+  color: #003047;
+  font-size: large;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+#contact_section-light .Email-container input {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid transparent #003047;
+  width: 400px;
+  height: 30px;
+  margin: 5% 0;
+  color: #003047;
+  font-size: large;
+  font-family: 'Manrope', sans-serif;
+}
+#contact_section-light .email-container {
+  margin: 10px;
+}
+
+#contact_section-light .email-container a, .contactnumber-container a, .location-container p  {
+  font-size: medium;
+}
+
+}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
   .contact-section-container {
     width: 80%;
-    margin: auto;
+    margin: auto 6%;
     padding-bottom: 30%;
-    padding-top: 71%;
+    padding-top: 0%;
     align-items: center;
     padding-left: 3%;
 

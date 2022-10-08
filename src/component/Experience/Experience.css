@@ -256,7 +256,7 @@ border: 3px solid #00d7c3;}
   }
 
 
-  @media screen and (min-device-width : 320px) and (max-width: 768px){
+  @media screen and (min-device-width : 320px) and (max-width: 519px){
 
     #work_experience-dark{
       margin-top: auto;
@@ -321,6 +321,71 @@ border: 3px solid #00d7c3;}
 
   }
 
+  @media screen and (min-device-width : 520px) and (max-width: 767px){
+
+    #work_experience-dark{
+      margin-top: auto;
+      margin-left: 11%;
+      padding-top: 0%;
+      width: 80%;
+      min-height: 100vh;
+      padding-bottom: 10%;
+      background-color: #003047;
+    }
+
+    .work-experience h4 {
+      color: rgb(209, 209, 209);
+      font-size: 25px;
+      /* justify-content: center; */
+      text-align: left;
+      font-family: serif;
+      margin-left: auto;
+    }
+
+    /* .work-experience{
+      margin: auto;
+      display: block;
+      width: 60%;
+      padding-top: 5rem;
+      padding-bottom: 5%;
+    } */
+    .class_container {
+      margin: auto;
+      max-width: 28rem;
+      height: 500px;
+      display: grid;
+      grid-template-columns: repeat(1, 3fr);
+      grid-gap: 10px;
+      justify-content: space-around;
+      padding: auto 3px;
+    }
+
+    #work_experience-light{
+      margin-top: auto;
+      margin-left: 11%;
+      padding-top: 0%;
+      width: 80%;
+      min-height: 100vh;
+      padding-bottom: 10%;
+    }
+
+    div.class {
+      width: 17rem;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      height: 400px;
+      border-radius: 10px;
+      margin: 0;
+      font-family: SF Pro Display, sans-serif;
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 15px;}
+
+  }
+
   @media only screen and (min-device-width : 768px) and (max-device-width : 1023px){
 
     .work-experience{
@@ -329,6 +394,7 @@ border: 3px solid #00d7c3;}
       width: 60%;
       padding-top: 5rem;
       padding-bottom: 5rem;
+      margin-left: 17%;
     }
     .class_container {
       margin: auto;
@@ -345,12 +411,14 @@ border: 3px solid #00d7c3;}
       margin-left: 55%;
     }
 
-    #work_experience-light .work-experience{
+    #work_experience-light{
       margin: auto;
       display: block;
       width: 60%;
       padding-top: 5rem;
       padding-bottom: 5rem;
+      margin-left: 17%;
+
     }
   }
   
