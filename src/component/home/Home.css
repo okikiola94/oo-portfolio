@@ -1,27 +1,39 @@
 .home {
-    margin: auto 15%;
+    margin: auto 10%;
     width: 80%;
+    display: grid; 
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-gap: 1rem;
     align-items: left;
+    padding-bottom: 5%;
     /* min-height: 100vh; */
 }
  
   .front-end {
     margin: auto;
     text-align: left;
-    padding-top: 10% ;
+    padding-top: 15% ;
+  }
+  .illustration img{
+    width: 100%;
+    height: 100%;
   }
  
+
   h1.animate__animated.animate__zoomIn {
-    color: rgb(197, 192, 192);
-    font-size: 80px;
+    color: #fff;
+    font-size: 36pt;
     line-height: 0.5em;
     width: 100%;
+    font-family: poppins;
+    font-weight: bolder;
   }
   
   h2.animate__animated.animate__zoomIn{
-    color: grey;
+    color: #0074ff;
     font-size: 25px;
     line-height: 0.5em;
+    font-weight:normal;
   
   }
   
@@ -30,12 +42,14 @@
   }
   
  .front-end p.animate__animated.animate__zoomIn{
-    color: grey;
+    color: #fff;
     font-size: 17px;
-    text-align: left;
-    font-family: sans-serif;
+    text-align: justify;
+    font-family: poppins;
     max-width: 550px;
-    padding: 2% 0%;
+    padding: 0% 0%;
+    font-weight: lighter;
+
   }
   
   .animate__animated.animate__zoomIn {
@@ -44,9 +58,9 @@
   }
   
   h3.animate__animated.animate__zoomIn{
-    color: aqua;
-    font-size: 30px;
-    font-family: serif;
+    color: #0074ff;
+    font-size: 22pt;
+    font-family: poppins;
   
   }
   
@@ -54,39 +68,52 @@
     --animate-duration: 2s;
   }
   
-  .front-end h1:hover {
-    color: rgb(240, 255, 240);
   
-  }
 
   .front-end button {
-    width: 170px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 161px;
+    height: 49px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
     text-align: center;
     font-weight: 600;
+    font-size: 10pt;
     /* margin-left: 2%; */
     margin-bottom: 30px;
     cursor: pointer;
     display: inline-block;
-    background-color: transparent;
-    border: 3px solid #00d7c3;
+    background-color: #0074ff;
+    border: 3px solid #0074ff;
+    border-radius: 24px;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
-    color: #00d7c3;
+    color: #000;
+    font-family: poppins;
   }
    .front-end button a{
     text-decoration: none;
     text-align: left;
-   
-
+  
   }
 
-  .front-end button:hover {
+  #home-light .display-dark{
+    display: none;
+  }
+
+  #home-dark .display-light{
+    display: none;
+  }
+
+
+
+ 
+
+
+  /* .front-end button:hover {
     box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
     border: 3px solid #00d7c3;
 
-  }
+  } */
 
 
   /* //light-mode/// */
@@ -104,59 +131,65 @@
   } */
 
   #home-light h2{
-    color:  #003047;
+    color:  #000;
     font-size: 25px;
     line-height: 0.5em;
   }
 
   #home-light h1{
-    color:  #003047;
-    font-size: 80px;
+    color:  #000;
+    font-size: 36pt;
     line-height: 0.5em;
   }
 
    #home-light p{
-    color:  #003047;
+    color:  #000;
     font-size: 17px;
     text-align: left;
-    font-family: sans-serif;
-    width: 550px;
+    font-family: poppins;
+    max-width: 550px;
     padding: 2% 0%;
   }
 
   #home-light h3{
-    color: #f77f00;
+    color: #0074ff;
     font-size: 30px;
-    font-family: serif;
+    font-family: poppins;
   }
 
   #home-light button{
-    width: 170px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 161px;
+    height: 49px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
     text-align: center;
     font-weight: 700;
     /* margin-left: 30px; */
     margin-bottom: 30px;
     cursor: pointer;
     display: inline-block;
-    background-color: transparent;
-    border: 3px solid #003047;
+    background-color: #0074ff;
+    border-radius: 24px;
+    border: 3px solid #0074ff;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
-    color: #003047;
+    color: #ffffff;
   }
 
-  #home-light button:hover {
+  /* #home-light button:hover {
     box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
     background-color: #003047;
     border: 3px solid #003047;
     color: whitesmoke;
-  }
+  } */
 
 #home-light button a{
   text-decoration: none;
 }
+
+
+
+
 
 
   /* //responsiveness/// */
@@ -169,6 +202,8 @@
       align-items: center;
       margin-left: auto;
       padding-top: 10%;
+      grid-template-columns: repeat(1, 2fr);
+      grid-gap: 1rem;
   
       }
   
@@ -177,38 +212,46 @@
   margin-right: auto;
   display: inline-block;
   text-align: left;
+  order: 2;
+      }
+
+      .illustration{
+        display: none;
+        order: 1;
+        width: 80%;
+        height: fit-content;
       }
   
       h1.animate__animated.animate__zoomIn {
-        color: rgb(197, 192, 192);
-        font-size: 45px;
+        color: #ffffff;
+        font-size: 40px;
         line-height: 1em;
       }
   
-      .front-end h1:hover {
+      /* .front-end h1:hover {
         color: rgb(240, 255, 240);
       
-      }
+      } */
       
-      h2 .animate__animated.animate__zoomIn {
+      /* h2 .animate__animated.animate__zoomIn {
         color: grey;
         font-size: 18px;
         line-height: 0.5em;
       
-      }
+      } */
   
       h3 .animate__animated.animate__zoomIn{
-        color: aqua;
+        color: #0074ff;
         font-size: 18px;
-        font-family: serif;
+        font-family: poppins;
       
       }
   
     .front-end  p .animate__animated.animate__zoomIn{
-        color: grey;
+        color: #ffffff;
         font-size: 13px;
         text-align: left;
-        font-family: sans-serif;
+        font-family: poppins;
         width: 170px;
         text-justify: auto;
       }
@@ -230,7 +273,7 @@
       }
     
       #home-light h1{
-        color:  #003047;
+        color:  #000;
         font-size: 40px;
         line-height: 1em;
         
@@ -239,17 +282,17 @@
        #home-light p{
         font-size: 13px;
         text-align: left;
-        font-family: sans-serif;
+        font-family: poppins;
         width: 170px;
         text-justify: auto;
-        color:  #003047;
+        color:  #000;
         
       }
     
       #home-light h3{
-        color: #f77f00;
+        color: #0074ff;
         font-size: 18px;
-        font-family: serif;
+        font-family: poppins;
       }
     
 
@@ -272,18 +315,31 @@ margin-left: auto;
 margin-right: auto;
 display: inline-block;
 text-align: left;
+order: 2;
+    }
+
+    
+    .illustration{
+      display: none;
+      order: 1;
+      width: 80%;
+      height: fit-content;
+    }
+    .illustration img{
+      width: 100%;
+      height: 100%;
     }
 
     h1.animate__animated.animate__zoomIn{
-      color: rgb(197, 192, 192);
+      color: #ffffff;
       font-size: 50px;
       line-height: 1em;
     }
 
-    .front-end h1:hover {
+    /* .front-end h1:hover {
       color: rgb(240, 255, 240);
     
-    }
+    } */
     
    .front-end h2 .animate__animated.animate__zoomIn {
       color: grey;
@@ -293,17 +349,17 @@ text-align: left;
     }
 
     h3 .animate__animated.animate__zoomIn {
-      color: aqua;
+      color: #0074ff;
       font-size: 22px;
-      font-family: serif;
+      font-family: poppins;
     
     }
 
     #home-dark p{
-      color: grey;
+      color: #ffffff;
       font-size: 18px;
       text-align: justify;
-      font-family: sans-serif;
+      font-family: poppins;
       width: 100%;
       text-justify: auto;
     }
@@ -317,15 +373,15 @@ text-align: left;
       padding-top: 10%;
   
       }
-
+/* 
     #home-light h2{
       font-size: 25px;
       line-height: 0.5em;
       color:  #003047;
-    }
+    } */
   
     #home-light h1{
-      color:  #003047;
+      color:  #000;
       font-size: 50px;
       line-height: 1em;
       
@@ -334,17 +390,17 @@ text-align: left;
      #home-light p{
       font-size: 18px;
       text-align: justify;
-      font-family: sans-serif;
+      font-family: poppins;
       width: 100%;
       text-justify: auto;
-      color:  #003047;
+      color:  #000;
       
     }
   
     #home-light h3{
-      color: #f77f00;
+      color: #0074ff;
       font-size: 30px;
-      font-family: serif;
+      font-family: poppins;
     }
   
 
@@ -366,17 +422,18 @@ text-align: left;
       align-items: center;
       margin-left: auto;
       padding-top: 10%;
+      /* width: 100%; */
   
       }
 
-    #home-dark h2{
+    /* #home-dark h2{
       font-size: 26px;
       line-height: 0.5em;
       color:  grey;
-    }
+    } */
   
     #home-dark h1{
-      color:  rgb(197, 192, 192);
+      color:  #ffffff;
       font-size: 55px;
       line-height: 1em;
       
@@ -385,17 +442,28 @@ text-align: left;
      #home-dark p{
       font-size: 18px;
       text-align: left;
-      font-family: sans-serif;
-      width: 280px;
+      font-family: poppins;
+      /* width: 280px; */
       text-justify: auto;
-      color:  grey;
+      color:  #ffffff;
       
     }
+
+    .front-end {
+      margin: auto;
+      text-align: left;
+      padding-top: 5%;
+      width: 150%;
+  }
   
+
+  .illustration{
+    display: none;
+  }
     #home-dark h3{
-      color: aqua;
+      color: #0074ff;
       font-size: 23px;
-      font-family: serif;
+      font-family: poppins;
     }
 
     #home-light{
@@ -409,14 +477,14 @@ text-align: left;
   
       }
 
-    #home-light h2{
+    /* #home-light h2{
       font-size: 26px;
       line-height: 0.5em;
       color:  #003047;
-    }
+    } */
   
     #home-light h1{
-      color:  #003047;
+      color:  #000;
       font-size: 55px;
       line-height: 1em;
       
@@ -425,32 +493,37 @@ text-align: left;
      #home-light p{
       font-size: 18px;
       text-align: left;
-      font-family: sans-serif;
-      width: 280px;
+      font-family: poppins;
+      width: 100%;
       text-justify: auto;
-      color:  #003047;
+      color:  #000;
       
     }
   
     #home-light h3{
-      color: #f77f00;
+      color: #0074ff;
       font-size: 23px;
-      font-family: serif;
+      font-family: poppins;
     }
   
   }
 
-  @media only screen and (min-device-width : 820px) and (max-device-width : 1024px){
+  @media only screen and (min-device-width : 820px) and (max-device-width : 1023px){
     .home{
-      width: 80%;
+      grid-template-columns: 100%;
+      width: 100%;
       height: fit-content;
       align-items: center;
       margin: auto;  
       justify-content: space-between;
       justify-items: center;
       align-items: center;
-      padding-top: 12%;
+      padding-top: 0%;
     }
+
+.illustration{
+  display: none;
+}
 
     .front-end{
       margin-left: auto;
@@ -461,14 +534,14 @@ text-align: left;
           }
       
           h1.animate__animated.animate__zoomIn{
-            color: rgb(197, 192, 192);
-            font-size: 65px;
+            color: #ffffff;
+            font-size: 62px;
             line-height: 1em;
             margin: auto;
             /* max-width: 550px; */
 
           }
-
+/* 
           .front-end h1:hover {
             color: rgb(240, 255, 240);
           
@@ -479,23 +552,23 @@ text-align: left;
             font-size: 25px;
             line-height: 0.5em;
           
-          }
+          } */
 
-          h3 .animate__animated.animate__zoomIn {
-            color: aqua;
-            font-size: 28px;
-            font-family: serif;
+          #home-dark h3 {
+            color: #0074ff;
+            font-size: 31px;
+            font-family: poppins;
             /* width: 400px; */
           
           }
 
           
-          p .animate__animated.animate__zoomIn {
-            color: grey;
-            font-size: 20px;
-            text-align: left;
-            font-family: sans-serif;
-           max-width:500px;
+          #home-dark p{
+            color: #ffffff;
+            font-size: 29px;
+            text-align: justify;
+            font-family: poppins;
+           max-width:550px;
             text-justify: auto;
             line-height: 1.5em;
           }
@@ -503,12 +576,12 @@ text-align: left;
 /* ////light-mode/// */
 
           #home-light{
-            grid-template-columns: 60%;
-            width: 80%;
+            grid-template-columns: 100%;
+            width: 100%;
             height: fit-content;
             align-items: center;
             margin-left: auto;
-            padding-top: 12%;
+            padding-top: 0%;
         
             }
       
@@ -520,53 +593,192 @@ text-align: left;
               max-width: 670px;
                   }
 
-          #home-light h2{
+          /* #home-light h2{
             font-size: 25px;
             line-height: 0.5em;
             color:  #003047;
-          }
+          } */
         
           #home-light h1{
-            color:  #003047;
-            font-size: 65px;
+            color:  #000;
+            font-size: 62px;
             line-height: 1em;
            max-width: 650px;
             
           }
         
            #home-light p{
-            font-size: 20px;
-            text-align: left;
-            font-family: sans-serif;
-            width: 500px;
+            font-size: 29px;
+            text-align: justify;
+            font-family: poppins;
+            width: 550px;
             text-justify: auto;
-            color:  #003047;
+            color:  #000;
             line-height: 1.5em;
             
           }
         
           #home-light h3{
-            color: #f77f00;
-            font-size: 28px;
-            font-family: serif;
+            color: #0074ff;
+            font-size: 31px;
+            font-family: poppins;
 
           }
 
           #home-light button{
             width: 170px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            /* padding-top: 20px;
+            padding-bottom: 20px; */
             text-align: center;
             font-weight: 700;
             /* margin-left: 30px; */
             margin-bottom: 30px;
             cursor: pointer;
             display: inline-block;
-            background-color: transparent;
-            border: 3px solid #003047;
+            background-color: #0074ff;
+            border: 3px solid #0074ff;
+            border-radius: 24px;
             -webkit-transition: all .15s ease-in-out;
             transition: all .15s ease-in-out;
-            color: #003047;
+            color: #ffffff;
+          }
+        
+        
+  }
+
+  @media only screen and (device-width : 1024px) {
+    .home{
+      grid-template-columns: 85%;
+      width: 100%;
+      height: fit-content;
+      align-items: center;
+      margin: auto;  
+      justify-content: space-between;
+      justify-items: center;
+      align-items: center;
+      padding-top: 0%;
+    }
+
+.illustration{
+  display: none;
+}
+
+    .front-end{
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      text-align: left;
+      max-width: 670px;
+          }
+      
+          h1.animate__animated.animate__zoomIn{
+            color: #ffffff;
+            font-size: 64px;
+            line-height: 1em;
+            margin: auto;
+            /* max-width: 550px; */
+
+          }
+/* 
+          .front-end h1:hover {
+            color: rgb(240, 255, 240);
+          
+          }
+          
+          h2 .animate__animated.animate__zoomIn {
+            color: grey;
+            font-size: 25px;
+            line-height: 0.5em;
+          
+          } */
+
+          #home-dark h3 {
+            color: #0074ff;
+            font-size: 31px;
+            font-family: poppins;
+            /* width: 400px; */
+          
+          }
+
+          
+          #home-dark p{
+            color: #ffffff;
+            font-size: 25px;
+            text-align: justify;
+            font-family: poppins;
+           max-width:100%;
+            text-justify: auto;
+            line-height: 1.5em;
+          }
+
+/* ////light-mode/// */
+
+          #home-light{
+            grid-template-columns: 85%;
+            width: 100%;
+            height: fit-content;
+            align-items: center;
+            margin-left: auto;
+            padding-top: 0%;
+        
+            }
+      
+           #home-light .front-end{
+              margin-left: auto;
+              margin-right: auto;
+              display: inline-block;
+              text-align: left;
+              max-width: 670px;
+                  }
+
+          /* #home-light h2{
+            font-size: 25px;
+            line-height: 0.5em;
+            color:  #003047;
+          } */
+        
+          #home-light h1{
+            color:  #000;
+            font-size: 62px;
+            line-height: 1em;
+           max-width: 650px;
+            
+          }
+        
+           #home-light p{
+            font-size: 25px;
+            text-align: justify;
+            font-family: poppins;
+            max-width: 100%;
+            text-justify: auto;
+            color:  #000;
+            line-height: 1.5em;
+            
+          }
+        
+          #home-light h3{
+            color: #0074ff;
+            font-size: 31px;
+            font-family: poppins;
+
+          }
+
+          #home-light button{
+            width: 170px;
+            /* padding-top: 20px;
+            padding-bottom: 20px; */
+            text-align: center;
+            font-weight: 700;
+            /* margin-left: 30px; */
+            margin-bottom: 30px;
+            cursor: pointer;
+            display: inline-block;
+            background-color: #0074ff;
+            border: 3px solid #0074ff;
+            border-radius: 24px;
+            -webkit-transition: all .15s ease-in-out;
+            transition: all .15s ease-in-out;
+            color: #ffffff;
           }
         
         

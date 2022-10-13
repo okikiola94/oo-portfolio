@@ -4,10 +4,10 @@
     display: flex;
     align-items: center;
     position: fixed;
-    top: 0;
+    top: 3%;
     left: 0;
     right: 0;
-    padding: 1.5rem 0rem;
+    /* padding: 1.5rem 0rem; */
     background-color: transparent;
     z-index: 10;
     opacity: 0.3;
@@ -30,10 +30,10 @@
     display: flex;
     align-items: center;
     position: fixed;
-    top: 0;
+    top: 3%;
     left: 0;
     right: 0;
-    padding: 1.5rem 0rem;
+    /* padding: 1.5rem 0rem; */
     background-color: transparent;
     z-index: 10;
     opacity: -0;
@@ -92,43 +92,55 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    color: rgba(167, 167, 167, 0.849);
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 15pt;
+    font-family: poppins;
   }
   .navigation-menu-inactive-light{
     text-decoration: none;
     display: block;
     width: 100%;
-    color:  #003049;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    color:  #000;
+    font-size: 15pt;
+    font-family: poppins;
   }
   
   .navigation-menu-active {
     /* // increases the surface area of the anchor tag to span more than just the anchor text */
     text-decoration: none;
     display: block;
-    width: 100%;
-    color: aqua;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    width: 70px;
+    height: 20px;  
+      color: #000;
+      padding: 10px;
+      justify-items: center;
+    font-size: 14pt;
+    background-color: #0074ff;
+    border: 3px solid #0074ff;
+    border-radius: 24px;    
+    font-family: poppins;
   }
+
+
+  
 
  #navigation-light .navigation-menu-active{
     text-decoration: none;
     display: block;
     width: 100%;
-    color:  #f77f00;
-    font-size: large;
+    color:  #ffffff;
+    font-size: 14pt;
     font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: poppins;
+    background-color: #0074ff;
+    border: 3px solid #0074ff;
+    border-radius: 24px; 
   }
   
   .navigation-menu-inactive:hover, .navigation-menu-inactive-light:hover {
     font-size: 20px;
     transition: 0.7s;
-    color: #fcbf49;
+    /* color: #fcbf49; */
   }
   
   .hamburger {
@@ -164,8 +176,8 @@
   }
 
   #navigation-light .hamburger .line {
-    border: solid 1px #003047;
-    background-color: #003047;
+    border: solid 1px #0a185b;
+    background-color: #0a185b;
     width: 30px;
     height: 1px;
     margin-top: 0px;

@@ -11,7 +11,9 @@ const Experience = () => {
     const [showOperationSkill, setShowOperationSkill] = useState(false);
     return <ThemeContext.Consumer>
     {context => (<div className="work-experience" id={context.userTheme==="light"? "work_experience-light":"work_experience-dark"}>
-        <h4>SERVICES</h4>
+        <div className='experience-inner'>
+        <h4>Services</h4>
+        </div>
         <h5>What I do</h5>
         <div className='class_container'>
             <div className="class">
@@ -21,13 +23,13 @@ const Experience = () => {
                     <p>Transforming a UX/UI design (sketch, mockup) into reality by developing user friendly websites to Improve usability with new features and processes.</p>
                 </div>
                 :
-                <div className='skill-list'>     
+                <ul className='skill-list'>     
                     <li>CSS</li> 
                     <li>Html</li>
                     <li>Reactjs</li>
                     <li>Wordpress</li>
                     <li>Javascript</li>  
-                </div>}
+                </ul>}
                 <div className='show-skill-button'>
                 <button onClick={()=>setShowFrontEndSkill(!showFrontEndSkill)} className='display-skills'>{!showFrontEndSkill?'View Skills':'Go Back'}</button>
                 </div>

@@ -4,7 +4,7 @@
   padding-left: 3px;
   position:sticky;
   /* bottom: 45%; */
-  top: 35%;
+  top: 25%;
   position: fixed;
   }
 
@@ -53,7 +53,7 @@ display: none;
  li a{
   display: block;
   text-decoration: none;
-  padding: 10px;
+  padding: 5px;
  }
 
 /* ///light-mode/// */
@@ -74,8 +74,13 @@ display: none;
     right: auto;
 }
 
-#social-buttons-light .contact-section-dark-display{
+/* #social-buttons-light .contact-section-dark-display{
   display: none;
+  } */
+
+ .social-buttons-container li a img{
+width: 35px;
+height: 35px;
   }
 
   /* ////responsiveness///// */
@@ -110,9 +115,7 @@ display: none;
     }
 
     
-    #social-buttons-dark .contact-section-light-display{
-    display: none;
-    }
+   
     
     #social-buttons-dark .contact-icons-link-dark :hover{
       transition: 5s;
@@ -146,9 +149,7 @@ display: none;
         right: auto;
     }
     
-    #social-buttons-light .contact-section-dark-display{
-      display: none;
-      }
+    
 
   }
 
@@ -183,9 +184,7 @@ display: none;
     }
 
     
-    #social-buttons-dark .contact-section-light-display{
-    display: none;
-    }
+   
     
     #social-buttons-dark .contact-icons-link-dark :hover{
       transition: 5s;
@@ -220,9 +219,7 @@ display: none;
         right: auto;
     }
     
-    #social-buttons-light .contact-section-dark-display{
-      display: none;
-      }
+   
 
     }
   
@@ -260,9 +257,7 @@ display: none;
       }
   
       
-      #social-buttons-dark .contact-section-light-display{
-      display: none;
-      }
+     
       
       #social-buttons-dark .contact-icons-link-dark :hover{
         transition: 5s;
@@ -296,9 +291,6 @@ display: none;
           right: auto;
       }
       
-      #social-buttons-light .contact-section-dark-display{
-        display: none;
-        }
     }
 
 
@@ -335,9 +327,7 @@ display: none;
     }
 
     
-    #social-buttons-dark .contact-section-light-display{
-    display: none;
-    }
+    
     
     #social-buttons-dark .contact-icons-link-dark :hover{
       transition: 5s;
@@ -370,9 +360,7 @@ display: none;
         right: auto;
     }
     
-    #social-buttons-light .contact-section-dark-display{
-      display: none;
-      }
+   
   }
 
   @media only screen and (min-device-width : 820px) and (max-device-width : 1024px){
@@ -407,9 +395,7 @@ display: none;
     }
 
     
-    #social-buttons-dark .contact-section-light-display{
-    display: none;
-    }
+    
     
     #social-buttons-dark .contact-icons-link-dark :hover{
       transition: 5s;
@@ -442,8 +428,6 @@ display: none;
         right: auto;
     }
     
-    #social-buttons-light .contact-section-dark-display{
-      display: none;
-      }
+    
    
   }

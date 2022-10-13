@@ -19,7 +19,7 @@ const Input = () => {
      {context =><section className="contact-section-container" id={context.userTheme==="light"? "contact_section-light":"contact_section-dark"}>
           <div className='contact-heading-container'>
           <div className='Contact-container'>
-               <div className='Contact-inner-container'><h4>CONTACT ME</h4><span className='line' /></div>
+               <div className='Contact-inner-container'><h4>Contact Me</h4><span className='line' /></div>
                <h5> Get In Touch</h5>
           </div>
           <div className='contact-paragraph-container'>

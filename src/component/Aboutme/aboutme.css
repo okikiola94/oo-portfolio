@@ -1,21 +1,33 @@
 .about-me {
-  margin: auto 15%;
+  margin: auto 10%;
     max-width: 80%;
     padding-top: 10% ;
-
+/* background-color: #0074ff; */
   }
   
  
-.my-image{
+/* .my-image{
   width: 280px;
   height: 310px;
-}
+} */
 
 .my-image img{
   width: 100%;
   height: 100%;
 }
+.transparent-div{
+  width: 500px;
+  height: 500px;
+  margin-top: -10%;
+
+}
+
+.my-image{
+  width: 100%;
+  height: 100%;
+}
  
+
   
   .about-me button a{
     text-decoration: none;
@@ -28,38 +40,42 @@
   }
   
 .inner-paragraph-grid{
-  /* display: grid; */
-    /* grid-template-columns: 50% 40%; */
+  display: grid;
+    grid-template-columns: 45% 45%;
     /* padding: 3% 0; */
     width: 100%;
     align-items: left;
-    /* grid-gap: 10%; */
+    grid-gap: 5%;
 }
 
 .about-me-header{
-  text-align: left;
+  text-align: right;
+  margin-right: 36%;
+  margin-bottom: -5%;
 }
 
   h4.animate__animated.animate__zoomIn {
-    color: rgb(197, 192, 192);
-    font-size: 25px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 30px;
     line-height: 0.5em;
-    font-family: serif;
+    font-family: poppins;
+    width: 100%;
   }
 
   
   h5.animate__animated.animate__zoomIn {
-    color: aqua;
+    color: #0074ff;
     font-size: 20px;
     line-height: 0.5em;
-    font-family: sans-serif;
+    font-family: poppins;
     margin-top: -10px;
   }
   
    .about-me p.animate__animated.animate__zoomIn {
-    color: grey;
+    color: #ffffff;
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: poppins;
     text-justify: auto;
     margin: auto;
     line-height: 1.2em;
@@ -80,30 +96,37 @@
   }
   
   .about-me button {
-    width: 170px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    width: 161px;
+    height: 49px;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
   font-weight: 600;
   margin-top: 30px;
+  text-align: center;
+  border-radius: 24px;
   cursor: pointer;
   display: inline-block;
-  background-color: transparent;
-  border: 3px solid #00d7c3;
+  background-color: #0074ff;
+  border: 3px solid #0074ff;
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
-  color: #00d7c3;
+  color: #000;
+  font-size: 10pt;
   }
 
-  .about-me button:hover {
+  /* .about-me button:hover {
     box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-    border: 3px solid #00d7c3;}
+    border: 3px solid #00d7c3;} */
   
   .about-me button a{
     text-decoration: none;
-    color: #00d7c3;
+    color: #0074ff;
+    font-family: poppins;
   }
   .paragraph-container {
+    padding-top: 5%;
     width: 100%;
+    height: 100%;
   }
 
   /* .transparent-div{
@@ -118,17 +141,17 @@
     /* //light-mode/// */
 
     #about_me-light h4{
-      color: #003049;
-      font-size: 25px;
+      color: #000;
+      font-size: 30px;
       padding-top: 70px;
       line-height: 0.5em;
-      font-family: serif; 
+      font-family: poppins; 
     }
   
     #about_me-light p{
-      color: #003049;
+      color: #000;
       font-size: 17px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: poppins;
       text-align: justify;
       text-justify: auto;
       margin: auto;
@@ -137,34 +160,36 @@
     }
   
     #about_me-light h5 {
-      color: #f77f00;
+      color: #0074ff;
       font-size: 20px;
       line-height: 0.5em;
-      font-family: sans-serif;
+      font-family: poppins;
       margin-top: -10px;
     }
+
+    
   
     #about_me-light button {
       width: 170px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
     font-weight: 700;
     margin-bottom: 30px;
     cursor: pointer;
     display: inline-block;
-    background-color: transparent;
-    border: 3px solid #003047;
+    background-color: #0074ff;
+    border: 3px solid #0074ff;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
-    color: #003047;
+    color: #ffffff;
     }
 
-    #about_me-light button:hover{
+    /* #about_me-light button:hover{
       box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
     background-color: #003047;
     border: 3px solid #003047;
     color: whitesmoke;
-    }
+    } */
 /* ///responsive/// */
 
 
@@ -174,7 +199,8 @@
     margin-left: auto;
     max-width: 90%;
     height: fit-content;
-    padding-bottom: 15rem;
+    padding-bottom: 15%;
+    padding-top: 0%;
   }
 
   .about-me-inner{
@@ -185,6 +211,7 @@
   .about-me-header{
     margin: auto;
     text-align: left;
+    margin-left: 10%;
   }
 
   .inner-paragraph-grid{
@@ -198,7 +225,7 @@
   .transparent-div{
     width: 200px;
     height: 190px;
-    border: 1px solid #00d7c3;
+    border: 1px solid #0074ff;
   order: 1;
   }
 
@@ -218,10 +245,17 @@
   }
 
 
+  h4.animate__animated.animate__zoomIn {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 0.5em;
+    font-family: poppins;
+    width: 100%;
+}
+
 .about-me p.animate__animated.animate__zoomIn {
-  color: grey;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   width: 100%;
 }
@@ -232,7 +266,9 @@
   margin: auto;
   max-width: 90%;
   height: fit-content;
-  padding-bottom: 15rem;
+  padding-bottom: 5%;
+  padding-top: 0%;
+
 }
 
 #about_me-light .about-me-inner{
@@ -243,6 +279,7 @@
 #about_me-light .about-me-header{
   margin: auto;
   text-align: left;
+  margin-left: 10%;
 }
 
 #about_me-light .inner-paragraph-grid{
@@ -256,8 +293,8 @@
 #about_me-light .transparent-div{
   width: 200px;
   height: 190px;
-  border: 1px solid #003047;
-order: 1;
+  border: 1px solid #0074ff;
+/* order: 1; */
 }
 
 #about_me-light .my-image{
@@ -275,11 +312,17 @@ order: 1;
   width: 200px;
 }
 
+#about_me-light h4.animate__animated.animate__zoomIn {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 0.5em;
+  font-family: poppins;
+  width: 100%;
+  padding-top: 0%;
+}
 
 #about_me-light p.animate__animated.animate__zoomIn {
-color: #003047;
 font-size: 16px;
-font-family: Arial, Helvetica, sans-serif;
 text-align: justify;
 width: 100%;
 }
@@ -293,19 +336,11 @@ font-weight: 700;
 margin-bottom: 30px;
 cursor: pointer;
 display: inline-block;
-background-color: transparent;
-border: 3px solid #003047;
 -webkit-transition: all .15s ease-in-out;
 transition: all .15s ease-in-out;
-color: #003047;
 }
 
-#about_me-light button:hover{
-  box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
-background-color: #003047;
-border: 3px solid #003047;
-color: whitesmoke;
-}
+
 
 }
 
@@ -335,7 +370,7 @@ color: whitesmoke;
     display: grid;
     grid-template-columns: 50%;
     margin: auto;
-      width: 96%;
+      width: 100%;
       align-items: left;
       grid-gap: 3%
   } 
@@ -343,8 +378,9 @@ color: whitesmoke;
   .transparent-div{
     width: 270px;
     height: 310px;
-    border: 1px solid #00d7c3;
-  order: 1;
+    border: 1px solid #0074ff;
+
+  /* order: 1; */
   }
 
   .my-image{
@@ -364,9 +400,7 @@ color: whitesmoke;
 
 
 .about-me p.animate__animated.animate__zoomIn {
-  color: grey;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   width: 300px;
   text-justify: auto;
@@ -393,11 +427,9 @@ color: whitesmoke;
 }
 
 #about_me-light h4{
-  color: #003049;
   font-size: 25px;
   padding-top: 0px;
   line-height: 0.5em;
-  font-family: serif; 
 }
 
 #about_me-light .inner-paragraph-grid{
@@ -411,7 +443,6 @@ color: whitesmoke;
 #about_me-light .transparent-div{
   width: 270px;
   height: 310px;
-  border: 1px solid #003047;
 order: 1;
 }
 
@@ -433,9 +464,7 @@ order: 1;
 
 
 #about_me-light p.animate__animated.animate__zoomIn {
-color: #003047;
 font-size: 18px;
-font-family: Arial, Helvetica, sans-serif;
 text-align: justify;
 width: 300px;
 }
@@ -449,19 +478,11 @@ font-weight: 700;
 margin-bottom: 30px;
 cursor: pointer;
 display: inline-block;
-background-color: transparent;
-border: 3px solid #003047;
 -webkit-transition: all .15s ease-in-out;
 transition: all .15s ease-in-out;
-color: #003047;
 }
 
-#about_me-light button:hover{
-  box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
-background-color: #003047;
-border: 3px solid #003047;
-color: whitesmoke;
-}
+
 
 }
 
@@ -472,19 +493,21 @@ color: whitesmoke;
     width: 80%;
     height: fit-content;
     padding-bottom: 5rem;
+    padding-top: 0%;
   }
 
    
 p.animate__animated.animate__zoomIn {
-  color: grey;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   text-justify: auto;
   width: 100%;
 }
 
-
+.about-me-header {
+  text-align: left;
+  margin-bottom: -5%;
+}
 
   .about-me-inner{
     margin: auto;
@@ -511,8 +534,7 @@ p.animate__animated.animate__zoomIn {
     width: 380px;
     height: 350px;
     /* box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3; */
-    border: 1px solid #00d7c3;
-  order: 1;
+  /* order: 1; */
   }
 
   .my-image{
@@ -535,9 +557,7 @@ p.animate__animated.animate__zoomIn {
 
    
   #about_me-light p.animate__animated.animate__zoomIn {
-  color: #003047;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
   text-align: justify;
   text-justify: auto;
   width: 100%;
@@ -570,7 +590,6 @@ p.animate__animated.animate__zoomIn {
     width: 380px;
     height: 350px;
     /* box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3; */
-    border: 1px solid #003047;
   order: 1;
   }
 
@@ -597,15 +616,17 @@ p.animate__animated.animate__zoomIn {
 
      
   p.animate__animated.animate__zoomIn {
-    color: grey;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     text-justify: auto;
     width: 100%;
   }
   
-  
+  .about-me-header{
+    text-align: left;
+    
+    margin-bottom: -5%;
+}
 
     .about-me-inner{
       margin: auto;
@@ -633,8 +654,7 @@ p.animate__animated.animate__zoomIn {
       width: 400px;
       height: 420px;
       /* box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3; */
-      border: 1px solid #00d7c3;
-    order: 1;
+    /* order: 1; */
     }
 
     .my-image{
@@ -659,9 +679,7 @@ p.animate__animated.animate__zoomIn {
 
      
     #about_me-light p.animate__animated.animate__zoomIn {
-    color: #003047;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     text-justify: auto;
     width: 100%;
@@ -695,7 +713,6 @@ p.animate__animated.animate__zoomIn {
       width: 400px;
       height: 420px;
       /* box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3; */
-      border: 1px solid #003047;
     order: 1;
     }
 
@@ -713,7 +730,7 @@ p.animate__animated.animate__zoomIn {
 
   }
 
-  @media only screen and (min-device-width : 820px) and (max-device-width : 1024px){
+  @media only screen and (device-width : 820px) and (max-device-width : 1023px){
     .about-me {
       margin: auto;
         max-width: 80%;
@@ -736,10 +753,15 @@ p.animate__animated.animate__zoomIn {
         order: 2;
       }
     
+      .about-me-header{
+        text-align: left;
+        
+        margin-bottom: -5%;
+    }
+
       .transparent-div{
         width: 500px;
         height: 450px;
-        border: 1px solid #00d7c3;
       order: 1;
       }
 
@@ -759,9 +781,7 @@ p.animate__animated.animate__zoomIn {
       }
     
       p.animate__animated.animate__zoomIn {
-        color: grey;
         font-size: 19px;
-        font-family: Arial, Helvetica, sans-serif;
         text-align: justify;
         text-justify: auto;
         width: 100%;
@@ -798,17 +818,145 @@ p.animate__animated.animate__zoomIn {
   #about_me-light .transparent-div{
     width: 500px;
     height: 450px;
-    border: 1px solid #003047;
-  order: 1;
+  /* order: 1; */
   }
 
   #about_me-light p.animate__animated.animate__zoomIn {
-    color: #003047;
     font-size: 19px;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     text-justify: auto;
     width: 100%;
+  }
+
+  }
+
+  @media only screen and (device-width : 1024px){
+    .about-me {
+      margin: auto;
+        max-width: 80%;
+        min-height: fit-content;
+    
+      }
+
+      .inner-paragraph-grid{
+        display: grid;
+        margin: auto;
+          grid-template-columns: 50%;
+          padding: 3% 0;
+          width: 100%;
+          align-items: left;
+          grid-gap: 50px;
+      } 
+
+      .paragraph-container {
+        width: 550px;
+        order: 2;
+      }
+    
+      .about-me-header{
+        text-align: left;
+        margin-bottom: -5%;
+    }
+
+      .transparent-div{
+        width: 500px;
+        height: 450px;
+      order: 1;
+      }
+
+      .my-image{
+        width: 490px;
+        height: 440px;
+      }
+
+      #about_me-light .my-image{
+        width: 490px;
+        height: 440px;
+      }
+
+      .my-image img{
+        width: 100%;
+        height: 100%;
+      }
+    
+      #about_me-dark p.animate__animated.animate__zoomIn {
+        font-size: 25px;
+        text-align: justify;
+        text-justify: auto;
+        width: 135%;
+      }
+      
+      #about_me-dark h5 {
+        color: #0074ff;
+        font-size: 33px;
+        line-height: 0.5em;
+        font-family: poppins;
+        margin-top: -10px;
+    }
+
+    #about_me-dark h4 {
+      color: #ffffff;
+      font-size: 45px;
+      padding-top: 70px;
+      line-height: 0.5em;
+      font-family: poppins;
+  }
+
+/* ///light-mode/// */
+#about_me-light .about-me {
+  margin: auto;
+    max-width: 80%;
+    min-height: fit-content;
+
+  }
+
+  #about_me-light .inner-paragraph-grid{
+    display: grid;
+      grid-template-columns: 50%;
+      margin: auto;
+      padding: 3% 0;
+      width: 100%;
+      align-items: left;
+      grid-gap: 50px;
+  } 
+
+  #about_me-light .paragraph-container {
+    width: 550px;
+    order: 2;
+  }
+
+  #about_me-light h4 {
+    color: #000;
+    font-size: 45px;
+    padding-top: 70px;
+    line-height: 0.5em;
+    font-family: poppins;
+}
+
+  #about_me-light h5 {
+    color: #0074ff;
+    font-size: 33px;
+    line-height: 0.5em;
+    font-family: poppins;
+    margin-top: -10px;
+}
+
+  #about_me-light .my-image img{
+    width: 100%;
+    height: 100%;
+  }
+
+  #about_me-light .transparent-div{
+    width: 500px;
+    height: 450px;
+  /* order: 1; */
+  }
+
+  #about_me-light p.animate__animated.animate__zoomIn {
+    font-size: 25px;
+    text-align: justify;
+    text-justify: auto;
+    width: 135%;
   }
 
   }

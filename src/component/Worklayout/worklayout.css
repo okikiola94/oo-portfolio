@@ -2,24 +2,29 @@
   padding-top: 6%;
   padding-bottom: 100px;
   margin: auto;
+  z-index: 500;
+
   /* min-height: 100vh; */
-    background-color: #003047;
+    /* background-color: #003047; */
 
 }
 
 .fade-header h4 {
-  color: rgb(209, 209, 209);
-  font-size: 25px;
+  color: #ffffff;
+  font-size: 30px;
   justify-content: center;
-  font-family: serif;
+  font-family: poppins;
   text-align: center;
+  font-weight: bold;
+  line-height: 0.2em;
 }
 
 .fade-header h5 {
-  color: aqua;
+  color: #0074ff;
   font-size: 20px;
-  font-family: serif;
+  font-family: poppins;
   text-align: center;
+  line-height: 0.2em;
 
 }
 
@@ -59,8 +64,8 @@ body[data-aos-delay="100"] [data-aos] {
 }
 
 .product-image{
-  width: 520px;
-  height:300px;
+  /* width: 70%;
+  height:70%; */
   margin-bottom: 20px;
 }
 
@@ -70,19 +75,29 @@ body[data-aos-delay="100"] [data-aos] {
 }
 
 
+
 .projects-grid{
   width: fit-content;
   margin: auto;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(2,minmax(0,1fr));
+  border: 3px solid #e2e3eb;
+  background-color: #e2e3eb;
+  border-radius: 15px;
+  padding: 1%;
 }
 
 .project{
-  width:45% ;
+  border: 3px solid #f7fbfd;
+  background-color: #f7fbfd;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  padding: 1%;
+
 }
 .project h4 {
-  color: rgb(197, 192, 192);;
+  color: #0074ff;
  font-size: 20px;
  font-weight: 700;
  margin: 2px 0;
@@ -90,17 +105,17 @@ body[data-aos-delay="100"] [data-aos] {
 
 .project p {
  line-height: 2rem;
- color: gray;
+ color: #000;
  font-size: 18px;
- width: 500px;
+ width: 450px;
  height: fit-content;
- margin: 2px 0;
+ margin: 2px 10px;
  
 }
 
 
 .project p span{
- color: #f77f00;
+ color: #000;
  font-size: 18px;
  font-weight: 600;
 
@@ -117,24 +132,25 @@ margin-bottom: 30px;
 cursor: pointer;
 display: inline-block;
 background-color: transparent;
-border: 1px solid aqua;
+border: 1px solid #0074FF;
 -webkit-transition: all .15s ease-in-out;
 transition: all .15s ease-in-out;
-color: aqua;
+color: #000;
 text-decoration: none;
 text-align: center;
+z-index: 10;
  }
 
  .github-link{
-  color: #f77f00;
-  font-size: 22px;
-  text-decoration: underline #f77f00;
-  align-items: center;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: underline 2px #0074ff;
+  justify-items: center;
+  margin-left: 45%;
+  line-height: 5rem;
  }
 
- .project-links a:hover {
-  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-  border: 3px solid #00d7c3;}
+ 
 
 
 
@@ -152,25 +168,26 @@ text-align: center;
 }
 
 #Fade-light .fade-header h4 {
-  color: #003049;
-  font-size: 25px;
+  color: #000;
+  font-size: 30px;
   justify-content: center;
-  font-family: serif;
+  font-family: poppins;
   text-align: center;
+  font-weight: bold;
 }
 
 #Fade-light .fade-header h5 {
-  color: #f77f00;
+  color: #0074ff;
   font-size: 21px;
-  font-family: serif;
+  font-family: poppins;
   text-align: center;
 
 }
 
 
 #Fade-light .product-image{
-  width: 520px;
-  height:300px;
+  /* width: 480px;
+  height:300px; */
   margin-bottom: 20px;
 }
 
@@ -188,11 +205,16 @@ text-align: center;
   grid-template-columns: repeat(2,minmax(0,1fr));
 }
 
-#Fade-light .project{
-  width:45% ;
+#Fade-light .fade-header-inner .lines {
+  border: solid 2px #000;
+  background-color: #000;
+  width: 50%;
+  height: 0px;
+  margin-top: 5%;
 }
+
 #Fade-light .project h4 {
-  color: #003047;
+  color: #0074ff;
  font-size: 20px;
  font-weight: 700;
  margin: 2px 0;
@@ -200,9 +222,9 @@ text-align: center;
 
 #Fade-light .project p {
  line-height: 2rem;
- color: #003047;
+ color: #000;
  font-size: 18px;
- width: 500px;
+ width: 450px;
  height: fit-content;
  margin: 2px 0;
  
@@ -215,7 +237,7 @@ text-align: center;
 }
 
 #Fade-light .project p span{
- color: #f77f00;
+ color: #0074ff;
  font-size: 18px;
  font-weight: 600;
 
@@ -229,22 +251,20 @@ margin-bottom: 30px;
 cursor: pointer;
 display: inline-block;
 background-color: transparent;
-border: 1px solid #003047;
+border: 1px solid #0074ff;
 -webkit-transition: all .15s ease-in-out;
 transition: all .15s ease-in-out;
-color: #003049;
+color: #000;
 text-decoration: none;
 text-align: center;
  } 
 
- .project-links a:hover {
-  box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
-  border: 3px solid #003047;}
+ 
 
   #Fade-light .github-link{
-    color: #003047;
-    font-size: 22px;
-    text-decoration: underline #003049;
+    color: #000;
+    font-size: 18px;
+    text-decoration: underline #0074ff;
     align-items: center;
     justify-content: center;
    }
@@ -254,31 +274,27 @@ text-align: center;
 
 @media only screen and (min-device-width: 260px) and (max-device-width: 319px){
 
-  .Fade {
-    margin: auto 15%;
+  #Fade-dark {
+    margin: 10% 10%;
     width: 80%;
     text-align: left;
-    padding-bottom: 30%;
+    padding-bottom: 0x;
   }
 
   .fade-header h4 {
-    color: rgb(209, 209, 209);
     font-size: 23px;
     justify-content: center;
-    font-family: serif;
     text-align: left;
   }
 
   .fade-header h5 {
-    color: aqua;
     font-size: 18px;
-    font-family: serif;
     text-align: left;
 
   }
   
   .projects-grid{
-    width: fit-content;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-gap: 1rem;
@@ -297,18 +313,20 @@ text-align: center;
   }
   
   .project{
-    width:100% ;
+    width:95% ;
   }
   .project h4 {
-    color: rgb(197, 192, 192);;
-   font-size: 16px;
+   font-size: 15px;
    font-weight: 700;
    margin: 2px 0;
   }
   
+.github-link{
+  margin-left: 0%;
+}
+
   .project p {
    line-height: 2rem;
-   color: gray;
    font-size: 12px;
    width: 200px;
    height: fit-content;
@@ -317,7 +335,6 @@ text-align: center;
   }
   
   .project p span{
-   color: #f77f00;
    font-size: 17px;
    font-weight: 500;
   }
@@ -332,47 +349,39 @@ text-align: center;
   cursor: pointer;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid aqua;
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
-  color: aqua;
   text-decoration: none;
   text-align: center;
    }
   
-   .project-links a:hover {
-    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-    border: 3px solid #00d7c3;}
+   
   
   
 
     /* ///light-mode//// */
 
-    #Fade-light .Fade {
-      margin: auto 15%;
+    #Fade-light  {
+      margin: auto 10%;
       width: 80%;
       text-align: left;
-      padding-bottom: 30%;
+      padding-bottom: 0px;
     }
   
     #Fade-light .fade-header h4 {
-      color: #003049;
       font-size: 23px;
       justify-content: center;
-      font-family: serif;
       text-align: left;
     }
   
     #Fade-light .fade-header h5 {
-      color: #f77f00;
       font-size: 18px;
-      font-family: serif;
       text-align: left;
   
     }
     
     #Fade-light .projects-grid{
-      width: fit-content;
+      width: 100%;
       margin: auto;
       display: grid;
       grid-gap: 1rem;
@@ -391,18 +400,16 @@ text-align: center;
     }
     
     #Fade-light .project{
-      width:100% ;
+      width:95% ;
     }
     #Fade-light .project h4 {
-      color: #003047;;
-     font-size: 16px;
+     font-size: 15px;
      font-weight: 700;
      margin: 2px 0;
     }
     
     #Fade-light .project p {
      line-height: 2rem;
-     color: #003047;
      font-size: 12px;
      width: 200px;
      height: fit-content;
@@ -412,7 +419,6 @@ text-align: center;
   
     
     #Fade-light .project p span{
-      color: #f77f00;
       font-size: 17px;
       font-weight: 500;
      }
@@ -427,10 +433,8 @@ text-align: center;
     cursor: pointer;
     display: inline-block;
     background-color: transparent;
-    border: 1px solid #003047;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
-    color: #003047;
     text-decoration: none;
     text-align: center;
      }
@@ -444,7 +448,7 @@ text-align: center;
 @media only screen and (min-device-width: 320px) and (max-width:507px) {
 
   #Fade-dark {
-   margin: auto 5%;
+   margin: auto 3%;
    width: 86%;
    text-align: left;
    padding-bottom: 0%;
@@ -452,23 +456,19 @@ text-align: center;
  }
 
  .fade-header h4 {
-   color: rgb(209, 209, 209);
    font-size: 23px;
    justify-content: center;
-   font-family: serif;
    text-align: left;
  }
 
  .fade-header h5 {
-   color: aqua;
    font-size: 18px;
-   font-family: serif;
    text-align: left;
 
  }
  
  .projects-grid{
-   width: fit-content;
+   width: 100%;
    margin: 0;
    display: grid;
    grid-gap: 2rem;
@@ -476,21 +476,20 @@ text-align: center;
  }
 
  .product-image{
-   width: 315px;
-   height:200px;
+   /* width: 315px;
+   height:200px; */
    margin-bottom: 20px;
  }
  
  .product-image img{
-   width: 100%;
-   height: 100%;
+   width: 90%;
+   height: 90%;
  }
  
  .project{
-   width:100% ;
+   width:93% ;
  }
  .project h4 {
-   color: rgb(197, 192, 192);;
   font-size: 19px;
   font-weight: 700;
   margin: 2px 0;
@@ -498,7 +497,6 @@ text-align: center;
  
  .project p {
   line-height: 2rem;
-  color: gray;
   font-size: 18px;
   width: 290px;
   height: fit-content;
@@ -509,11 +507,13 @@ text-align: center;
  
  
  .project p span{
-   color: #f77f00;
    font-size: 17px;
    font-weight: 500;
   }
 
+  .github-link{
+    margin-left: 0%;
+  }
  
  .project-links a{
  padding: 5px;
@@ -524,24 +524,20 @@ text-align: center;
  cursor: pointer;
  display: inline-block;
  background-color: transparent;
- border: 1px solid aqua;
  -webkit-transition: all .15s ease-in-out;
  transition: all .15s ease-in-out;
- color: aqua;
  text-decoration: none;
  text-align: center;
   }
  
-  .project-links a:hover {
-   box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-   border: 3px solid #00d7c3;}
+  
  
  
 
    /* ///light-mode//// */
 
    #Fade-light{
-     margin: auto 5%;
+     margin: auto 3%;
      width: 86%;
      text-align: left;
      padding-bottom: 0%;
@@ -549,23 +545,19 @@ text-align: center;
    }
  
    #Fade-light .fade-header h4 {
-     color: #003049;
      font-size: 23px;
      justify-content: center;
-     font-family: serif;
      text-align: left;
    }
  
    #Fade-light .fade-header h5 {
-     color: #f77f00;
      font-size: 18px;
-     font-family: serif;
      text-align: left;
  
    }
    
    #Fade-light .projects-grid{
-     width: fit-content;
+     width: 100%;
      margin: 0;
      display: grid;
      grid-gap: 2rem;
@@ -579,15 +571,14 @@ text-align: center;
    }
    
    #Fade-light .product-image img{
-     width: 100%;
-     height: 100%;
+     width: 90%;
+     height: 90%;
    }
    
    #Fade-light .project{
-     width:100% ;
+     width:90% ;
    }
    #Fade-light .project h4 {
-     color: #003047;;
     font-size: 19px;
     font-weight: 700;
     margin: 2px 0;
@@ -595,7 +586,6 @@ text-align: center;
    
    #Fade-light .project p {
     line-height: 2rem;
-    color: #003047;
     font-size: 18px;
     width: 280px;
     height: fit-content;
@@ -605,7 +595,6 @@ text-align: center;
    
    
    #Fade-light .project p span{
-     color: #f77f00;
      font-size: 17px;
      font-weight: 500;
     }
@@ -620,10 +609,8 @@ text-align: center;
    cursor: pointer;
    display: inline-block;
    background-color: transparent;
-   border: 1px solid #003047;
    -webkit-transition: all .15s ease-in-out;
    transition: all .15s ease-in-out;
-   color: #003047;
    text-decoration: none;
    text-align: center;
     }
@@ -641,18 +628,15 @@ text-align: center;
   }
 
   .fade-header h4 {
-    color: rgb(209, 209, 209);
     font-size: 25px;
     justify-content: left;
-    font-family: serif;
     text-align: left;
   }
 
   .fade-header h5 {
-    color: aqua;
     font-size: 23px;
-    font-family: serif;
     text-align: left;
+    line-height: 0.2em;
 
   }
 
@@ -663,7 +647,7 @@ text-align: center;
   }
   
   .projects-grid{
-    width: fit-content;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-gap: 2rem;
@@ -671,8 +655,8 @@ text-align: center;
   }
 
   .product-image{
-    width: 450px;
-    height:280px;
+    /* width: 450px;
+    height:280px; */
     margin-bottom: 20px;
   }
   
@@ -682,10 +666,9 @@ text-align: center;
   }
   
   .project{
-    width:45% ;
+    width:95% ;
   }
   .project h4 {
-    color: rgb(197, 192, 192);;
    font-size: 23px;
    font-weight: 700;
    margin: 2px 0;
@@ -693,9 +676,8 @@ text-align: center;
   
   .project p {
    line-height: 2rem;
-   color: gray;
    font-size: 18px;
-   width: 400px;
+   width: 100%;
    height: fit-content;
    margin: 2px 0;
    
@@ -708,7 +690,6 @@ text-align: center;
   }
   
   .project p span{
-    color: #f77f00;
     font-size: 18px;
     font-weight: 500;
    }
@@ -723,17 +704,11 @@ text-align: center;
   cursor: pointer;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid aqua;
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
-  color: aqua;
   text-decoration: none;
   text-align: center;
    }
-  
-   .project-links a:hover {
-    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-    border: 3px solid #00d7c3;}
   
   
 
@@ -747,23 +722,19 @@ text-align: center;
     }
   
     #Fade-light .fade-header h4 {
-      color: #003049;
       font-size: 25px;
       justify-content: center;
-      font-family: serif;
       text-align: left;
     }
   
     #Fade-light .fade-header h5 {
-      color: #f77f00;
       font-size: 20px;
-      font-family: serif;
       text-align: left;
   
     }
     
     #Fade-light .projects-grid{
-      width: fit-content;
+      width: 100%;
       margin: auto;
       display: grid;
       grid-gap: 2rem;
@@ -771,9 +742,12 @@ text-align: center;
     }
   
     #Fade-light .product-image{
-      width: 450px;
-      height:280px;
+      /* width: 450px;
+      height:280px; */
       margin-bottom: 20px;
+    }
+    .github-link{
+      margin-left: 0%;
     }
     
     #Fade-light .product-image img{
@@ -782,10 +756,9 @@ text-align: center;
     }
     
     #Fade-light .project{
-      width:45% ;
+      width:95% ;
     }
     #Fade-light .project h4 {
-      color: #003047;;
      font-size: 23px;
      font-weight: 700;
      margin: 2px 0;
@@ -793,9 +766,8 @@ text-align: center;
     
     #Fade-light .project p {
      line-height: 2rem;
-     color: #003047;
      font-size: 18px;
-     width: 450px;
+     width: 100%;
      height: fit-content;
      margin: 2px 0;
      
@@ -804,7 +776,6 @@ text-align: center;
     
     
     #Fade-light .project p span{
-      color: #f77f00;
       font-size: 18px;
       font-weight: 500;
      }
@@ -819,16 +790,87 @@ text-align: center;
     cursor: pointer;
     display: inline-block;
     background-color: transparent;
-    border: 1px solid #003047;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
-    color: #003047;
     text-decoration: none;
     text-align: center;
      }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 921px){
+.projects-grid{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(1,4fr);
+}
+
+.product-image{
+  /* width: 315px;
+  height:200px; */
+  margin-bottom: 20px;
+}
+
+.product-image img{
+  width: 90%;
+  height: 90%;
+}
+
+.project{
+  width:90%;
+  padding: 4%;
+}
+
+
+#Fade-light .projects-grid{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(1,4fr);
+}
+
+#Fade-light .product-image{
+  /* width: 315px;
+  height:200px; */
+  margin-bottom: 20px;
+}
+
+#Fade-light .product-image img{
+  width: 90%;
+  height: 90%;
+}
+
+#Fade-light .project{
+  width:90%;
+  padding: 4%;
+}
+
+.github-link{
+  margin-left: 10%;
+}
+}
+
 @media only screen and (device-width : 1024px){
+
+  .fade-header h4 {
+    color: #ffffff;
+    font-size: 45px;
+    justify-content: center;
+    font-family: poppins;
+    text-align: center;
+    font-weight: bold;
+    line-height: 0.2em;
+}
+
+.fade-header h5 {
+  color: #0074ff;
+  font-size: 33px;
+  font-family: poppins;
+  text-align: center;
+  line-height: 0.2em;
+}
 
   .product-image{
     width: 400px;
@@ -843,7 +885,7 @@ text-align: center;
   
   
   .projects-grid{
-    width: fit-content;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-gap: 1rem;
@@ -851,10 +893,9 @@ text-align: center;
   }
   
   .project{
-    width:45% ;
+    width:98% ;
   }
   .project h4 {
-    color: rgb(197, 192, 192);;
    font-size: 20px;
    font-weight: 700;
    margin: 2px 0;
@@ -862,10 +903,9 @@ text-align: center;
   
   .project p {
    line-height: 2rem;
-   color: gray;
    font-size: 19px;
-   width: 380px;
-   height: 30px;
+   width: 100%;
+   height: fit-content;
    margin: 2px 0;
    
   }
@@ -873,7 +913,6 @@ text-align: center;
   
   
   .project p span{
-    color: #f77f00;
     font-size: 19px;
     font-weight: 500;
    }
@@ -886,17 +925,13 @@ text-align: center;
   cursor: pointer;
   display: inline-block;
   background-color: transparent;
-  border: 1px solid aqua;
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
-  color: aqua;
   text-decoration: none;
   text-align: center;
    }
   
-   .project-links a:hover {
-    box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-    border: 3px solid #00d7c3;}
+  
   
   
 
@@ -910,17 +945,13 @@ text-align: center;
 }
 
 #Fade-light .fade-header h4 {
-  color: #003049;
-  font-size: 25px;
+  font-size: 45px;
   justify-content: center;
-  font-family: serif;
   text-align: center;
 }
 
 #Fade-light .fade-header h5 {
-  color: #f77f00;
-  font-size: 21px;
-  font-family: serif;
+  font-size: 33px;
   text-align: center;
 
 }
@@ -939,7 +970,7 @@ text-align: center;
 
 
 #Fade-light .projects-grid{
-  width: fit-content;
+  width: 80%;
   margin: auto;
   display: grid;
   grid-gap: 1rem;
@@ -947,10 +978,9 @@ text-align: center;
 }
 
 #Fade-light .project{
-  width:45% ;
+  width:98% ;
 }
 #Fade-light .project h4 {
-  color: #003047;
  font-size: 20px;
  font-weight: 700;
  margin: 2px 0;
@@ -958,17 +988,15 @@ text-align: center;
 
 #Fade-light .project p {
  line-height: 2rem;
- color: #003047;
  font-size: 19px;
- width: 380px;
- height: 30px;
+ width: 100%;
+ height: fit-content;
  margin: 2px 0;
  
 }
 
 
 #Fade-light .project p span{
-  color: #f77f00;
   font-size: 19px;
   font-weight: 500;
  }
@@ -981,17 +1009,13 @@ margin-bottom: 30px;
 cursor: pointer;
 display: inline-block;
 background-color: transparent;
-border: 1px solid #003047;
 -webkit-transition: all .15s ease-in-out;
 transition: all .15s ease-in-out;
-color: #003049;
 text-decoration: none;
 text-align: center;
  }
 
- .project-links a:hover {
-  box-shadow: 0 0 10px 0 #003047 inset, 0 0 20px 2px #003047;
-  border: 3px solid #003047;}
+ 
 
 
 

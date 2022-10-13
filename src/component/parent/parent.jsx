@@ -76,7 +76,7 @@ export default function Parent() {
     return <ThemeContext.Consumer>
         {context => (
             <div id={context.userTheme==="light"? "parent_cover-light":"parent_cover-dark"}>
-                <div className='circles-container'>
+                {/* <div className='circles-container'>
                     <ul class="circles">
                         <li></li>
                         <li></li>
@@ -104,7 +104,7 @@ export default function Parent() {
                         <li></li>
                         <li></li>
                     </ul>
-                </div>
+                </div> */}
                 <div>
                     <InfernoBall className='infernoBall'/>
 

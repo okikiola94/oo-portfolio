@@ -17,7 +17,7 @@ const Navbar = (props) => {
       </a>
       
       <a href="/" className="brand-name2">
-        <img src={`${process.env.PUBLIC_URL}/assets/images/dark--logo.png`}  alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}/assets/images/blue-dark-logo.png`}  alt="logo" />
       </a>
 
       <button className="hamburger"

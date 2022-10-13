@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #003047;
+    background-image:linear-gradient(#0a185b, #001474);
     padding-right: 1rem;
     position: relative;
 
@@ -34,7 +34,7 @@
     position: absolute;
     overflow: hidden;
     animation: words 2.5s infinite ease-in-out;
-    color:aqua;
+    color:#ffffff;
     font: 2rem sans-serif;
 }
 
@@ -66,8 +66,8 @@ div > .i{
     align-items: center;
     border-radius: 50%;
     border:20px solid transparent;
-    border-bottom:20px solid aqua;
-    border-top:20px solid aqua;
+    border-bottom:20px solid #ffffff;
+    border-top:20px solid #ffffff;
     animation: rotateleft 1.25s infinite ease-in-out;
     position: absolute;
 }
@@ -81,8 +81,8 @@ div > .j{
     align-items: center;
     border-radius: 50%;
     border:20px solid transparent;
-    border-left:20px solid aqua;
-    border-right:20px solid aqua;
+    border-left:20px solid #ffffff;
+    border-right:20px solid #ffffff;
     animation: rotateright 1.25s infinite ease-in-out;
     position: absolute;
 }
@@ -90,12 +90,12 @@ div > .j{
 
 .completed{
     font-size: 4rem;
-    color: aqua;
+    color: #ffffff;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #003047;
+    background-image:linear-gradient(#0a185b, #001474);
     animation: bigger 1s linear;
 }
 
@@ -142,7 +142,7 @@ div > .j{
         position: absolute;
         overflow: hidden;
         animation: words 2.5s infinite ease-in-out;
-        color:aqua;
+        color:#ffffff;
         font: 2rem sans-serif;
         padding: 2px;
     }

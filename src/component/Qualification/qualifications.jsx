@@ -10,7 +10,9 @@ const Qualifications=()=>{
     return  <ThemeContext.Consumer>
     {context => (<div className='section-cover'id={context.userTheme==="light"? "section_cover-light":"section_cover-dark"}>
     <section className="qualification section">
-    <h4 className="section__title">EXPERIENCE/QUALIFICATION</h4>
+        <div className='section-inner-container'>
+    <h4 className="section__title">Experience/Qualification</h4> <span className='linn'/>
+    </div>
     <h5><span className="section__subtitle">My Personal Journey</span></h5>
 
     <div className="qualification__container container" data-sr-id="5" style= {{visibility:'visible', opacity: '1', transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1)', transition: 'opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s'}}>

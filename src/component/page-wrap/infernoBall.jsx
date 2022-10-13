@@ -71,10 +71,10 @@ class InfernoBall extends React.Component {
                   width: 50,
                   height: 50,
                   borderRadius: 25,
-                  opacity: 0.3,
+                  opacity: 0.1,
                   WebkitTransform: `translate3d(${x - 25}px, ${y - 25}px, 0)`,
                   transform: `translate3d(${x - 25}px, ${y - 25}px, 0)`,
-                  zIndex: -4
+                  zIndex: -4,
                 }}
               />
             ))}

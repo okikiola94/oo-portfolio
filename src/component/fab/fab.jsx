@@ -10,7 +10,7 @@ const Fab = () => {
     //     });
     // }
     return <ThemeContext.Consumer>
-        {context =>(<img src={`${process.env.PUBLIC_URL}/assets/images/dark-lightt.png`} id ="sun"  alt="" onClick={() => context.setTheTheme()} className={context.userTheme}/>
+        {context =>(<img src={`${process.env.PUBLIC_URL}/assets/images/toggle-icon.png`}  id ="sun"  alt="" onClick={() => context.setTheTheme()} className={context.userTheme}/>
         ) }
 
 

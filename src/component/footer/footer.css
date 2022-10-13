@@ -28,6 +28,7 @@ Footer {
       bottom: 0%;
     }
     footer p {
+      font-size: 12px;
       text-align: center;
       color: #7e7d7c;
       padding-top: 0;
