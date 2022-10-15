@@ -12,7 +12,7 @@ const Socials=()=>{
     <div className='contact-section-dark-display_aqua'>
     <ul className='contact-icons-link-dark__'>
       <li>  <a href="mailto:farominiyiopeyemi@gmail.com"><img src={`${process.env.PUBLIC_URL}/assets/images/email-black.png`}  alt="email" /></a></li>
-      <li><a href='https://www.linkedin.com/in/farominiyi-opeyemi-okikiola-99617b163/?originalSubdomain=ng'><img src={`${process.env.PUBLIC_URL}/assets/images/linkedin-black.png`}  alt="linkedin" /></a></li>
+      <li><a href='https://www.linkedin.com/in/opeyemi-farominiyi-99617b163'><img src={`${process.env.PUBLIC_URL}/assets/images/linkedin-black.png`}  alt="linkedin" /></a></li>
       <li><a href='https://github.com/okikiola94'><img src={`${process.env.PUBLIC_URL}/assets/images/github-black.png`}  alt="github" /></a></li>
       <li><a href='https://twitter.com/okikiola_eniola'><img src={`${process.env.PUBLIC_URL}/assets/images/twitter-black.png`}alt="twitter" /></a></li>
       <li> <a href='https://www.instagram.com/okikiolaannie/?hl=en'><img src={`${process.env.PUBLIC_URL}/assets/images/instagram-black.png`} alt="instagram" /></a></li>
