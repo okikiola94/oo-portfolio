@@ -32,7 +32,7 @@ export default class Fade extends Component {
             
                         <div className="project-links">
                               <a href="https://github.com/okikiola94/rps" className='project-direct-link'>See Code</a>
-                              <a href="https://rpsgamez.netlify.app/" className="live-project-link">View Live</a>
+                              <a href="https://www.irecharge.ng/" className="live-project-link">View Live</a>
                               
                               </div></div>
      
