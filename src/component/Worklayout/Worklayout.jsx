@@ -28,7 +28,7 @@ export default class Fade extends Component {
                         <img src={`${process.env.PUBLIC_URL}/assets/images/iRecharge-screenshot(1).png`}  alt='rps' />   
                           </div>
                           <h4>iRecharge </h4>
-                          <p>iRecharge is a distributed vending platform for making Online Bills Payment such as Data, Airtime, Prepaid Meter Recharge, Online Electricity. I replicated the website as one of my practice projects using <span>REACTJS </span> and <span>CSS</span>. </p>
+                          <p>iRecharge is a distributed vending platform for making Online Bills Payment such as Data, Airtime, Prepaid Meter Recharge, Online Electricity. The website was built with <span>REACTJS </span> and <span>CSS</span>. </p>
             
                         <div className="project-links">
                               <a href="https://github.com/okikiola94/rps" className='project-direct-link'>See Code</a>
