@@ -95,7 +95,7 @@
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     color: #000;
-    font-size: 12pt;
+    font-size: 10pt;
 
   }
    .front-end button a{
@@ -182,7 +182,7 @@
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     color: #ffffff;
-    font-size: 12pt;
+    font-size: 10pt;
   }
 
   /* #home-light button:hover {
