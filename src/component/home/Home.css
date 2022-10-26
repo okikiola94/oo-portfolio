@@ -6,14 +6,14 @@
     grid-gap: 1rem;
     align-items: left;
     padding-bottom: 5%;
-    padding-top: 4%;
+    /* padding-top: 4%; */
     /* min-height: 100vh; */
 }
  
   .front-end {
     margin: auto;
     text-align: left;
-    padding-top: 15% ;
+    padding-top: 10% ;
   }
   .illustration img{
     width: 100%;
@@ -77,19 +77,17 @@
     /* padding-top: 20px;
     padding-bottom: 20px; */
     text-align: center;
-    font-weight: 600;
-    font-size: 10pt;
-    /* margin-left: 2%; */
+    font-weight: 700;
+    /* margin-left: 30px; */
     margin-bottom: 30px;
     cursor: pointer;
     display: inline-block;
     background-color: #0074ff;
-    border: 3px solid #0074ff;
     border-radius: 24px;
+    border: 3px solid #0074ff;
     -webkit-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     color: #000;
-    font-family: poppins;
   }
    .front-end button a{
     text-decoration: none;

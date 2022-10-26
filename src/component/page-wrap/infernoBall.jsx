@@ -38,7 +38,7 @@ class InfernoBall extends React.Component {
   render() {
     return (
       <NodeGroup 
-        data={range(1).map(d => {
+        data={range(2).map(d => {
           return {
             key: `key-${d}`,
             x: this.state.x,
@@ -74,7 +74,7 @@ class InfernoBall extends React.Component {
                   opacity: 0.1,
                   WebkitTransform: `translate3d(${x - 25}px, ${y - 25}px, 0)`,
                   transform: `translate3d(${x - 25}px, ${y - 25}px, 0)`,
-                  zIndex: -4,
+                  zIndex: -10,
                 }}
               />
             ))}
