@@ -146,4 +146,15 @@ div > .j{
         font: 2rem sans-serif;
         padding: 2px;
     }
+
+    .completed{
+        font-size: 2rem;
+        color: #ffffff;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image:linear-gradient(#0a185b, #001474);
+        animation: bigger 1s linear;
+    }
 }
