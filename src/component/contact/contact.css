@@ -34,7 +34,7 @@
     .line {
       border: solid 2px aliceblue;
       background-color: aliceblue;
-      width: 30%;
+      width: 18%;
       height: 0px;
       margin-top: 0px;
       margin-left: 0px;
@@ -228,7 +228,7 @@ text-align: center;
 #contact_section-light .line {
   border: solid 2px #000;
   background-color: #000;
-  width: 30%;
+  width: 18%;
   height: 0px;
   margin-top: 0px;
   margin-left: 0px;
@@ -469,7 +469,7 @@ font-size: 18px;  }
 @media only screen and (min-device-width : 320px) and (max-width:500px){
   .Contact-container {
     margin: 0;
-    width: 75%;
+    width: 61%;
 }
 
   .input-container{
@@ -500,12 +500,13 @@ font-size: 18px;  }
   .form {
     margin: auto;
     z-index: 1;
+    width:100%;
   }
 
   .Contact-inner-container {
     display: flex;
     margin: auto;
-    width: 300px;
+    width: 200px;
     justify-content: center;
     align-items: center;
     justify-items: left;
@@ -514,14 +515,14 @@ font-size: 18px;  }
 
 .contact-section-container {
   padding-top: 10%;
-  width: 90%;
-  margin: auto 1%;
+  width: 64%;
+  margin: auto 10%;
 }
 
   .Contact-inner-container h4 {
     text-align: left;
     font-size: 25px;
-    line-height: 0.5em;
+    line-height: 0.8em;
     margin: auto 3%;
 
 }
@@ -529,7 +530,7 @@ font-size: 18px;  }
 #contact_section-light h4 {
   text-align: left;
   font-size: 25px;
-  line-height: 0.5em;
+  line-height: 0.8em;
 
 }
 
@@ -537,7 +538,7 @@ font-size: 18px;  }
     background-color: #dfd9e2;
     border-radius: 5px;
     border: 1px solid #dfd9e2;
-    width: 300px;
+    width: 100%;
     height: 150px;
     color: #dfd9e2;
     font-size: large;
@@ -546,7 +547,7 @@ font-size: 18px;  }
     background-color: #dfd9e2;
     border-radius: 5px;
     border: 1px solid  #dfd9e2;
-    width: 300px;
+    width: 100%;
     height: 30px;
     color: #dfd9e2;
     font-size: large;
@@ -557,7 +558,7 @@ font-size: 18px;  }
     background-color: #dfd9e2;
     border-radius: 5px;
     border: 1px solid #dfd9e2;
-    width: 300px;
+    width: 100%;
     height: 30px;
     margin: 5% 0;
     color: grey;
@@ -607,19 +608,20 @@ font-size: 18px;  }
 #contact_section-light .form {
   margin: auto;
   z-index: 1;
+  width: 100%;
 }
 
 #contact_section-light .message-container textarea {
   background-color: transparent;
   border-radius: 5px;
-  width: 300px;
+  width: 100%;
   height: 150px;
   font-size: large;
 }
 #contact_section-light .Name-input input {
   background-color: transparent;
   border-radius: 5px;
-  width: 300px;
+  width: 100%;
   height: 30px;
   font-size: large;
   font-family: 'Manrope', sans-serif;
@@ -629,7 +631,7 @@ font-size: 18px;  }
 #contact_section-light .Email-container input {
   background-color: transparent;
   border-radius: 5px;
-  width: 300px;
+  width: 100%;
   height: 30px;
   margin: 5% 0;
   font-size: large;
