@@ -350,7 +350,7 @@ transition: all .15s ease-in-out;
 
   #about_me-dark{
     margin: auto;
-    max-width: 90%;
+    max-width: 80%;
     height: fit-content;
     padding-bottom: 12%;
     padding-top: 0%;
@@ -402,16 +402,17 @@ transition: all .15s ease-in-out;
 .about-me p.animate__animated.animate__zoomIn {
   font-size: 18px;
   text-align: justify;
-  min-width: 305px;
+  min-width: 271px;
   max-width: 450px;
   text-justify: auto;
+  line-height: 1.3em
 }
   
 /* //light-mode//// */
 
 #about_me-light{
   margin: auto;
-  max-width: 90%;
+  max-width: 80%;
   height: fit-content;
   padding-bottom: 10%;
   padding-top: 0%;
@@ -467,8 +468,9 @@ order: 1;
 #about_me-light p.animate__animated.animate__zoomIn {
 font-size: 18px;
 text-align: justify;
-min-width: 305px;
+min-width: 271px;
 max-width: 450px;
+line-height: 1.3em
 }
 
 
