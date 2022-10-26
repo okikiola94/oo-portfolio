@@ -448,8 +448,8 @@ text-align: center;
 @media only screen and (min-device-width: 320px) and (max-width:507px) {
 
   #Fade-dark {
-   margin: auto 3%;
-   width: 86%;
+   margin: auto 10%;
+   width: 74%;
    text-align: left;
    padding-bottom: 0%;
    padding-top: 0%;
@@ -468,7 +468,7 @@ text-align: center;
  }
  
  .projects-grid{
-   width: 98%;
+   width: 97%;
    margin: 0;
    display: grid;
    grid-gap: 2rem;
@@ -476,7 +476,7 @@ text-align: center;
  }
 
  .product-image{
-   width: 111%;
+   width: 108%;
    height:200px;
    margin-bottom: 20px;
  }
@@ -498,7 +498,7 @@ text-align: center;
  .project p {
   line-height: 2rem;
   font-size: 18px;
-  width: 290px;
+  width: 100%;
   height: fit-content;
   margin: 2px 0;
   
@@ -537,8 +537,8 @@ text-align: center;
    /* ///light-mode//// */
 
    #Fade-light{
-     margin: auto 3%;
-     width: 86%;
+     margin: auto 10%;
+     width: 74%;
      text-align: left;
      padding-bottom: 0%;
      padding-top: 0%;
@@ -557,7 +557,7 @@ text-align: center;
    }
    
    #Fade-light .projects-grid{
-     width: 98%;
+     width: 97%;
      margin: 0;
      display: grid;
      grid-gap: 2rem;
@@ -565,7 +565,7 @@ text-align: center;
    }
  
    #Fade-light .product-image{
-     width: 111%;
+     width: 108%;
      height:200px;
      margin-bottom: 20px;
    }
@@ -586,8 +586,8 @@ text-align: center;
    
    #Fade-light .project p {
     line-height: 2rem;
-    font-size: 18px;
-    width: 280px;
+    font-size: 16px;
+    width: 100%;
     height: fit-content;
     margin: 2px 0;
     
