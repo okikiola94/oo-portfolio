@@ -401,8 +401,8 @@ transition: all .15s ease-in-out;
 
 .about-me p.animate__animated.animate__zoomIn {
   font-size: 18px;
-  text-align: left;
-  width: 100%;
+  text-align: justify;
+  width: 305px;
   text-justify: auto;
 }
   
@@ -465,8 +465,8 @@ order: 1;
 
 #about_me-light p.animate__animated.animate__zoomIn {
 font-size: 18px;
-text-align: left;
-width: 100%;
+text-align: justify;
+width: 305px;
 }
 
 
