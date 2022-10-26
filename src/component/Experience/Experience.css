@@ -369,6 +369,15 @@ border: 3px solid #00d7c3;} */
       line-height: 0.2em;
     }
 
+    #work_experience-light h4 {
+      color: #000;
+      font-size: 25px;
+      justify-content: center;
+      text-align: left;
+      font-family: poppins;
+      font-weight: bold;
+  }
+
     /* .work-experience{
       margin: auto;
       display: block;

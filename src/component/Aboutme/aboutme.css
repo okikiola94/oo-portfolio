@@ -398,6 +398,14 @@ transition: all .15s ease-in-out;
     min-width: 280px;
   } */
 
+  .about-me h4.animate__animated.animate__zoomIn {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 0.8em;
+    font-family: poppins;
+    width: 98%;
+}
+
 
 .about-me p.animate__animated.animate__zoomIn {
   font-size: 18px;
