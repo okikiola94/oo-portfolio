@@ -76,7 +76,7 @@
     color: #ffffff;
     font-size: 17px;
     font-family: poppins;
-    text-justify: auto;
+    text-justify: inter-word;
     margin: auto;
     line-height: 1.2em;
     padding: 1% 0;
@@ -153,7 +153,7 @@
       font-size: 17px;
       font-family: poppins;
       text-align: justify;
-      text-justify: auto;
+      text-justify: inter-word;
       margin: auto;
       line-height: 1.2em;
       padding: 1% 0;
@@ -412,7 +412,7 @@ transition: all .15s ease-in-out;
   text-align: justify;
   min-width: 281px;
   max-width: 450px;
-  text-justify: auto;
+  text-justify: inter-word;
   line-height: 1.3em
 }
   

@@ -76,26 +76,86 @@ body[data-aos-delay="100"] [data-aos] {
 
 
 
-.projects-grid{
+#Fade-light .projects-grid{
   width: fit-content;
   margin: auto;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(2,minmax(0,1fr));
-  border: 3px solid #e2e3eb;
-  background-color: #e2e3eb;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
   border-radius: 15px;
   padding: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+
 }
 
-.project{
-  border: 3px solid #f7fbfd;
-  background-color: #f7fbfd;
+#Fade-light .project{
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
   padding: 1%;
 
 }
+
+#Fade-dark .projects-grid{
+  width: fit-content;
+  margin: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  border: 3px solid #001474;
+  background-image: linear-gradient(#0a185b, #001474);  border-radius: 15px;
+  padding: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+
+}
+
+#Fade-dark .project{
+  border: 3px solid #001474;
+  background-image: linear-gradient(#0a185b, #001474);  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  padding: 1%;
+
+}
+
+#Fade-dark .project-links a{
+  padding: 5px;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #0074FF;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  z-index: 10;
+   }
+
+   #Fade-dark .project p {
+    line-height: 2rem;
+    color: #ffffff;
+    font-size: 18px;
+    width: 450px;
+    height: fit-content;
+    margin: 2px 10px;
+    
+   }
+   
+   
+   #Fade-dark .project p span{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+   
+   }
+
+
 .project h4 {
   color: #0074ff;
  font-size: 20px;
@@ -293,7 +353,9 @@ text-align: center;
 
   }
   
-  .projects-grid{
+ 
+
+  #Fade-dark .projects-grid{
     width: 100%;
     margin: auto;
     display: grid;
@@ -312,9 +374,12 @@ text-align: center;
     height: 100%;
   }
   
-  .project{
+ 
+
+  #Fade-dark .project{
     width:95% ;
   }
+
   .project h4 {
    font-size: 15px;
    font-weight: 700;
@@ -325,7 +390,7 @@ text-align: center;
   margin-left: 0%;
 }
 
-  .project p {
+ #Fade-dark  .project p {
    line-height: 2rem;
    font-size: 12px;
    width: 200px;
@@ -342,7 +407,7 @@ text-align: center;
   
   .project-links a{
   padding: 5px;
-  width: 70px;
+  width: fit-content;
   font-size: 15px;
   margin-right: 10px;
   margin-bottom: 30px;
@@ -426,7 +491,7 @@ text-align: center;
     
     #Fade-light .project-links a{
     padding: 5px;
-    width: 70px;
+    width: fit-content;
     font-size: 15px;
     margin-right: 10px;
     margin-bottom: 30px;
@@ -467,7 +532,7 @@ text-align: center;
 
  }
  
- .projects-grid{
+ #Fade-dark .projects-grid{
    width: 97%;
    margin: 0;
    display: grid;
@@ -482,20 +547,21 @@ text-align: center;
  }
  
  .product-image img{
-   width: 90%;
+   width: 94%;
    height: 90%;
  }
  
- .project{
+ #Fade-dark .project{
    width:95% ;
  }
+
  .project h4 {
   font-size: 19px;
   font-weight: 700;
   margin: 2px 0;
  }
  
- .project p {
+ #Fade-dark .project p {
   line-height: 2rem;
   font-size: 18px;
   width: 100%;
@@ -517,7 +583,7 @@ text-align: center;
  
  .project-links a{
  padding: 5px;
- width: 70px;
+ width: fit-content;
  font-size: 15px;
  margin-right: 10px;
  margin-bottom: 30px;
@@ -571,7 +637,7 @@ text-align: center;
    }
    
    #Fade-light .product-image img{
-     width: 90%;
+     width: 94%;
      height: 90%;
    }
    
@@ -602,7 +668,7 @@ text-align: center;
    
    #Fade-light .project-links a{
    padding: 5px;
-   width: 70px;
+   width: fit-content;
    font-size: 15px;
    margin-right: 10px;
    margin-bottom: 30px;
@@ -646,7 +712,7 @@ text-align: center;
 
   }
   
-  .projects-grid{
+  #Fade-dark .projects-grid{
     width: 100%;
     margin: auto;
     display: grid;
@@ -665,7 +731,7 @@ text-align: center;
     height: 100%;
   }
   
-  .project{
+ #Fade-dark .project{
     width:95% ;
   }
   .project h4 {
@@ -674,7 +740,7 @@ text-align: center;
    margin: 2px 0;
   }
   
-  .project p {
+  #Fade-dark .project p {
    line-height: 2rem;
    font-size: 18px;
    width: 100%;
@@ -697,7 +763,7 @@ text-align: center;
   
   .project-links a{
   padding: 5px;
-  width: 70px;
+  width: fit-content;
   font-size: 15px;
   margin-right: 10px;
   margin-bottom: 30px;
@@ -783,7 +849,7 @@ text-align: center;
     
     #Fade-light .project-links a{
     padding: 5px;
-    width: 70px;
+    width: fit-content;
     font-size: 15px;
     margin-right: 10px;
     margin-bottom: 30px;
@@ -798,7 +864,7 @@ text-align: center;
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 921px){
-.projects-grid{
+#Fade-dark .projects-grid{
   width: 80%;
   margin: auto;
   display: grid;
@@ -813,11 +879,11 @@ text-align: center;
 }
 
 .product-image img{
-  width: 90%;
+  width: 94%;
   height: 90%;
 }
 
-.project{
+#Fade-dark .project{
   width:90%;
   padding: 4%;
 }
@@ -838,7 +904,7 @@ text-align: center;
 }
 
 #Fade-light .product-image img{
-  width: 90%;
+  width: 94%;
   height: 90%;
 }
 
@@ -884,7 +950,7 @@ text-align: center;
   }
   
   
-  .projects-grid{
+  #Fade-dark .projects-grid{
     width: 80%;
     margin: auto;
     display: grid;
@@ -892,7 +958,7 @@ text-align: center;
     grid-template-columns: repeat(2,minmax(0,1fr));
   }
   
-  .project{
+  #Fade-dark .project{
     width:98% ;
   }
   .project h4 {

@@ -16,6 +16,7 @@ import Footer from '../footer/footer';
 import About from '../Aboutme/aboutme';
 import Fab from '../fab/fab';
 
+
 const scrollToRef = (ref) => window.scrollTo({ left: 0, top: ref.current.offsetTop, behavior: 'smooth' })
 
 export default function Parent() {

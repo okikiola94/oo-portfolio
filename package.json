@@ -20,6 +20,7 @@
     "lodash.range": "^3.2.0",
     "mdbootstrap": "^4.20.0",
     "react": "^18.0.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-animated-bg": "^1.2.2",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.0.0",

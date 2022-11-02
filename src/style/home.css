@@ -16,6 +16,10 @@ body {
 
 }
 
+p{
+  word-break: break-all;
+}
+
 @media screen  and (min-device-width : 320px) and (max-width:560px) {
 
   #parent_cover-light{

@@ -49,8 +49,9 @@
     font-family: poppins;
     max-width: 550px;
     padding: 0% 0%;
-    font-weight: lighter;
+    font-weight: lighter;}
 
+   #home-light .front-end p.animate__animated.animate__zoomIn{
     color:  #000;
     font-size: 17px;
     text-align: left;

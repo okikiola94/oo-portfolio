@@ -1,11 +1,13 @@
-import 'animate.css';
+import 'animate.css/animate.min.css';
 // import "../../style/home.css";
 import "./aboutme.css"
+import ScrollAnimation from 'react-animate-on-scroll';
 import ThemeContext from '../../context/themeContext/themeContext';
 
 const About = () => {
     return  <ThemeContext.Consumer>
     {context => (<div className="about-me" id={context.userTheme==="light"? "about_me-light":"about_me-dark"}>
+    <ScrollAnimation animateIn="fadeIn">
             <div className='about-me-inner'>
                <div className='about-me-header'>
                 <div className='about-me-header-inner'>
@@ -35,6 +37,7 @@ const About = () => {
                 
                 </div>
             </div>
+            </ScrollAnimation>
 
         </div> )}
     </ThemeContext.Consumer>
