@@ -18,8 +18,13 @@ body {
 
 p{
   word-break: break-all;
-  text-rendering: auto;
+  -ms-word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
+
 
 @media screen  and (min-device-width : 320px) and (max-width:560px) {
 
