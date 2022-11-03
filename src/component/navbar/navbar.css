@@ -103,7 +103,7 @@
     font-size: 15pt;
     font-family: poppins;
   }
-  
+
   .navigation-menu-inactive-light{
     text-decoration: none;
     display: block;
@@ -160,7 +160,7 @@
     /* padding: 0.5rem; */
     /* padding-right: 5rem; */
     padding-top: 10%;
-    background-color: transparent;
+    background-color: red;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     /* // positions the icon to the right and center aligns it vertically */
