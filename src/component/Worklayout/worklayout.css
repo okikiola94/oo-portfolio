@@ -93,7 +93,7 @@ body[data-aos-delay="100"] [data-aos] {
 #Fade-light .project{
   border: 3px solid #ffffff;
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
   padding: 1%;
 
@@ -114,7 +114,7 @@ body[data-aos-delay="100"] [data-aos] {
 
 #Fade-dark .project{
   border: 3px solid #001474;
-  background-image: linear-gradient(#0a185b, #001474);  border-radius: 15px;
+  background-image: linear-gradient(#0a185b, #001474);  border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
   padding: 1%;
 
@@ -514,7 +514,7 @@ text-align: center;
 
   #Fade-dark {
    /* margin: auto 5%; */
-   padding-left: 5%;
+   margin-left: 2%;
    width: 85%;
    text-align: left;
    padding-bottom: 0%;
@@ -534,7 +534,7 @@ text-align: center;
  }
  
  #Fade-dark .projects-grid{
-   width: 97%;
+   width: 100%;
    margin: 0;
    display: grid;
    grid-gap: 2rem;
@@ -605,7 +605,7 @@ text-align: center;
 
    #Fade-light{
      /* margin: auto 5%; */
-     margin-left: 5%;
+     margin-left: 2%;
      width: 85%;
      text-align: left;
      padding-bottom: 0%;
@@ -625,7 +625,7 @@ text-align: center;
    }
    
    #Fade-light .projects-grid{
-     width: 97%;
+     width: 100%;
      margin: 0;
      display: grid;
      grid-gap: 2rem;
