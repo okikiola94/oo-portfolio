@@ -368,7 +368,7 @@ transition: all .15s ease-in-out;
 
   .inner-paragraph-grid{
     display: grid;
-    grid-template-columns: 50%;
+    grid-template-columns: 92%;
     margin: auto;
       width: 100%;
       align-items: left;
@@ -408,12 +408,12 @@ transition: all .15s ease-in-out;
 
 
 .about-me p.animate__animated.animate__zoomIn {
-  font-size: 18px;
+  font-size: 17px;
   text-align: justify;
   min-width: 281px;
   max-width: 450px;
   text-justify: inter-word;
-  line-height: 1.3em
+  line-height: 1.5em
 }
   
 /* //light-mode//// */
@@ -444,7 +444,7 @@ transition: all .15s ease-in-out;
 
 #about_me-light .inner-paragraph-grid{
   display: grid;
-  grid-template-columns: 50%;
+  grid-template-columns: 92%;
   margin: auto;
     width: 100%;
     align-items: left;
@@ -474,11 +474,11 @@ order: 1;
 
 
 #about_me-light p.animate__animated.animate__zoomIn {
-font-size: 18px;
+font-size: 17px;
 text-align: justify;
 min-width: 281px;
 max-width: 450px;
-line-height: 1.3em
+line-height: 1.5em
 }
 
 

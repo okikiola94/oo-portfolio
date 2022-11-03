@@ -82,11 +82,11 @@ body[data-aos-delay="100"] [data-aos] {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(2,minmax(0,1fr));
-  border: 3px solid #ffffff;
-  background-color: #ffffff;
+  /* border: 3px solid #ffffff;
+  background-color: #ffffff; */
   border-radius: 15px;
   padding: 1%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19); */
 
 }
 
@@ -105,10 +105,10 @@ body[data-aos-delay="100"] [data-aos] {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(2,minmax(0,1fr));
-  border: 3px solid #001474;
-  background-image: linear-gradient(#0a185b, #001474);  border-radius: 15px;
+  /* border: 3px solid #001474;
+  background-image: linear-gradient(#0a185b, #001474);  border-radius: 15px; */
   padding: 1%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19); */
 
 }
 
@@ -513,8 +513,9 @@ text-align: center;
 @media only screen and (min-device-width: 320px) and (max-width:507px) {
 
   #Fade-dark {
-   margin: auto 5%;
-   width: 80%;
+   /* margin: auto 5%; */
+   padding-left: 5%;
+   width: 85%;
    text-align: left;
    padding-bottom: 0%;
    padding-top: 0%;
@@ -603,8 +604,9 @@ text-align: center;
    /* ///light-mode//// */
 
    #Fade-light{
-     margin: auto 5%;
-     width: 80%;
+     /* margin: auto 5%; */
+     margin-left: 5%;
+     width: 85%;
      text-align: left;
      padding-bottom: 0%;
      padding-top: 0%;

@@ -310,7 +310,7 @@
 
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     .home{
-    grid-template-columns: 60%;
+    grid-template-columns: 80%;
     width: 90%;
     height: fit-content;
     align-items: center;
@@ -367,7 +367,7 @@ padding-top: 0%;
 
     #home-dark p{
       color: #ffffff;
-      font-size: 18px;
+      font-size: 17px;
       text-align: justify;
       font-family: poppins;
       width: 115%;

@@ -8,6 +8,7 @@ const About = () => {
     return  <ThemeContext.Consumer>
     {context => (<div className="about-me" id={context.userTheme==="light"? "about_me-light":"about_me-dark"}>
     <ScrollAnimation animateIn="fadeIn">
+
             <div className='about-me-inner'>
                <div className='about-me-header'>
                 <div className='about-me-header-inner'>
