@@ -469,7 +469,7 @@ font-size: 18px;  }
 @media only screen and (min-device-width : 320px) and (max-width:500px){
   .Contact-container {
     margin: 0;
-    width: 61%;
+    width: 49%;
 }
 
   .input-container{
@@ -477,7 +477,7 @@ font-size: 18px;  }
     margin: auto;
     grid-template-columns: repeat(1, 2fr);
     padding-top: 12px;
-    /* width: 0%; */
+    width: 100%;
   }
 
   .form button {
@@ -515,8 +515,8 @@ font-size: 18px;  }
 
 .contact-section-container {
   padding-top: 15%;
-  width: 64%;
-  margin: auto 10%;
+  width: 80%;
+  margin: auto 5%;
 }
 
   .Contact-inner-container h4 {

@@ -335,8 +335,8 @@ text-align: center;
 @media only screen and (min-device-width: 260px) and (max-device-width: 319px){
 
   #Fade-dark {
-    margin: 10% 10%;
-    width: 80%;
+    margin: 10% 5%;
+    width: 90%;
     text-align: left;
     padding-bottom: 0x;
   }
@@ -427,8 +427,8 @@ text-align: center;
     /* ///light-mode//// */
 
     #Fade-light  {
-      margin: auto 10%;
-      width: 80%;
+      margin: auto 5%;
+      width: 90%;
       text-align: left;
       padding-bottom: 0px;
     }
@@ -513,8 +513,8 @@ text-align: center;
 @media only screen and (min-device-width: 320px) and (max-width:507px) {
 
   #Fade-dark {
-   margin: auto 10%;
-   width: 74%;
+   margin: auto 5%;
+   width: 80%;
    text-align: left;
    padding-bottom: 0%;
    padding-top: 0%;
@@ -603,8 +603,8 @@ text-align: center;
    /* ///light-mode//// */
 
    #Fade-light{
-     margin: auto 10%;
-     width: 74%;
+     margin: auto 5%;
+     width: 80%;
      text-align: left;
      padding-bottom: 0%;
      padding-top: 0%;

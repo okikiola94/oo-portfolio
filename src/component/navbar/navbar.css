@@ -158,12 +158,12 @@
     /* width: 20px; */
     /* padding: 0.5rem; */
     /* padding-right: 5rem; */
+    padding-top: 10%;
     background-color: transparent;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     /* // positions the icon to the right and center aligns it vertically */
     position: absolute;
-    top: 50%;
     right: 25px;
     transform: translateY(-50%);
     display: none;
@@ -179,7 +179,6 @@
     background-color: aliceblue;
     width: 30px;
     height: 1px;
-    margin-top: 0px;
     margin-left: 10px;
   }
 
@@ -188,7 +187,6 @@
     background-color: #0a185b;
     width: 30px;
     height: 1px;
-    margin-top: 0px;
     margin-left: 10px;
   }
 
@@ -199,6 +197,7 @@
     /* // rules go here */
     .hamburger {
       display: block;
+      padding-top: 10%;
       /* background-color: #eee; */
     }
   #navigation{
@@ -208,7 +207,7 @@
   .brand-name {
     text-decoration: none;
     margin-left: 0.5rem;
-    padding-top: 10px;
+    padding-top: 10%;
     width: 40px;
      height: 40px;
   }
@@ -216,7 +215,7 @@
   .brand-name2 {
     text-decoration: none;
     margin-left: 0.5rem;
-    padding-top: 10px;
+    padding-top: 10%;
     width: 40px;
      height: 40px;
   }

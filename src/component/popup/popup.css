@@ -225,20 +225,20 @@ margin: 0;
 .popup-body{
     background-color:#001474 ;
     min-height: 100vh;
-    width: 40%;
-      margin:  10% auto;
+    width: 60%;
+      margin:  0% auto;
       padding-right: 8%;
       opacity: 1;
       position: fixed;
       right: 0;
-      top: 10;
+      padding-top: 10%;
 }
 .popup-body ul{
     text-decoration: none;
     font-size: 22px;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 55%;
   list-style: square;
   padding-left: 15%;
   margin: 0;

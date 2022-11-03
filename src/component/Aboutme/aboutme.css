@@ -350,7 +350,7 @@ transition: all .15s ease-in-out;
 
   #about_me-dark{
     margin: auto;
-    max-width: 80%;
+    max-width: 90%;
     height: fit-content;
     padding-bottom: 12%;
     padding-top: 0%;
@@ -420,7 +420,7 @@ transition: all .15s ease-in-out;
 
 #about_me-light{
   margin: auto;
-  max-width: 80%;
+  max-width: 90%;
   height: fit-content;
   padding-bottom: 10%;
   padding-top: 0%;

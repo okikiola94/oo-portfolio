@@ -311,10 +311,10 @@
   @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
     .home{
     grid-template-columns: 60%;
-    width: 80%;
+    width: 90%;
     height: fit-content;
     align-items: center;
-    margin-left: auto;
+    margin: auto 5%;
     padding-top: 0%;
     padding-bottom: 5%;
 
@@ -326,7 +326,7 @@ margin-right: auto;
 display: inline-block;
 text-align: left;
 order: 2;
-padding-top: 5%;
+padding-top: 0%;
     }
 
     

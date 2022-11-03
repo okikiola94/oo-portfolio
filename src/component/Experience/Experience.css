@@ -354,9 +354,9 @@ border: 3px solid #00d7c3;} */
 
     #work_experience-dark{
       margin-top: auto;
-      margin-left: 10%;
+      margin-left: 5%;
       padding-top: 5%;
-      width: 80%;
+      width: 90%;
       height: fit-content;
       padding-bottom: 10%;
       /* background-color: #003047; */
@@ -398,9 +398,9 @@ border: 3px solid #00d7c3;} */
 
     #work_experience-light{
       margin-top: auto;
-      margin-left: 10%;
+      margin-left: 5%;
       padding-top: 5%;
-      width: 80%;
+      width: 90%;
       min-height: 100vh;
       padding-bottom: 10%;
     }
