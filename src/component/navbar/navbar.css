@@ -267,7 +267,7 @@
   }
     @media screen and (max-width: 768px) {
       .navigation-menu ul {
-        /* display: none; */
+        display: none;
       }
     }
   
