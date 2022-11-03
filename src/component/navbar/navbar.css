@@ -155,7 +155,7 @@
   .hamburger {
     /* // removes default border on button element */
     border: none;
-    height: 20px;
+    height: fit-content;
     /* width: 20px; */
     /* padding: 0.5rem; */
     /* padding-right: 5rem; */
@@ -194,7 +194,7 @@
   }
    */
 
-  .hamburger .line {
+   #navigation-dark .hamburger .line {
     border: solid 1px aliceblue;
     background-color: aliceblue;
     width: 30px;
