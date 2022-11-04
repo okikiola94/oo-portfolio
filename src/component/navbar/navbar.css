@@ -165,7 +165,7 @@
     transition: background-color 0.2s ease-in-out;
     /* // positions the icon to the right and center aligns it vertically */
     position: absolute;
-    right: 25px;
+    right: 3%;
     transform: translateY(-50%);
     display: none;
   }
@@ -280,6 +280,9 @@
     font-size: 14pt;     
     font-family: poppins;
     text-align: center;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
   }
 
 
@@ -293,6 +296,9 @@
     font-size: 14pt;
     font-weight: 600;
     font-family: poppins;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
   }
 
     @media screen and (max-width: 768px) {

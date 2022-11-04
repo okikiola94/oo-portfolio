@@ -31,6 +31,8 @@ const Navbar = (props) => {
            <hr className='line'/> 
            <hr className='line'/>
            <hr className='line'/>
+           <hr className='line'/>
+
       </button>
 
       {/* <button className="hamburger1"
