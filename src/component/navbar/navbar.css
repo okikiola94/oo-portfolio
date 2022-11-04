@@ -226,7 +226,7 @@
     /* // rules go here */
     .hamburger {
       display: block;
-      padding-top: 10%;
+      top: 5%;
       /* background-color: #eee; */
     }
 
@@ -266,6 +266,35 @@
     width: 100%;
      height: 100%;
   }
+
+
+  .navigation-menu-active {
+    /* // increases the surface area of the anchor tag to span more than just the anchor text */
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    /* height: 20px;   */
+      color: #0074ff;
+      padding: 7px;
+      justify-items: center;
+    font-size: 14pt;     
+    font-family: poppins;
+    text-align: center;
+  }
+
+
+  
+
+ #navigation-light .navigation-menu-active{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color:  #0074ff;
+    font-size: 14pt;
+    font-weight: 600;
+    font-family: poppins;
+  }
+
     @media screen and (max-width: 768px) {
       .navigation-menu ul {
         display: none;
