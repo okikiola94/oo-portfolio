@@ -468,7 +468,7 @@ order: 1;
 
 #about_me-light .paragraph-container {
   order: 2;
-  width: 270px;
+  width: 100%;
   /* padding-top: -3rem; */
 }
 
