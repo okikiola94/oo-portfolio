@@ -6,7 +6,6 @@ import ScrollAnimation from "react-animate-on-scroll";
 import ThemeContext from "../../context/themeContext/themeContext";
 
 const About = () => {
-
   return (
     <ThemeContext.Consumer>
       {(context) => (
@@ -44,12 +43,12 @@ const About = () => {
                       or playlists!!
                     </p>
                     <div className="about_dropdown">
-                  <History />
-                </div>
+                      <History />
+                    </div>
                   </div>
                 </div>
-               
-                <a href="https://docs.google.com/document/d/11d6vz3_Sp7t0fE9eFQvNb3wRJjbVpMG1/edit?usp=sharing&ouid=117768581770838537650&rtpof=true&sd=true">
+
+                <a href="https://docs.google.com/document/d/14QFh4UqPWhDBp2oFoimgqvWV_KKJ_GR5t2UKITWQr_Q/edit?usp=sharing">
                   <button className="animate__animated animate__zoomIn">
                     View My Resume →
                   </button>

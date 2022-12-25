@@ -11,7 +11,7 @@
   z-index: 10;
   opacity: 0.3;
   -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(5px);
 }
 
 #navigation-light {
@@ -27,7 +27,7 @@
   z-index: 10;
   opacity: -0;
   -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(5px);
 }
 
 .animate__animated.animate__fadeIn {
