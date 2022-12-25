@@ -20,7 +20,6 @@ Footer {
   @media only screen and (min-device-width: 260px) and (max-device-width: 319px){
 
     Footer {
-      margin-top: 157px;
       height: 25px;
       z-index: 10;
       padding-top: 0%;

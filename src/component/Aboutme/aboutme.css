@@ -186,8 +186,8 @@ h5.animate__animated.animate__zoomIn {
   .about-me p.animate__animated.animate__zoomIn {
     font-size: 17px;
     text-align: justify;
-    min-width: 281px;
-    max-width: 450px;
+    /* min-width: 281px;
+    max-width: 450px; */
     text-justify: inter-word;
     line-height: 1.5em;
   }
@@ -242,8 +242,8 @@ h5.animate__animated.animate__zoomIn {
   #about_me-light p.animate__animated.animate__zoomIn {
     font-size: 17px;
     text-align: justify;
-    min-width: 281px;
-    max-width: 450px;
+    /* min-width: 281px;
+    max-width: 450px; */
     line-height: 1.5em;
   }
 
