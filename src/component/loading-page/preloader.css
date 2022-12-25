@@ -1,17 +1,11 @@
-
-
-
-
-
-.spinner{
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image:linear-gradient(#0a185b, #001474);
-    padding-right: 1rem;
-    position: relative;
-
+.spinner {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #482922;
+  padding-right: 1rem;
+  position: relative;
 }
 
 /* .spinner {
@@ -30,131 +24,126 @@
     animation: rotateright 1.25s infinite ease-in-out;
 } */
 
-.loadit{
+.loadit {
+  position: absolute;
+  overflow: hidden;
+  animation: words 2.5s infinite ease-in-out;
+  color: #ccac8c;
+  font: 1.5rem sans-serif;
+}
+
+.span-load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+@keyframes words {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 130px;
+  }
+}
+
+div > .i {
+  background-color: transparent;
+  height: 150px;
+  width: 150px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 20px solid transparent;
+  border-bottom: 20px solid #ffdbaf;
+  border-top: 20px solid #a38064;
+  animation: rotateleft 1.25s infinite ease-in-out;
+  position: absolute;
+}
+
+div > .j {
+  background-color: transparent;
+  width: 120px;
+  height: 120px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 20px solid transparent;
+  border-left: 20px solid #a38064;
+  border-right: 20px solid #ffdbaf;
+  animation: rotateright 1.25s infinite ease-in-out;
+  position: absolute;
+}
+
+.completed {
+  font-size: 3rem;
+  color: #a38064 ;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #482922;
+  animation: bigger 1s linear;
+}
+
+@keyframes bigger {
+  from {
+    transform: scale (0);
+  }
+  to {
+    transform: scale (2);
+  }
+}
+
+@keyframes rotateright {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes rotateleft {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+@media only screen and (min-device-width: 260px) and (max-width: 560px) {
+  .loadit {
     position: absolute;
     overflow: hidden;
     animation: words 2.5s infinite ease-in-out;
-    color:#ffffff;
-    font: 2rem sans-serif;
-}
+    font: 1.5rem sans-serif;
+    padding: 2px;
+  }
 
-.span-load{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:400px;
-    height:400px
-}
-
-@keyframes words{
-    from {
-        width:0
-    }
-    
-    to{
-        width:130px
-    }
-    
-}
-
-div > .i{
-    background-color:transparent;
-    height:190px;
-    width:190px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border:20px solid transparent;
-    border-bottom:20px solid #ffffff;
-    border-top:20px solid #ffffff;
-    animation: rotateleft 1.25s infinite ease-in-out;
-    position: absolute;
-}
-
-div > .j{
-    background-color:transparent;
-    width:150px;
-    height:150px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border:20px solid transparent;
-    border-left:20px solid #ffffff;
-    border-right:20px solid #ffffff;
-    animation: rotateright 1.25s infinite ease-in-out;
-    position: absolute;
-}
-
-
-.completed{
-    font-size: 4rem;
-    color: #ffffff;
+  .completed {
+    font-size: 2rem;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(#0a185b, #001474);
     animation: bigger 1s linear;
-}
-
-@keyframes bigger{
-    from{
-        transform:scale (0);
-    }
-    to{
-        transform:scale (2);
-    }}
-
-    @keyframes rotateright{
-        from{
-            transform: rotate(0)
-        }
-        
-        to{
-            transform: rotate(360deg)
-        }
-    }
-
-@keyframes fade{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity:1;
-    }
-}
-
-@keyframes rotateleft{
-    from{
-        transform: rotate(0)
-    }
-    
-    to{
-        transform: rotate(-360deg)
-    }
-}
-
-@media only screen and (min-device-width: 260px) and (max-width:560px){
-
-    .loadit{
-        position: absolute;
-        overflow: hidden;
-        animation: words 2.5s infinite ease-in-out;
-        color:#ffffff;
-        font: 2rem sans-serif;
-        padding: 2px;
-    }
-
-    .completed{
-        font-size: 3rem;
-        color: #ffffff;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-image:linear-gradient(#0a185b, #001474);
-        animation: bigger 1s linear;
-    }
+  }
 }

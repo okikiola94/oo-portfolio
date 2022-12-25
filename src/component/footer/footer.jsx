@@ -8,7 +8,7 @@ function Footer() {
     return <ThemeContext.Consumer>
     {context =>(
       <footer id={context.userTheme==="light"? "Footer-light":"Footer-dark"}>
-        <p>&copy; copyright2022. All rights reserved.</p>
+        <small>&copy; Designed & built by Okikiola. All rights reserved.</small>
       </footer>
     )}
     </ThemeContext.Consumer>

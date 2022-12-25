@@ -1,27 +1,19 @@
 .social-buttons-container {
     height: fit-content;
   z-index: 20;
-  padding-left: 3px;
-  position:sticky;
-  /* bottom: 45%; */
-  top: 30%;
-  position: fixed;
+  align-items: center;
   }
 
 
 
    .social-buttons-container ul{
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
   -webkit-box-align: center;
   margin: 0px;
   padding: 0px;
   list-style: none;
-  margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 
 #social-buttons-dark .contact-section-light-display{
@@ -34,18 +26,16 @@ display: none;
 }
 
 .contact-section-dark-display_aqua{
-  width: 40px;
-    bottom: 0px;
-    left: 20px;
-    right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
 
  li{
   float: left;
-  padding-left: 2px;
-  margin: auto;
+  
  }
 
 
@@ -53,18 +43,29 @@ display: none;
  li a{
   display: block;
   text-decoration: none;
-  padding: 5px;
+color: #dcb494;
+font-size: 1rem;
  }
+
+ li a:hover{
+  display: block;
+  text-decoration: none;
+color: #a38064;
+font-size: 0.9rem;
+transition: 0.2s;
+ }
+
+ /* .vl {
+  border-left: 1px solid #dcb494;
+  height: 450px;
+  margin-left: 5%;
+} */
 
 /* ///light-mode/// */
 
-#social-buttons-light{
-  height: fit-content;
-  z-index: 20;
-  padding-left: 3px;
-  position:sticky;
-  bottom: 50px;
-  position: fixed;
+#social-buttons-light li a{
+ color: #944703;
+ 
 }
 
 .contact-section-light-display_blue{
@@ -85,349 +86,6 @@ height: 35px;
 
   /* ////responsiveness///// */
 
-  @media only screen and (min-device-width : 260px) and (max-device-width : 319px){
+  @media only screen and (max-device-width : 920px){
 
-    .social-buttons-container {
-      height: fit-content;
-      margin-right: auto;
-     position: relative;
-     margin-bottom: -178px;
-     padding-left: 5%;
-     bottom: 20px;
-    }
-
-    .social-buttons-container ul{
-      display: flex;
-      flex-direction: row;
-      -webkit-box-align: center;
-      margin: 0px;
-      padding: 0px;
-      list-style: none;
-      margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        /* padding-inline-start: 40px; */
-    }
-    
-    .animate__animated.animate__fadeInUp{
-      display: none;
-    }
-
-    
-   
-    
-    #social-buttons-dark .contact-icons-link-dark :hover{
-      transition: 5s;
-      transition-delay: 2s;
-    }
-    
-    .contact-section-dark-display_aqua{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-        /* top: 90%; */
-    }
-    
-    li{
-      margin: auto;
-     }
-
-    #social-buttons-light{
-      height: fit-content;
-       margin-right: auto;
-      position: relative;
-      margin-bottom: -223px;
-      padding-left: 5%;
-      bottom: 10px;
-          /* z-index: 10; */
-    }
-
-    .contact-section-light-display_blue{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-    }
-    
-    
-
-  }
-
-  @media only screen and (min-device-width : 320px) and (max-device-width : 480px){
-
-    .social-buttons-container {
-      height: fit-content;
-      margin: auto;
-      position: relative;
-      padding-left: 15%;
-      bottom: 0;
-      padding-bottom: -10%;
-
-    }
-    
-      
-     .social-buttons-container ul{
-    display: flex;
-    flex-direction: row;
-    -webkit-box-align: center;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-  }
-  
-    .animate__animated.animate__fadeInUp{
-      display: none;
-    }
-
-    
-   
-    
-    #social-buttons-dark .contact-icons-link-dark :hover{
-      transition: 5s;
-      transition-delay: 2s;
-    }
-    
-    .contact-section-dark-display_aqua{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-        /* top: 90%; */
-        width: fit-content;
-        align-items: center;
-    }
-    
-    li{
-      margin: auto;
-     }
-
-     #social-buttons-light{
-      height: fit-content;
-       margin-right: auto;
-      position: relative;
-      padding-left: 16%;
-      margin-bottom: -90px;
-      bottom: 18px;
-    }
-    
-    .contact-section-light-display_blue{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-    }
-    
-   
-
-    }
-  
-
-    @media only screen and (min-device-width : 508px) and (max-device-width : 767px){
-
-      .social-buttons-container {
-        margin-bottom: -24px;
-        height: -moz-fit-content;
-        height: fit-content;
-        /* margin-right: auto; */
-        padding-left: 28%;
-        position: relative;
-    }
-
-    
-  
-  
-    .social-buttons-container ul{
-      display: flex;
-      flex-direction: row;
-      -webkit-box-align: center;
-      margin: 0px;
-      padding: 0px;
-      list-style: none;
-      margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        /* padding-inline-start: 40px; */
-    }
-    
-      .animate__animated.animate__fadeInUp{
-        display: none;
-      }
-  
-      
-     
-      
-      #social-buttons-dark .contact-icons-link-dark :hover{
-        transition: 5s;
-        transition-delay: 2s;
-      }
-      
-      .contact-section-dark-display_aqua{
-          bottom: 0px;
-          left: 20px;
-          right: auto;
-          z-index: 10;
-      }
-      
-      li{
-        margin: auto;
-       }
-  
-       #social-buttons-light{
-        height: fit-content;
-         margin-right: auto;
-        position: relative;
-        padding-left: 28%;
-        /* padding-top: 50px; */
-        margin-bottom: -106px;
-            /* z-index: 10; */
-      }
-      
-      .contact-section-light-display_blue{
-          bottom: 0px;
-          left: 20px;
-          right: auto;
-      }
-      
-    }
-
-
-
-
-  @media screen and (width:768px){
-    .social-buttons-container {
-      margin-bottom: -45px;
-      height: fit-content;
-      /* margin-right: auto; */
-      padding-left: 28%;
-      position: relative;
-    
-    }
-  
-  
-  
-     .social-buttons-container ul{
-    display: flex;
-    flex-direction: row;
-    -webkit-box-align: center;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      /* padding-inline-start: 40px; */
-  }
-  
-    .animate__animated.animate__fadeInUp{
-      display: none;
-    }
-
-    
-    
-    
-    #social-buttons-dark .contact-icons-link-dark :hover{
-      transition: 5s;
-      transition-delay: 2s;
-    }
-    
-    .contact-section-dark-display_aqua{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-        z-index: 10;
-    }
-    
-    li{
-      margin: auto;
-     }
-
-     #social-buttons-light{
-      height: fit-content;
-       margin-right: auto;
-      position: relative;
-      padding-left: 28%;
-      margin-bottom: -106px;
-          /* z-index: 10; */
-    }
-    
-    .contact-section-light-display_blue{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-    }
-    
-   
-  }
-
-  @media only screen and (min-device-width : 820px) and (max-device-width : 1024px){
-
-    .social-buttons-container {
-      margin-bottom: -164px;
-      height: fit-content;
-      margin-right: auto;
-      padding-left: 35%;
-      position: relative;
-      bottom: 0px;
-    
-    }
-  
-  
-     .social-buttons-container ul{
-    display: flex;
-    flex-direction: row;
-    -webkit-box-align: center;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      /* padding-inline-start: 40px; */
-  }
-  
-    .animate__animated.animate__fadeInUp{
-      display: none;
-    }
-
-    
-    
-    
-    #social-buttons-dark .contact-icons-link-dark :hover{
-      transition: 5s;
-      transition-delay: 2s;
-    }
-    
-    .contact-section-dark-display_aqua{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-        z-index: 10;
-    }
-    
-    li{
-      margin: auto;
-     }
-
-     #social-buttons-light{
-      height: fit-content;
-       margin-right: auto;
-      position: relative;
-      margin-bottom: -230px;
-      padding-left: 35%;
-          /* z-index: 10; */
-    }
-    
-    .contact-section-light-display_blue{
-        bottom: 0px;
-        left: 20px;
-        right: auto;
-    }
-    
-    
-   
   }

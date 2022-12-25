@@ -107,7 +107,7 @@ export default function Parent() {
                     </ul>
                 </div> */}
                 <div>
-                    <InfernoBall className='infernoBall'/>
+                    {/* <InfernoBall className='infernoBall'/> */}
 
                     <Navbar activeRoute={activeRoute} goToHome={goToHome} goToAbout={goToAbout} goToPortfolio={goToPortfolio} goToContact={goToContact} />
                     <div ref={homeRef}>
@@ -117,8 +117,6 @@ export default function Parent() {
                         <About />
                     </div>
                     <div ref={portfolioRef}>
-                        <Experience />
-                        <Qualifications />
                         <Fade />
                     </div>
                     <div ref={contactRef}>
