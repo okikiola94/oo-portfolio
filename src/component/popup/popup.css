@@ -1,10 +1,12 @@
 .popup-backdrop{
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
-    background-color:#341D17;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  background-color: #341D17;
+
     
 }
 
@@ -92,12 +94,14 @@
 
 .close_popup{
   display: flex;
-  align-items: flex-end;
-  font-size: 2rem;
-  color: #dcb494;
-  font-weight: 600;
-  top: 2%;
-
+    justify-content: right;
+    font-size: 2rem;
+    color: #dcb494;
+    font-weight: 600;
+    position: fixed;
+    right: 3%;
+    padding-top: 3%;
+    z-index: 12;
 }
 #popup-backdrop-light .close_popup{
   color: #944703;
