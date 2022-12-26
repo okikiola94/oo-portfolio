@@ -14,4 +14,8 @@ body {
 
 p{
   word-spacing: normal;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+  
 }
