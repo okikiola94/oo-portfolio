@@ -57,11 +57,11 @@ export default class Fade extends Component {
                   <img src={Mbw} alt="rps" />
                 </div>
                 <div className="product_text_wrap">
-                  <h4>Weather-Telling-WebApp </h4>
+                  <h4>Magic Story Writer </h4>
                   <p>
-                    One of the first projects i made was the famous rock, paper
-                    scissors. It was built with <span>HTML, CSS</span> and{" "}
-                    <span>JS</span>.{" "}
+                  Collaborated with other team members to deliver kid story
+illustratior website. This project was done with <span>REACTJS, CSS</span> and{" "}
+                    <span>NODEJS</span>.{" "}
                   </p>
 
                   <div className="project-links">
