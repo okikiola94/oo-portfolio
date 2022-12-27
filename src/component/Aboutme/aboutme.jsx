@@ -15,7 +15,8 @@ const About = () => {
             context.userTheme === "light" ? "about_me-light" : "about_me-dark"
           }
         >
-          <ScrollAnimation animateIn="fadeIn">
+          <ScrollAnimation animateIn="fadeIn" animateOut='fadeOut' 
+          duration={300}>
             <div className="about-me-inner">
               <div className="inner_flex">
                 <div className="inner-paragraph-grid">
@@ -47,8 +48,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
-
-                <a href="https://docs.google.com/document/d/14QFh4UqPWhDBp2oFoimgqvWV_KKJ_GR5t2UKITWQr_Q/edit?usp=sharing">
+                <a href="https://drive.google.com/file/d/12n-hMBmyj7L-imdTH0DmMJOmXQClXEup/view?usp=sharing">
                   <button className="animate__animated animate__zoomIn">
                     View My Resume →
                   </button>

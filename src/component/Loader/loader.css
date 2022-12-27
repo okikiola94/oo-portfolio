@@ -13,4 +13,19 @@
     display: flex;
   justify-content: center;
   align-items: center;
+  color:#b36b43;
+  font-size:3rem;
+  animation: rotateleft 1.25s infinite ease-in-out;
+}
+
+
+
+@keyframes rotateleft {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(-360deg);
+  }
 }

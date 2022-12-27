@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./loader.css";
-import ReactLoading from 'react-loading';
+import { BiLoaderCircle, BiDotsHorizontalRounded } from "react-icons/bi";
+// import ReactLoading from 'react-loading';
 import Parent from "../parent/parent";
 
 const Loader =()=>{
@@ -24,14 +25,10 @@ const Loader =()=>{
         {!done ? (
 
             <div className="spinner">
-          <ReactLoading
-            type={"bars"}
-            color={"#b36b43"}
-            height={100}
-            width={100}
-            delay={2}
-            className="loader_wrap"
+          <BiDotsHorizontalRounded
+          className="loader_wrap"
           />
+          
           </div>
         ) : (
          <Parent/>
