@@ -1,0 +1,16 @@
+.spinner {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#5e3309 ;
+    padding-right: 1rem;
+    position: relative;
+  }
+
+
+.loader_wrap{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}

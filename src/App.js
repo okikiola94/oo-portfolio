@@ -5,7 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 import ThemeProvider from "./context/themeContext/themeProvider";
 // import Parent from './component/parent/parent';
-import PreLoader from './component/loading-page/preloader';
+import Loader from './component/Loader/loader';
 
 
 
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <ThemeProvider>
-      <PreLoader/>
+      <Loader/>
     </ThemeProvider>
   );
 }
