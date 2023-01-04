@@ -25,7 +25,7 @@
   .wrapper span {
     -webkit-text-stroke-width: 1.25px;
     -webkit-text-stroke-color: #000;
-    font-size: 100px;
+    font-size: 3rem;
     text-shadow: 0 0px #1291b2, 0 0px #0fbfeb;
     transform: translate(0, 100%) rotate(4deg);
     animation: jump 2s ease-in-out infinite;
