@@ -152,7 +152,7 @@ h6.animate__animated.animate__zoomIn {
 #home-light p {
   color: #616161;
   font-size: 1rem;
-  text-align: justify;
+  text-align: center;
   font-family: poppins;
 }
 
@@ -183,8 +183,8 @@ h6.animate__animated.animate__zoomIn {
   .home {
     margin: auto 5%;
     max-width: 100%;
-    padding-block-start: 20%;
-    padding-block-end: 5%;
+    padding-block-start: 50%;
+    padding-block-end: 50%;
   }
   .front-end {
     
@@ -196,7 +196,7 @@ h6.animate__animated.animate__zoomIn {
   }
 
   .home h4.animate__animated.animate__zoomIn {
-    font-size: 1.6rem;
+    font-size: 2.6rem;
   }
 
   h6.animate__animated.animate__zoomIn {
