@@ -24,12 +24,12 @@ const Socials = () => {
               <ul className="contact-icons-link-dark__">
                 <li>
                   <a href="https://twitter.com/okikiola_eniola">
-                    <FiTwitter />
+                    <FiTwitter id="twitter"/>
                   </a>
                 </li>
                 <li>
                   <a href="mailto:farominiyiopeyemi@gmail.com">
-                    <HiOutlineMail />
+                    <HiOutlineMail id="twitter" />
                   </a>
                 </li>
                 <li>

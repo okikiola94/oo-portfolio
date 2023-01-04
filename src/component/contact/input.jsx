@@ -3,15 +3,18 @@ import "animate.css";
 import "./contact.css";
 import React from "react";
 import ThemeContext from "../../context/themeContext/themeContext";
+import { useState } from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css/animate.min.css";
 
 const Input = () => {
-//   const [name, SetName] = useState("");
-//   const [email, SetEmail] = useState("");
-//   const [message, SetMessage] = useState("");
-//   const handleSubmit = (e) => {
-//     window.location.href = `mailto:${email}?subject=${name}&body=${message}`;
-//     e.preventDefault();
-//   };
+  const [name, SetName] = useState("");
+  const [email, SetEmail] = useState("");
+  const [message, SetMessage] = useState("");
+  const handleSubmit = (e) => {
+    window.location.href = `mailto:${email}?subject=${name}&body=${message}`;
+    e.preventDefault();
+  };
   return (
     <ThemeContext.Consumer>
       {(context) => (
@@ -23,6 +26,10 @@ const Input = () => {
               : "contact_section-dark"
           }
         >
+          <AnimationOnScroll
+            initiallyVisible={false}
+            animateIn="animate__bounceIn"
+          >
           <div className="contact-heading-container">
             <div className="Contact-container">
               <h5> Get In Touch</h5>
@@ -34,8 +41,7 @@ const Input = () => {
               </p>
             </div>
           </div>
-         <button className="push_button"> <a href="mailto:farominiyiopeyemi@gmail.com">Contact Me</a></button>
-          {/* <div className="input-container">
+          <div className="input-container">
             <div className="form">
               <form onSubmit={handleSubmit}>
                 <div className="Name-input">
@@ -74,10 +80,13 @@ const Input = () => {
                     required
                   />
                 </div>
-                <button type="submit">Submit</button>
+                {/* <button className="btn"> <a href="mailto:farominiyiopeyemi@gmail.com">Contact Me</a></button> */}
+
+                <button className="btn" type="submit">Submit</button>
               </form>
             </div>
-          </div> */}
+          </div>
+          </AnimationOnScroll>
         </section>
       )}
     </ThemeContext.Consumer>

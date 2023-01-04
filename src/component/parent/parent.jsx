@@ -15,6 +15,8 @@ import Input from "../contact/input";
 import Footer from "../footer/footer";
 import About from "../Aboutme/aboutme";
 import Fab from "../fab/fab";
+import ReactDOM from 'react-dom'
+import Snowfall from 'react-snowfall'
 
 const scrollToRef = (ref) =>
   window.scrollTo({ left: 0, top: ref.current.offsetTop, behavior: "smooth" });
@@ -90,35 +92,16 @@ export default function Parent() {
               : "parent_cover-dark"
           }
         >
-          {/* <div className='circles-container'>
-                    <ul class="circles">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div className='circles-container2'>
-                    <ul class="circles2">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div> */}
+          <div>
+    <Snowfall   color="#1291b2"
+style={{
+    position: 'fixed',
+    width: '100vw',
+    height: '100vh',
+  }}
+  snowflakeCount={10}
+  />
+  </div>,
           <div>
             {/* <InfernoBall className='infernoBall'/> */}
 
@@ -136,6 +119,7 @@ export default function Parent() {
               <About />
             </div>
             <div ref={portfolioRef}>
+              <Experience/>
               <Fade />
             </div>
             <div ref={contactRef}>

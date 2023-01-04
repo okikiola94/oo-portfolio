@@ -3,13 +3,16 @@
   max-width: 80%;
   /* padding: 10%; */
   /* text-align: left; */
-  padding-block-start: 10%;
+  padding-block-start: 15%;
 }
 
 .front-end {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: auto;
-  text-align: left;
-  padding-inline: 5%;
+  text-align: center;
+  padding-inline: 25%;
 }
 .illustration img {
   width: 100%;
@@ -17,24 +20,27 @@
 }
 
 .home h4.animate__animated.animate__zoomIn {
-  color: #dcb494;
+  color: #1291b2;
   font-size: 3rem;
-  /* line-height: 0.5em; */
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
   width: 100%;
-  font-family: poppins;
+  font-family: roboto;
   font-weight: 600;
 }
 
 h6.animate__animated.animate__zoomIn {
-  color: #a38064;
+  color: #fff;
   font-size: 1.2rem;
   line-height: 0.5em;
   font-weight: 600;
+  font-family: roboto;
 }
 #home_title {
-  color: #b36b43;
+  color: #fff;
   font-size: 1.5rem;
   line-height: 0.5em;
+  --tw-text-opacity: 1;
   font-weight: 700;
   margin-block-start: 0;
 }
@@ -44,19 +50,21 @@ h6.animate__animated.animate__zoomIn {
 }
 
 .front-end p.animate__animated.animate__zoomIn {
-  color: #ccac8c;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
   font-size: 1rem;
-  text-align: justify;
+  text-align: center;
   font-family: poppins;
   padding: 0% 0%;
-  font-weight: lighter;
+  font-weight: 400;
+  margin-block-end: 2em;
 }
 
 .animate__animated.animate__zoomIn {
   --animate-duration: 2s;
 }
 
-.front-end button {
+/* .front-end button {
   width: 161px;
   height: 49px;
   text-align: center;
@@ -71,11 +79,65 @@ h6.animate__animated.animate__zoomIn {
   transition: all 0.15s ease-in-out;
   color: #ffdbaf;
   font-size: 10pt;
-}
+} */
 .front-end button a {
   text-decoration: none;
   text-align: left;
 }
+
+/* .front-end button:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+  stroke-dashoffset: -480;
+
+} */
+
+/* #container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+
+.btn {
+  width: 171px;
+  height: 49px;
+  position:relative;
+  margin-top:5%;
+  background: linear-gradient(90deg,#0891b2,#22d3ee);
+  border:1px solid #0891b2;
+  border-radius:2rem;
+  padding:16px;
+  font-size:0.9em;
+  color:white;
+  box-shadow:5px 2px 1px 5px #0891b2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:700;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  left:0;
+  top:0;
+
+}
+
+
+
+.btn:hover {
+  left:4px;
+  top:4px;
+  box-shadow:0 2px 8px 0 #0891b2;
+   background: linear-gradient(90deg,#22d3ee,#0891b2);
+  }
+
+
+
 
 .illustration {
   width: 600px;
@@ -83,8 +145,8 @@ h6.animate__animated.animate__zoomIn {
 
 /* //light-mode/// */
 
-#home-light h4 {
-  color: #424242;
+#home-light h5 {
+  color: #000;
 }
 
 #home-light p {
@@ -94,7 +156,7 @@ h6.animate__animated.animate__zoomIn {
   font-family: poppins;
 }
 
-#home-light button {
+/* #home-light button {
   width: 161px;
   height: 49px;
   text-align: center;
@@ -109,7 +171,7 @@ h6.animate__animated.animate__zoomIn {
   transition: all 0.15s ease-in-out;
   color: #fafafa;
   font-size: 10pt;
-}
+} */
 
 #home-light button a {
   text-decoration: none;
@@ -118,22 +180,34 @@ h6.animate__animated.animate__zoomIn {
 /* //responsiveness/// */
 
 @media only screen and (max-width: 920px) {
-  .home{
+  .home {
     margin: auto 5%;
     max-width: 100%;
     padding-block-start: 20%;
     padding-block-end: 5%;
   }
+  .front-end {
+    
+    padding-inline: 0%;
+}
 
-  h6.animate__animated.animate__zoomIn{
+  h6.animate__animated.animate__zoomIn {
     padding-block-end: 0;
   }
 
-  .home h4.animate__animated.animate__zoomIn{
+  .home h4.animate__animated.animate__zoomIn {
     font-size: 1.6rem;
   }
 
-  h6.animate__animated.animate__zoomIn{
+  h6.animate__animated.animate__zoomIn {
     font-size: 1rem;
   }
+}
+@media only screen and (max-width: 560px) {
+  .btn{
+    width: 132px;
+    height: 46px;
+  }
+
+
 }

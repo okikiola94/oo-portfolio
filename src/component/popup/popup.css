@@ -5,17 +5,17 @@
   left: 0;
   position: fixed;
   height: 100vh;
-  background-color: #341D17;
+  background-color: #040404;
 
     
 }
 
 #popup-backdrop-light{
-  background-color: #F5F5F5;
+  background-color: #fff;
 }
 
 .popup-body{
-    background-color:#341D17;
+    background-color:#040404;
     min-height: 100vh;
     width: 100%;
     opacity: 1;
@@ -34,7 +34,7 @@
 }
 
 .popup-body li a{
-  color: #ccac8c;
+  color: #1291b2;
   font-size: 1rem;
     text-decoration: none;
 
@@ -45,7 +45,7 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    color: #ccac8c;
+    color: #1291b2;
     font-size: 1rem;
     font-family: poppins;
   }
@@ -54,7 +54,7 @@
     text-decoration: none;
     display: block;
     width: 100%;
-    color: #ccac8c;
+    color: #0fbfeb;
     font-size: 1rem;
     font-family: poppins;
     text-align: left;
@@ -65,7 +65,7 @@
     transition: 0.7s;
   }
   #popup-backdrop-light .popup-body  {
-      background-color:#F5F5F5;
+      background-color:#fff;
       width: 100%;
       min-height: 100vh;
       opacity: 1;
@@ -78,7 +78,7 @@
   }
 
   #popup-backdrop-light .popup-body li a{
-    color: #616161;
+    color: #1291b2;
     text-decoration: none;
 
 }
@@ -96,7 +96,7 @@
   display: flex;
     justify-content: right;
     font-size: 2rem;
-    color: #dcb494;
+    color: #0fbfeb;
     font-weight: 600;
     position: fixed;
     right: 3%;
@@ -104,7 +104,7 @@
     z-index: 12;
 }
 #popup-backdrop-light .close_popup{
-  color: #944703;
+  color: #0fbfeb;
 
 }
 

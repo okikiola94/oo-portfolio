@@ -15,16 +15,19 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    padding-inline: 5%;
 }
 .history_text{
     line-height: 2rem;
-    color: #ccac8c;
+    color: rgb(107 114 128/var(--tw-text-opacity)); 
+    --tw-text-opacity: 1;
     font-size: 1rem;
     font-family: poppins;
     text-align: justify;
 }
 #history-light .history_text{
   color: #616161;
+  line-height: 2rem;
 }
 
 .collapsible__trigger{
@@ -39,16 +42,20 @@
 
  #history-light .history_text_container span{
   color:#424242;
-    font-size: 1rem;
+  font-size: 1rem;
     font-weight: 700;
     font-family: poppins;
+    cursor: pointer;
 }
 
 #history-dark .history_text_container span{
-    color: #a38064;
-      font-size: 1rem;
+  color: rgb(107 114 128/var(--tw-text-opacity)); 
+  --tw-text-opacity: 1;
+  font-size: 1rem;
       font-weight: 700;
       font-family: poppins;
+      cursor: pointer;
+
   }
 
   .history_span{
@@ -59,14 +66,15 @@
   }
 
   #history-light .history_span{
-    color:#424242;
+    color: rgb(107 114 128/var(--tw-text-opacity)); 
 
   }
 
   .history_date{
-    color: #a38064;
-      font-size: 0.8rem;
-      font-weight: 400;
+    color: rgb(107 114 128/var(--tw-text-opacity)); 
+    --tw-text-opacity: 1;
+          font-size: 0.8rem;
+      font-weight: 500;
   }
 
   #history-light .history_date{
@@ -75,8 +83,8 @@
   }
 
   .collapsible_list_wrap{
-    color: #ccac8c;
-    font-size: 0.9rem;
+    color: rgb(107 114 128/var(--tw-text-opacity)); 
+    --tw-text-opacity: 1;    font-size: 0.9rem;
     font-weight: 400;
   }
 

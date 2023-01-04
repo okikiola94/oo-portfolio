@@ -1,6 +1,6 @@
 import "animate.css";
 // import { useContext } from "react";
-import logo from "./images/LogoNu.png";
+import logo from "./images/Okikiola.png";
 import {RxHamburgerMenu} from "react-icons/rx";
 
 import { useState } from "react";

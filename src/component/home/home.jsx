@@ -21,31 +21,37 @@ const Home = (props) => {
           id={context.userTheme === "light" ? "home-light" : "home-dark"}
         >
           <div className="front-end">
-            <h6 class="animate__animated animate__zoomIn">Hello there👋, I am </h6>
-            <h4 class="animate__animated animate__zoomIn">
-              Okikiola O Farominiyi
-            </h4>
-            <h5 class="animate__animated animate__zoomIn" id="home_title">Front End Developer</h5>
+            {/* <h6 class="animate__animated animate__zoomIn">
+              Hello there👋, I'm
+            </h6> */}
+            <h4 class="animate__animated animate__zoomIn">Hi, I'm Okikiola</h4>
+            <h5 class="animate__animated animate__zoomIn" id="home_title">
+              Front End Developer
+            </h5>
 
             <p className="animate__animated animate__zoomIn">
               I am a frontend developer who focuses on creating user-friendly
               and enjoyable digital experiences. I stay up to date on web
-              development trends and am constantly learning new skills. I can
-              help you gain analytical insights from your website visitors as a
-              data analyst..
+              development trends and am constantly learning new skills.
             </p>
 
-            <a
+            <div className="animate__animated animate__zoomIn" id="container">
+              <div className="center">
+                <button className="btn" onClick={() => props.goToContact()}>
+                  Hire Me
+                </button>
+              </div>
+            </div>
+
+            {/* <a
               onClick={() => props.goToContact()}
               className={activeRoute === "contact"}
               href="#contact"
             >
-              {" "}
               <button className="animate__animated animate__zoomIn">
-                {" "}
-                Hire me{" "}
+                Hire me
               </button>
-            </a>
+            </a> */}
           </div>
 
           {/* <div className="illustration">

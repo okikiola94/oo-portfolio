@@ -4,37 +4,48 @@ import { BiLoaderCircle, BiDotsHorizontalRounded } from "react-icons/bi";
 // import ReactLoading from 'react-loading';
 import Parent from "../parent/parent";
 
-const Loader =()=>{
-    const [data, setData] = useState([]);
-    const [done, setDone] = useState(undefined);
+const Loader = () => {
+  const [data, setData] = useState([]);
+  const [done, setDone] = useState(undefined);
 
-    useEffect(() => {
-        setTimeout(() => {
-          fetch("https://jsonplaceholder.typicode.com/posts")
-            .then((response) => response.json())
-            .then((json) => {
-            //   console.log(json);
-              setData(json);
-              setDone(true);
-            });
-        }, 3000);
-      }, []);
+  useEffect(() => {
+    setTimeout(() => {
+      fetch("https://jsonplaceholder.typicode.com/posts")
+        .then((response) => response.json())
+        .then((json) => {
+          //   console.log(json);
+          setData(json);
+          setDone(true);
+        });
+    }, 3000);
+  }, []);
 
-    return(
-        <>
-        {!done ? (
+  return (
+    <>
+      {!done ? (
+        <div className="spinner">
+          <div class="wrapper">
+  <span>O</span>
+  <span>k</span>
+  <span>i</span>
+  <span>k</span>
+  <span>o</span>
+  <span>l</span>
+  <span>a</span>
+  <span>.</span>
+  <span>.</span>
+  <span>.</span>
 
-            <div className="spinner">
-          <BiDotsHorizontalRounded
+</div>
+          {/* <p className="loader_wrap">Okikiola..</p> */}
+          {/* <BiDotsHorizontalRounded
           className="loader_wrap"
-          />
-          
-          </div>
-        ) : (
-         <Parent/>
-        )}
-      </>
-
-    )
-}
+          /> */}
+        </div>
+      ) : (
+        <Parent />
+      )}
+    </>
+  );
+};
 export default Loader;

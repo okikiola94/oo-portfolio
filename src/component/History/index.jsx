@@ -69,7 +69,7 @@ const History = () => {
           </div>
         </Collapsible>
 
-        <Collapsible trigger={[<RxTriangleRight />, "SKILLS"]}>
+        {/* <Collapsible trigger={[<RxTriangleRight />, "SKILLS"]}>
           <div className="collapse_content">
           <div>
             <p className="history_text">Languages</p>
@@ -114,7 +114,7 @@ const History = () => {
             </ul>
           </div>
           </div>
-        </Collapsible>
+        </Collapsible> */}
       </div>
     </div>
      )}

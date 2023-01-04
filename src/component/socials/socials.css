@@ -43,41 +43,28 @@ display: none;
  li a{
   display: block;
   text-decoration: none;
-color: #dcb494;
+color: #1291b2;
 font-size: 1rem;
+font-weight: 700;
+ }
+
+ #twitter{
+  font-size: 1.2rem;
+
  }
 
  li a:hover{
   display: block;
   text-decoration: none;
-color: #a38064;
+color: #0fbfeb;
 font-size: 0.9rem;
 transition: 0.2s;
  }
 
- /* .vl {
-  border-left: 1px solid #dcb494;
-  height: 450px;
-  margin-left: 5%;
-} */
+ 
 
 /* ///light-mode/// */
 
-#social-buttons-light li a{
- color: #944703;
- 
-}
-
-.contact-section-light-display_blue{
-  width: 40px;
-    bottom: 0px;
-    left: 20px;
-    right: auto;
-}
-
-/* #social-buttons-light .contact-section-dark-display{
-  display: none;
-  } */
 
  .social-buttons-container li a img{
 width: 35px;

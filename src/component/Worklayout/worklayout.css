@@ -7,28 +7,30 @@
   margin: auto 5%;
   max-width: 80%;
   padding-block-end: 10%;
-  padding-inline: 8% 10%;
+  padding-inline: 18%;
 }
 
 .fade-header h5 {
-  color: #b36b43;
-  font-size: 2rem;
+  color: #1291b2;
+  font-size: 2.5rem;
   font-family: nunito;
   text-align: center;
   line-height: 0.2em;
 }
 
 .product-image {
-  /* width: 400px;
-  height: 200px; */
+  width: 70%;
+  height: 45%;
   margin-bottom: 20px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  border: 1px solid #1291b2;
+  box-shadow: 0 8px 16px 0 #1291b2, 0 6px 20px 0 #131313;
 }
 
 .product-image img {
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   background-blend-mode: multiply;
@@ -45,13 +47,23 @@
 
 .project {
   display: flex;
-  gap: 5%;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  gap: 3%;
 }
 
 .product_text_wrap {
   display: flex;
   flex-direction: column;
-  gap: 5%;
+  align-items: center;
+  padding-inline: 15%;
+}
+
+.project-links{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 #Fade-dark .live-project-link {
@@ -94,19 +106,20 @@
 
 .project p {
   line-height: 2rem;
-  color: #ccac8c;
-  font-size: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128/var(--tw-text-opacity));  font-size: 1rem;
   height: fit-content;
+  text-align: center;
 }
 
 #Fade-dark .project p span {
-  color: #dcb494;
-  font-size: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128/var(--tw-text-opacity));  font-size: 1rem;
   font-weight: 600;
 }
 
 .project h4 {
-  color: #a38064;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2px 0;
@@ -130,9 +143,9 @@
 
 /* //light-mood//// */
 
-#Fade-light .fade-header h5 {
+/* #Fade-light .fade-header h5 {
   color: #424242;
-}
+} */
 
 #Fade-light .fade-header-inner .lines {
   border: solid 2px #000;
@@ -143,7 +156,7 @@
 }
 
 #Fade-light .project h4 {
-  color: #424242;
+  color: #000;
 }
 
 #Fade-light .project p {
@@ -223,7 +236,6 @@
 
   .fade-header h5 {
     font-size: 1.5rem;
-    text-align: left;
   }
 
   #Fade-dark .projects-grid {
@@ -232,8 +244,8 @@
   }
 
   .product-image {
-    /* width: 210px;
-    height: 150px; */
+    width: 100%;
+    height: 50%;
     margin-bottom: 20px;
   }
 
@@ -299,7 +311,6 @@
 
   #Fade-light .fade-header h5 {
     font-size: 1.5rem;
-    text-align: left;
   }
 
   #Fade-light .projects-grid {
@@ -331,4 +342,10 @@
     margin: 2px 0;
   }
 }
+@media only screen and (max-width: 560px) {
+ 
 
+  .product-image{
+    height: 32%;
+  }
+}
