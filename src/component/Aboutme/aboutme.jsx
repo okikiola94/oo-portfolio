@@ -57,7 +57,7 @@ const About = () => {
                 >
                   <div className="center">
                     <button className="btn">
-                      <a href="https://drive.google.com/file/d/12n-hMBmyj7L-imdTH0DmMJOmXQClXEup/view?usp=sharing">
+                      <a href="https://drive.google.com/file/d/1a3jEZetxNPdfd9iSvhfNknm5ojY6gu73/view?usp=sharing">
                         View My Resume →
                       </a>
                     </button>
